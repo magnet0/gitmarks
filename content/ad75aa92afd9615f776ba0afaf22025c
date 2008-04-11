@@ -1,0 +1,2939 @@
+<!DOCTYPE html>
+<html b:version='2' class='v2' dir='ltr'>
+<head>
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e!=undefined?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Ο σκύλος της Βάλια Κάλντα - Atom" href="http://valiacaldadog.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Ο σκύλος της Βάλια Κάλντα - RSS" href="http://valiacaldadog.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Ο σκύλος της Βάλια Κάλντα - Atom" href="http://www.blogger.com/feeds/5414799774729303602/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=5414799774729303602" />
+<link rel="alternate" type="application/atom+xml" title="Ο σκύλος της Βάλια Κάλντα - Atom" href="http://valiacaldadog.blogspot.com/feeds/4218373183019213430/comments/default" />
+<!--[if IE]><script type="text/javascript" src="http://www.blogger.com/static/v1/jsbin/126994838-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Ο σκύλος της Βάλια Κάλντα: Αλέκα, να ένα μήλο!</title>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/3714081673-widget_css_2_bundle.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=5414799774729303602&zx=97d6e2e8-1a3b-4eea-8156-fe7462025995"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Watermark
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#c0a154"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#333333"/>
+</Group>
+<Group description="Backgrounds" selector=".main-inner">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#c0a154"/>
+<Variable name="footer.background.color" description="Footer Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-inner">
+<Variable name="link.color" description="Link Color" type="color" default="#cc3300"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#993322"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#ff3300"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Title Font" type="font"
+default="normal normal 60px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#997755" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#cc3300"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.separator.color" description="Separator Color" type="color" default="#c0a154"/>
+</Group>
+<Group description="Date Header" selector="h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#997755"/>
+</Group>
+<Group description="Post" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Title Font" type="font"
+default="normal normal 30px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/>
+<Variable name="post.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="post.border.color" description="Border Color" type="color" default="#ccbb99" />
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#997755"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#777777"/>
+</Group>
+<Group description="Footer" selector=".footer-inner">
+<Variable name="footer.text.color" description="Text Color" type="color" default="#333333"/>
+<Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#000000"/>
+</Group>
+<Group description="Footer Links" selector=".footer-inner">
+<Variable name="footer.link.color" description="Link Color" type="color" default="#cc3300"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#993322"/>
+<Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#ff3300"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#c0a154" default="$(color) url(http://www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left"/>
+<Variable name="body.background.overlay" description="Overlay Background" type="background" color="#c0a154"
+default="transparent url(http://www.blogblog.com/1kt/watermark/body_overlay_birds.png) no-repeat scroll top right"/>
+<Variable name="body.background.overlay.height" description="Overlay Background Height" type="length" default="121px"/>
+<Variable name="tabs.background.inner" description="Tabs Background Inner" type="url" default="none"/>
+<Variable name="tabs.background.outer" description="Tabs Background Outer" type="url" default="none"/>
+<Variable name="tabs.border.size" description="Tabs Border Size" type="length" default="0"/>
+<Variable name="tabs.shadow.spread" description="Tabs Shadow Spread" type="length" default="0"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.cap.height" description="Main Cap Height" type="length" default="0"/>
+<Variable name="main.cap.image" description="Main Cap Image" type="url" default="none"/>
+<Variable name="main.cap.overlay" description="Main Cap Overlay" type="url" default="none"/>
+<Variable name="main.background" description="Main Background" type="background"
+default="transparent none no-repeat scroll top left"/>
+<Variable name="post.background.url" description="Post Background URL" type="url"
+default="url(http://www.blogblog.com/1kt/watermark/post_background_birds.png)"/>
+<Variable name="post.border.size" description="Post Border Size" type="length" default="1px"/>
+<Variable name="post.border.style" description="Post Border Style" type="string" default="dotted"/>
+<Variable name="post.shadow.spread" description="Post Shadow Spread" type="length" default="0"/>
+<Variable name="footer.background" description="Footer Background" type="background"
+color="#330000" default="$(color) url(http://www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat scroll top left"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Use this with templates/1ktemplate-*.html */
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #333333;
+background: #c0a154 url(http://www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
+}
+html body .content-outer {
+min-width: 0;
+max-width: 100%;
+width: 100%;
+}
+.content-outer {
+font-size: 92%;
+}
+a:link {
+text-decoration:none;
+color: #cc3300;
+}
+a:visited {
+text-decoration:none;
+color: #993322;
+}
+a:hover {
+text-decoration:underline;
+color: #ff3300;
+}
+.body-fauxcolumns .cap-top {
+margin-top: 30px;
+background: transparent url(http://www.blogblog.com/1kt/watermark/body_overlay_birds.png) no-repeat scroll top right;
+height: 121px;
+}
+.content-inner {
+padding: 0;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 20px;
+padding-right: 20px;
+}
+.Header h1 {
+font: normal normal 60px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #ffffff;
+text-shadow: 2px 2px rgba(0, 0, 0, .1);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 140%;
+color: #997755;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section {
+margin: 0 20px;
+}
+.tabs-inner .PageList, .tabs-inner .LinkList, .tabs-inner .Labels {
+margin-left: -11px;
+margin-right: -11px;
+background-color: transparent;
+border-top: 0 solid #ffffff;
+border-bottom: 0 solid #ffffff;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+}
+.tabs-inner .PageList .widget-content,
+.tabs-inner .LinkList .widget-content,
+.tabs-inner .Labels .widget-content {
+margin: -3px -11px;
+background: transparent none  no-repeat scroll right;
+}
+.tabs-inner .widget ul {
+padding: 2px 25px;
+max-height: 34px;
+background: transparent none no-repeat scroll left;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .25em 1em;
+font: normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #cc3300;
+border-right: 1px solid #c0a154;
+}
+.tabs-inner .widget li:first-child a {
+border-left: 1px solid #c0a154;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #000000;
+margin: 0 0 .5em;
+}
+h2.date-header {
+font: normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #997755;
+}
+/* Main
+----------------------------------------------- */
+.main-inner .column-center-inner,
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 0 5px;
+}
+.main-outer {
+margin-top: 0;
+background: transparent none no-repeat scroll top left;
+}
+.main-inner {
+padding-top: 30px;
+}
+.main-cap-top {
+position: relative;
+}
+.main-cap-top .cap-right {
+position: absolute;
+height: 0;
+width: 100%;
+bottom: 0;
+background: transparent none repeat-x scroll bottom center;
+}
+.main-cap-top .cap-left {
+position: absolute;
+height: 245px;
+width: 280px;
+right: 0;
+bottom: 0;
+background: transparent none no-repeat scroll bottom left;
+}
+/* Posts
+----------------------------------------------- */
+.post-outer {
+padding: 15px 20px;
+margin: 0 0 25px;
+background: transparent url(http://www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top left;
+_background-image: none;
+border: dotted 1px #ccbb99;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+h3.post-title {
+font: normal normal 30px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+margin: 0;
+}
+.comments h4 {
+font: normal normal 30px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+margin: 1em 0 0;
+}
+.post-body {
+font-size: 105%;
+line-height: 1.5;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+color: #997755;
+}
+.post-footer {
+margin: 10px 0 0;
+padding: 10px 0 0;
+color: #997755;
+border-top: dashed 1px #777777;
+}
+#blog-pager {
+font-size: 140%
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: dashed 1px #777777;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Widgets
+----------------------------------------------- */
+.widget ul, .widget #ArchiveList ul.flat {
+padding: 0;
+list-style: none;
+}
+.widget ul li, .widget #ArchiveList ul.flat li {
+padding: .35em 0;
+text-indent: 0;
+border-top: dashed 1px #777777;
+}
+.widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.widget .post-body ul {
+list-style: disc;
+}
+.widget .post-body ul li {
+border: none;
+}
+.widget .zippy {
+color: #777777;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 5px;
+background: #fff;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+-goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 8px;
+}
+.post-body .tr-caption-container {
+color: #333333;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+color:#ccbb99;
+background: #330000 url(http://www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat scroll top left;
+}
+.footer-outer a {
+color: #ff7755;
+}
+.footer-outer a:visited {
+color: #dd5533;
+}
+.footer-outer a:hover {
+color: #ff9977;
+}
+.footer-outer .widget h2 {
+color: #eeddbb;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 930px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 930px;
+max-width: 930px;
+_width: 930px;
+}
+.main-inner .columns {
+padding-left: 180px;
+padding-right: 180px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 180px;
+right: 180px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("180px") -
+parseInt("180px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 180px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 180px;
+}
+.main-inner .column-left-outer {
+width: 180px;
+right: 100%;
+margin-left: -180px;
+}
+.main-inner .column-right-outer {
+width: 180px;
+margin-right: -180px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+    function showRelatedContent(args) {
+      var el = document.getElementById('related-iframe');
+      if (el.parentNode.style.display != 'none') {
+        el.parentNode.style.display = 'none';
+        document.onclick = showRelatedContent.prevOnClick;
+        return;
+      }
+      
+      var match = /(?:^[?]|&)c=([0-9]+)(?:&|(?!.))/.exec(args);
+      if (match !== null) {
+        document.getElementById('related-loading').style.left = match[1] + 'px';
+        el.style.left = Math.max(0, match[1] - parseInt(el.width) / 2) + 'px';
+      }
+      el.src = "http://www.blogger.com"
+          + '/related-content.g?q='
+          + "http://valiacaldadog.blogspot.com/"
+          + '&id=' + "5414799774729303602";
+      el.parentNode.style.display = 'block';
+      showRelatedContent.prevOnClick = document.onclick;
+
+      // Hide related-content dropdown when clicking anywhere but on it.
+      document.onclick = function() {
+        var el = document.getElementById('related-iframe');
+        if (el.parentNode.style.display != 'none') {
+          el.parentNode.style.display = 'none';
+        }
+        document.onclick = showRelatedContent.prevOnClick;
+      };
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=5414799774729303602&amp;blogName=%CE%9F+%CF%83%CE%BA%CF%8D%CE%BB%CE%BF%CF%82+%CF%84%CE%B7%CF%82+%CE%92%CE%AC%CE%BB%CE%B9%CE%B1+%CE%9A%CE%AC%CE%BB%CE%BD%CF%84%CE%B1&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=LIGHT&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Fvaliacaldadog.blogspot.com%2Fsearch&amp;blogLocale=en&amp;homepageUrl=http%3A%2F%2Fvaliacaldadog.blogspot.com%2F&amp;targetPostID=4218373183019213430" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+
+<div></div></div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner' style='background-image: url("http://3.bp.blogspot.com/_Q6iI76OhbjA/R02EdSgW4cI/AAAAAAAACGM/j_xS39c5iiE/s1600/Clipboard.jpg"); background-position: left; width: 536px; min-height: 234px; _height: 234px; background-repeat: no-repeat; '>
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+<a href='http://valiacaldadog.blogspot.com/'>Ο σκύλος της Βάλια Κάλντα</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Μετράει ανάποδα τις μέρες μέχρι να ξαναφύγει...</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, April 11, 2008</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template'>
+<a name='4218373183019213430'></a>
+<h3 class='post-title entry-title'>
+Αλέκα, να ένα μήλο!
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4218373183019213430'>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_Q6iI76OhbjA/R_9Y7REg9MI/AAAAAAAACt4/W3wD5PF4UMw/s1600-h/1.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://3.bp.blogspot.com/_Q6iI76OhbjA/R_9Y7REg9MI/AAAAAAAACt4/W3wD5PF4UMw/s400/1.jpg" alt="" id="BLOGGER_PHOTO_ID_5187963070971966658" border="0" /></a><br />Μπράβο! Η συντρόφισα Αλέκα αγόρασε <a href="http://en.wikipedia.org/wiki/IPhone">iPhone</a>! BMW ο Αλέξης; iPhone η Αλέκα! Το κόμμα είναι Χάι-Τεκκ και περνάει εύκολα τη γραμμή του, στέλνοντας e-maili! Κι εμείς ακόμα παλεύομε με τις μπαγκατέλες...<br /><br /><span style="font-style: italic;">ΥΓ Τη φωτογραφία εντόπισε, ανέλυσε και μόστειλε ο τεχνικός μου σύμβουλας, τον οποίον και ευχαριστώ!<br /><br /></span><span>UPDATE 20 Μαΐου: τηνε <a href="http://www.rizospastis.gr/story.do?id=4554646&amp;publDate=20/5/2008">γλωσόφαγα</a> την σ. Αλέκα!</span><span style="font-style: italic;"><br /></span>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn'>Ο σκύλος της Βάλια Κάλντα</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html' rel='bookmark' title='permanent link'><abbr class='published' title='2008-04-11T15:26:00+03:00'>Friday, April 11, 2008</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1996451045'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5414799774729303602&postID=4218373183019213430' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://valiacaldadog.blogspot.com/search/label/%CE%91%CE%BB%CE%BB%CE%BF%CF%85%CE%BD%CE%BF%CF%8D' rel='tag'>Αλλουνού</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>
+40
+comments:
+        
+</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c4524074631970306224'>
+<a name='c4524074631970306224'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4524074631970306224'>
+<p>
+Μπα! Κινέζικο είναι, απο-μίμηση ;-)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207918560000#c4524074631970306224' title='comment permalink'>
+April 11, 2008 3:56 PM
+</a>
+<span class='item-control blog-admin pid-2059868577'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=4524074631970306224' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c6284835311402677332'>
+<a name='c6284835311402677332'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6284835311402677332'>
+<p>
+Λες να της το πάσαρε ο μίμης;<BR/>Μπαααα, δεν νομίζω. Το κόμμα είναι υπέρ της αυθεντικότητας και μαϊμούδες δεν ανέχεται.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207919760000#c6284835311402677332' title='comment permalink'>
+April 11, 2008 4:16 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=6284835311402677332' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1357679227006679492'>
+<a name='c1357679227006679492'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/00878799486603954605" rel="nofollow" onclick="" class="avatar-hovercard" id="av-2-00878799486603954605"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="roula karamitrou">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/00878799486603954605' rel='nofollow'>roula karamitrou</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1357679227006679492'>
+<p>
+Ο τίτλος είναι το καλύτερο!<BR/>Εύγε, σκύλε:)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207921500000#c1357679227006679492' title='comment permalink'>
+April 11, 2008 4:45 PM
+</a>
+<span class='item-control blog-admin pid-1843234925'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=1357679227006679492' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8319957097775707892'>
+<a name='c8319957097775707892'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/15066686159398026420" rel="nofollow" onclick="" class="avatar-hovercard" id="av-3-15066686159398026420"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://bp3.blogger.com/_9dhVlE7Npl0/R4dHqcgFicI/AAAAAAAAAEg/l9u_afPQwAg/S220/j0428367.gif" title="demetrat">
+
+<noscript><img src="http://bp3.blogger.com/_9dhVlE7Npl0/R4dHqcgFicI/AAAAAAAAAEg/l9u_afPQwAg/S220/j0428367.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/15066686159398026420' rel='nofollow'>demetrat</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8319957097775707892'>
+<p>
+η Αλέκα , να πιάσει στα χέρια της κινέζικο πράμμα!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207931040000#c8319957097775707892' title='comment permalink'>
+April 11, 2008 7:24 PM
+</a>
+<span class='item-control blog-admin pid-460314572'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=8319957097775707892' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c9210451104740695308'>
+<a name='c9210451104740695308'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/12118785424020322944" rel="nofollow" onclick="" class="avatar-hovercard" id="av-4-12118785424020322944"><img src="http://img1.blogblog.com/img/blank.gif" width="31" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://media.bigoo.ws/content/glitter/cartoon/cartoon_174.gif" title="An-Lu">
+
+<noscript><img src="http://media.bigoo.ws/content/glitter/cartoon/cartoon_174.gif" width="31" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/12118785424020322944' rel='nofollow'>An-Lu</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-9210451104740695308'>
+<p>
+I am deeply impressed!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207932060000#c9210451104740695308' title='comment permalink'>
+April 11, 2008 7:41 PM
+</a>
+<span class='item-control blog-admin pid-1847575214'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=9210451104740695308' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c5792685332486631738'>
+<a name='c5792685332486631738'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-5-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5792685332486631738'>
+<p>
+Κι εγώ ντιπ-κατά-ντίπλυ!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207932360000#c5792685332486631738' title='comment permalink'>
+April 11, 2008 7:46 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=5792685332486631738' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4270226466638363293'>
+<a name='c4270226466638363293'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/15066686159398026420" rel="nofollow" onclick="" class="avatar-hovercard" id="av-6-15066686159398026420"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://bp3.blogger.com/_9dhVlE7Npl0/R4dHqcgFicI/AAAAAAAAAEg/l9u_afPQwAg/S220/j0428367.gif" title="demetrat">
+
+<noscript><img src="http://bp3.blogger.com/_9dhVlE7Npl0/R4dHqcgFicI/AAAAAAAAAEg/l9u_afPQwAg/S220/j0428367.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/15066686159398026420' rel='nofollow'>demetrat</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4270226466638363293'>
+<p>
+DIP-LEE
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207932600000#c4270226466638363293' title='comment permalink'>
+April 11, 2008 7:50 PM
+</a>
+<span class='item-control blog-admin pid-460314572'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=4270226466638363293' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3782997506364372142'>
+<a name='c3782997506364372142'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/08348672212149465540" rel="nofollow" onclick="" class="avatar-hovercard" id="av-7-08348672212149465540"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://avatarcastle.gotaweb.com/avatars/custom/papasmurf.gif" title="&Pi;&alpha;&nu;&omega;&sigmaf;&Kappa;.">
+
+<noscript><img src="http://avatarcastle.gotaweb.com/avatars/custom/papasmurf.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/08348672212149465540' rel='nofollow'>ΠανωςΚ.</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3782997506364372142'>
+<p>
+Τώρα αμα εγώ πω ότι τέτοια ποστ δείχνουν άνθρωπο χωρίς τσίπ(ρ)α εγώ θα φταίω;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207951260000#c3782997506364372142' title='comment permalink'>
+April 12, 2008 1:01 AM
+</a>
+<span class='item-control blog-admin pid-1371743780'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=3782997506364372142' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3417539414283424957'>
+<a name='c3417539414283424957'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/04851058796662106665" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8-04851058796662106665"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="venceremos">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/04851058796662106665' rel='nofollow'>venceremos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3417539414283424957'>
+<p>
+Nαι ρε σκύλε!<BR/>Όλοι θα πάρομε iPhone!<BR/>Γαυγίζεις δεν γαυγίζεις!!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207983240000#c3417539414283424957' title='comment permalink'>
+April 12, 2008 9:54 AM
+</a>
+<span class='item-control blog-admin pid-1485362124'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=3417539414283424957' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c3521672452373001639'>
+<a name='c3521672452373001639'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-9-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3521672452373001639'>
+<p>
+ΠάνωΚάτε: όντως χωρίς τσίπρα! Κατέβα να τα πιούμε!<BR/><BR/>Venderemos: Μα ναι! Εξίσωση προς τα πάνω είναι το σύνθημα! Όχι να γίνουν όλα τα ταμεία σαν το ΙΚΑ, αλλά να γίνουν σαν της ΔΕΗς. Αυτό δεν κατήλαβε η συντρόφισα Αλέκα!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207984380000#c3521672452373001639' title='comment permalink'>
+April 12, 2008 10:13 AM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=3521672452373001639' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8666433608479331469'>
+<a name='c8666433608479331469'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/08695587495400174527" rel="nofollow" onclick="" class="avatar-hovercard" id="av-10-08695587495400174527"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Rizobreaker">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/08695587495400174527' rel='nofollow'>Rizobreaker</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8666433608479331469'>
+<p>
+Ρε να σκάσετε απ' το κακό σας κι απ' τη ζήλεια σας!!! Έτσι!!!<BR/>Η Αλέκα είναι πρωτοπόρος παντού!!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207992300000#c8666433608479331469' title='comment permalink'>
+April 12, 2008 12:25 PM
+</a>
+<span class='item-control blog-admin pid-590484730'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=8666433608479331469' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c7568600101487680042'>
+<a name='c7568600101487680042'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-11-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7568600101487680042'>
+<p>
+Έτσι, σε θέλω, συντροφάκι, να 'χεις χιούμορ.<BR/>Μεταξύ μας, τώρα, κι εγώ θα τόθελα το μπλιμπλίκι... ε;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1207992600000#c7568600101487680042' title='comment permalink'>
+April 12, 2008 12:30 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=7568600101487680042' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c691487761982010163'>
+<a name='c691487761982010163'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.error.gr/" rel="nofollow" onclick="" class="avatar-hovercard" id="av-12-17481672465864606374"><img src="http://img1.blogblog.com/img/openid16-rounded.gif" width="16" height="16" alt="" title="Rocean">
+
+</a></span></div>
+<a href='http://www.error.gr/' rel='nofollow'>Rocean</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-691487761982010163'>
+<p>
+iPhone rules... Ο καλύτερος τρόπος να διαβάζεις τον Ριζοσπάστη... :-) Πάντως η Αλέκα είχε πει πριν καιρό σε μια συνέντευξη ότι έχει ipod για να ακούει μουσική. Μήπως και αυτό δεν είναι το iphone, αλλά το ipod touch?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208002020000#c691487761982010163' title='comment permalink'>
+April 12, 2008 3:07 PM
+</a>
+<span class='item-control blog-admin pid-1604956870'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=691487761982010163' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3908882632520148976'>
+<a name='c3908882632520148976'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/17996578966040340508" rel="nofollow" onclick="" class="avatar-hovercard" id="av-13-17996578966040340508"><img src="http://img1.blogblog.com/img/blank.gif" width="32" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://www.geocities.com/tuki8eblom/images.jpg" title="&tau;&omicron;&upsilon;&kappa;&iota;&theta;&epsilon;&mu;&pi;&lambda;&omicron;&mu;">
+
+<noscript><img src="http://www.geocities.com/tuki8eblom/images.jpg" width="32" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/17996578966040340508' rel='nofollow'>τουκιθεμπλομ</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3908882632520148976'>
+<p>
+Το τηλέφωνο είναι για να τηλεφωνείς, άντε να κοιτάς την ώρα όταν δεν θες να φοράς ρολόι.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208003100000#c3908882632520148976' title='comment permalink'>
+April 12, 2008 3:25 PM
+</a>
+<span class='item-control blog-admin pid-1361958141'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=3908882632520148976' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c2548857816947143320'>
+<a name='c2548857816947143320'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-14-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2548857816947143320'>
+<p>
+Πού μαζευτήκατε, όλοι, κουφαλίτσες, μόλις είδατε για την Αλέκα.<BR/>Παλιέ μου e-γνώριμε, δεν τα ξέρω τα χάι-τεκ γκατζετάκια αλλά εάν ήταν iPod, δεν θάπρεπε μα είναι συνδεδεμένο με ακουστικά, των οποίων φαίνεται και η υποδοχή;<BR/>Δεν την έχω την Αλέκα για τόσο κάφρο, να παίζει μέσα στη Βουλή με το iPod χωρίς ακουστικά. Μάλλον τηλέφωνο είναι.<BR/><BR/>ΥΓ και να με σχωρνάς αλλά το σάιτ του Ρίζου είναι αργόοοο. Καλύτερα στο έντυπο, αν και θέλει μπόλικη φροντίδα στην σελιδοποίηση...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208003400000#c2548857816947143320' title='comment permalink'>
+April 12, 2008 3:30 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=2548857816947143320' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c3573753636186610200'>
+<a name='c3573753636186610200'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-15-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3573753636186610200'>
+<p>
+Το παραπάνω πήγαινε στον rocean. <BR/><BR/>@ τουκιθεμπλόμ: ναι, κι εγώ για ρολόι το χρησιμοποιώ!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208003400001#c3573753636186610200' title='comment permalink'>
+April 12, 2008 3:30 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=3573753636186610200' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5437372143931838170'>
+<a name='c5437372143931838170'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.error.gr/" rel="nofollow" onclick="" class="avatar-hovercard" id="av-16-17481672465864606374"><img src="http://img1.blogblog.com/img/openid16-rounded.gif" width="16" height="16" alt="" title="Rocean">
+
+</a></span></div>
+<a href='http://www.error.gr/' rel='nofollow'>Rocean</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5437372143931838170'>
+<p>
+e-γνώριμος? Θύμισε μου, γιατί έχω και αλτσχαϊμερ... :-) <BR/><BR/>Τελικά όντως πρέπει να είναι το iPhone γιατί από πίσω βλέπω να έχει κάμερα. <BR/><BR/>Όσο για το αν θα χρησιμοποιούσε ipod touch χωρίς ακουστικά... φυσικά... Αν το χρησιμοποιεί για browsing γιατί όχι...? <BR/><BR/>Όσο για το site του Ριζοσπάστη. Παλιά ήταν όντως απελπιστικά αργό, τελευταία όμως είναι οκ... Εντάξει... Δεν το λες και google, αλλά την δουλειά του την κάνει...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208033580000#c5437372143931838170' title='comment permalink'>
+April 12, 2008 11:53 PM
+</a>
+<span class='item-control blog-admin pid-1604956870'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=5437372143931838170' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6710552627798502177'>
+<a name='c6710552627798502177'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/14610226812821198611" rel="nofollow" onclick="" class="avatar-hovercard" id="av-17-14610226812821198611"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="26" alt="" class="delayLoad" style="display: none;" longdesc="http://bp3.blogger.com/_GLoqRC8HPNk/R5TZCP0pSII/AAAAAAAAAA8/n_KPT1f_yP8/S220/FILE3688.JPG" title="giorgos">
+
+<noscript><img src="http://bp3.blogger.com/_GLoqRC8HPNk/R5TZCP0pSII/AAAAAAAAAA8/n_KPT1f_yP8/S220/FILE3688.JPG" width="35" height="26" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/14610226812821198611' rel='nofollow'>giorgos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6710552627798502177'>
+<p>
+Ο Παπανδρέου καθόταν δίπλα.Δε ρώταγε,αφού είναι γνωστός hi-tech;Ενδιαφέρουσα πάντως η συζήτηση στη Βουλή,δε συμφωνείτε;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208042760000#c6710552627798502177' title='comment permalink'>
+April 13, 2008 2:26 AM
+</a>
+<span class='item-control blog-admin pid-1961535569'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=6710552627798502177' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c6806951669594054815'>
+<a name='c6806951669594054815'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-18-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6806951669594054815'>
+<p>
+rocean: από το Indymedia, στις αρχές του.<BR/>Γιώργο: να ρώταγε ο Γιώργος την Αλέκα για γκατζετάκια; και νομίζεις ότι εκείνη θα του απάνταγε;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208080740000#c6806951669594054815' title='comment permalink'>
+April 13, 2008 12:59 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=6806951669594054815' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6214388001821614476'>
+<a name='c6214388001821614476'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="vagr7">
+
+</span></div>
+<a href='www.politikoblog.gr' rel='nofollow'>vagr7</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6214388001821614476'>
+<p>
+emeena pantos i giagia mou oute ti einai kinito den kserei
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208084880000#c6214388001821614476' title='comment permalink'>
+April 13, 2008 2:08 PM
+</a>
+<span class='item-control blog-admin pid-823146073'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=6214388001821614476' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1467801851593567538'>
+<a name='c1467801851593567538'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06545538765987380036" rel="nofollow" onclick="" class="avatar-hovercard" id="av-20-06545538765987380036"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="28" alt="" class="delayLoad" style="display: none;" longdesc="http://photos1.blogger.com/blogger/6750/4211/1600/tsoktsok.0.jpg" title="ttsok">
+
+<noscript><img src="http://photos1.blogger.com/blogger/6750/4211/1600/tsoktsok.0.jpg" width="35" height="28" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06545538765987380036' rel='nofollow'>ttsok</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1467801851593567538'>
+<p>
+Φήμες (που προσπαθούμε να ελέγξουμε όμως) λένε ότι η Αλέκα προγραμμάτισε τη χακιά για να σπάει το iPhone για Ελληνικά δίκτυα ...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208115420000#c1467801851593567538' title='comment permalink'>
+April 13, 2008 10:37 PM
+</a>
+<span class='item-control blog-admin pid-2073681885'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=1467801851593567538' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7441461201722925666'>
+<a name='c7441461201722925666'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.error.gr/" rel="nofollow" onclick="" class="avatar-hovercard" id="av-21-17481672465864606374"><img src="http://img1.blogblog.com/img/openid16-rounded.gif" width="16" height="16" alt="" title="Rocean">
+
+</a></span></div>
+<a href='http://www.error.gr/' rel='nofollow'>Rocean</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7441461201722925666'>
+<p>
+@σκύλος... Πωπω... αυτό είναι προϊστορία... :-)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208162400000#c7441461201722925666' title='comment permalink'>
+April 14, 2008 11:40 AM
+</a>
+<span class='item-control blog-admin pid-1604956870'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=7441461201722925666' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c750240554602757446'>
+<a name='c750240554602757446'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://dimboud.pblogs.gr/" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="DimBoud">
+
+</a></span></div>
+<a href='http://dimboud.pblogs.gr/' rel='nofollow'>DimBoud</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-750240554602757446'>
+<p>
+Καλά τι iPhone.. Αλλά το ρολογάκι της τα σπάει! Αυτά τα παλιά ηλεκτρονικά, τα θυμάστε;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208164860000#c750240554602757446' title='comment permalink'>
+April 14, 2008 12:21 PM
+</a>
+<span class='item-control blog-admin pid-1754541591'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=750240554602757446' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2654163945197680714'>
+<a name='c2654163945197680714'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/14677969205098258055" rel="nofollow" onclick="" class="avatar-hovercard" id="av-23-14677969205098258055"><img src="http://img1.blogblog.com/img/blank.gif" width="33" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://homepage.mac.com/macgiorgosgr/macgiorgosgr.gif" title="macgiorgosgr">
+
+<noscript><img src="http://homepage.mac.com/macgiorgosgr/macgiorgosgr.gif" width="33" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/14677969205098258055' rel='nofollow'>macgiorgosgr</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2654163945197680714'>
+<p>
+Δεν είναι το touch. Είναι το iPhone. Έχει την υποδοχή για την SIM που το ξεχωρίζει από το touch.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208177340000#c2654163945197680714' title='comment permalink'>
+April 14, 2008 3:49 PM
+</a>
+<span class='item-control blog-admin pid-1493229624'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=2654163945197680714' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c4007494261515494185'>
+<a name='c4007494261515494185'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-24-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4007494261515494185'>
+<p>
+Κοίτα, βρε, που μου βγήκαν γκατζετάκηδες όλοι οι Κνίτες του ίντερνετ! Σιγανοπαπαδιές, ούλοι!<BR/>Προς τον αποπάνω μου: και κακός πολίτης γρήγορα!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208177580000#c4007494261515494185' title='comment permalink'>
+April 14, 2008 3:53 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=4007494261515494185' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6601551694928448865'>
+<a name='c6601551694928448865'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13890009366701258057" rel="nofollow" onclick="" class="avatar-hovercard" id="av-25-13890009366701258057"><img src="http://img1.blogblog.com/img/blank.gif" width="23" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://bp1.blogger.com/_HOcmSmdUijI/R96c4LO188I/AAAAAAAAAHE/Lei5Hs-bddY/S220/shiele_2.jpg" title="Daria Pavlovna">
+
+<noscript><img src="http://bp1.blogger.com/_HOcmSmdUijI/R96c4LO188I/AAAAAAAAAHE/Lei5Hs-bddY/S220/shiele_2.jpg" width="23" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13890009366701258057' rel='nofollow'>Daria Pavlovna</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6601551694928448865'>
+<p>
+Πείτε και σε μένα το άσχετο τι είναι iphone; Πρέπει να πάρω κι εγώ; Είμαι τελείως πίσω από τον κόσμο;<BR/>Και περνιέμαι και για γκατζετάκιας τρομάρα μου!!! Βέβαια αυτοί που έχουν αυτή την ιδέα είναι άνθρωποι που μόλις ανακάλυψαν πως δουλεύει το on/off στο κινητό...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208253240000#c6601551694928448865' title='comment permalink'>
+April 15, 2008 12:54 PM
+</a>
+<span class='item-control blog-admin pid-1676054737'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=6601551694928448865' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c907299885119077645'>
+<a name='c907299885119077645'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-26-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-907299885119077645'>
+<p>
+Χάι-τεκ τηλέφωνο από την Apple 9αυτή ξέρεις τι είναι, ε;). Αλλά πολύ χάι-τεκ, μιλάμε, κοκόνα μου!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208253480000#c907299885119077645' title='comment permalink'>
+April 15, 2008 12:58 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=907299885119077645' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c5288975713719018249'>
+<a name='c5288975713719018249'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-27-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5288975713719018249'>
+<p>
+Τόσο χάι-τεκ που έχει όχι μόνο e-mail αλλά και e-maili!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208253540000#c5288975713719018249' title='comment permalink'>
+April 15, 2008 12:59 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=5288975713719018249' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1734378240681820550'>
+<a name='c1734378240681820550'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09728665284219198086" rel="nofollow" onclick="" class="avatar-hovercard" id="av-28-09728665284219198086"><img src="http://img1.blogblog.com/img/blank.gif" width="25" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://bp0.blogger.com/_IwML4BIcuUk/R-PWDcze7NI/AAAAAAAABA8/T_8DHHkII74/S220/doisneau+06_enfant_ardoise_encrier_.jpg" title="&pi;&alpha;&rho;&#940;&lambda;&lambda;&eta;&lambda;&omicron;&sigmaf;">
+
+<noscript><img src="http://bp0.blogger.com/_IwML4BIcuUk/R-PWDcze7NI/AAAAAAAABA8/T_8DHHkII74/S220/doisneau+06_enfant_ardoise_encrier_.jpg" width="25" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09728665284219198086' rel='nofollow'>παράλληλος</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1734378240681820550'>
+<p>
+Τόση γκατζετοπληροφόρηση στου Σκύλου!<BR/>Μένω Έκθαμβος και Κατάπληκτος! (γωνία).
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208331960000#c1734378240681820550' title='comment permalink'>
+April 16, 2008 10:46 AM
+</a>
+<span class='item-control blog-admin pid-92986842'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=1734378240681820550' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c7124454159546772820'>
+<a name='c7124454159546772820'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/13204536583146075916" rel="nofollow" onclick="" class="avatar-hovercard" id="av-29-13204536583146075916"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="23" alt="" class="delayLoad" style="display: none;" longdesc="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" title="&Omicron; &sigma;&kappa;&#973;&lambda;&omicron;&sigmaf; &tau;&eta;&sigmaf; &Beta;&#940;&lambda;&iota;&alpha; &Kappa;&#940;&lambda;&nu;&tau;&alpha;">
+
+<noscript><img src="http://bp2.blogger.com/_Q6iI76OhbjA/RbotWAFWM7I/AAAAAAAAAKg/vIMHJrC-8H8/s400/tromp.jpg" width="35" height="23" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/13204536583146075916' rel='nofollow'>Ο σκύλος της Βάλια Κάλντα</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7124454159546772820'>
+<p>
+Αν και Σκύλος είναι καλά πληροφορημένος!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1208339940000#c7124454159546772820' title='comment permalink'>
+April 16, 2008 12:59 PM
+</a>
+<span class='item-control blog-admin pid-1996451045'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=7124454159546772820' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1133857765561293710'>
+<a name='c1133857765561293710'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://saperduper.org" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="saperduper">
+
+</a></span></div>
+<a href='http://saperduper.org' rel='nofollow'>saperduper</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1133857765561293710'>
+<p>
+και viral marketing η Αλέκα...<BR/>μονο το account στο twitter εμεινε!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209046140000#c1133857765561293710' title='comment permalink'>
+April 24, 2008 5:09 PM
+</a>
+<span class='item-control blog-admin pid-705280830'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=1133857765561293710' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c999942926474112019'>
+<a name='c999942926474112019'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://agonek.blogspot.com" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="N.Ago">
+
+</a></span></div>
+<a href='http://agonek.blogspot.com' rel='nofollow'>N.Ago</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-999942926474112019'>
+<p>
+iPod είναι. :)<BR/>Καλή Ανασταση!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209054720000#c999942926474112019' title='comment permalink'>
+April 24, 2008 7:32 PM
+</a>
+<span class='item-control blog-admin pid-61437995'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=999942926474112019' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8931008621423775468'>
+<a name='c8931008621423775468'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8931008621423775468'>
+<p>
+iphone einai giati exei sto plai ta koumpia giatin sigasi kai tis rithmisis tis entaseis tou akoustikou... to ipod touch den exei tipota apo ta 2....
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209078300000#c8931008621423775468' title='comment permalink'>
+April 25, 2008 2:05 AM
+</a>
+<span class='item-control blog-admin pid-2113666803'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=8931008621423775468' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2994839194009710925'>
+<a name='c2994839194009710925'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2994839194009710925'>
+<p>
+enimerotika na ksertete oti einai iphone kai OXI ipod touch. to ipod touch exei mia mauri gonia sti thesi pou to iphone exei ti kamera kai einai polu eudiakrito...<BR/><BR/>allwste uparxoun xiliades fotos sto net kai apta 2 gia na sigrinete...<BR/><BR/>apla googloste to!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209124020000#c2994839194009710925' title='comment permalink'>
+April 25, 2008 2:47 PM
+</a>
+<span class='item-control blog-admin pid-1428303429'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=2994839194009710925' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2321969422378118677'>
+<a name='c2321969422378118677'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/12958982938676682813" rel="nofollow" onclick="" class="avatar-hovercard" id="av-34-12958982938676682813"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Simos">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/12958982938676682813' rel='nofollow'>Simos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2321969422378118677'>
+<span class='deleted-comment'>This post has been removed by the author.</span>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209240180000#c2321969422378118677' title='comment permalink'>
+April 26, 2008 11:03 PM
+</a>
+<span class='item-control blog-admin '>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=2321969422378118677' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4807916892612723286'>
+<a name='c4807916892612723286'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/16720043368568982858" rel="nofollow" onclick="" class="avatar-hovercard" id="av-35-16720043368568982858"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="30" alt="" class="delayLoad" style="display: none;" longdesc="http://photos1.blogger.com/blogger/7423/1879/1600/Picture2.jpg" title="Simos Segiopoulos">
+
+<noscript><img src="http://photos1.blogger.com/blogger/7423/1879/1600/Picture2.jpg" width="35" height="30" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/16720043368568982858' rel='nofollow'>Simos Segiopoulos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4807916892612723286'>
+<p>
+Ding Dong....<BR/><BR/>PHOTOSHOP....<BR/><BR/>Ding Dong....
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1209240240000#c4807916892612723286' title='comment permalink'>
+April 26, 2008 11:04 PM
+</a>
+<span class='item-control blog-admin pid-207347403'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=4807916892612723286' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8055602849557457609'>
+<a name='c8055602849557457609'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="ecrisis">
+
+</span></div>
+ecrisis
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8055602849557457609'>
+<p>
+<B>K.K.E</B><BR/>Think different &#63743;
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1213909020000#c8055602849557457609' title='comment permalink'>
+June 19, 2008 11:57 PM
+</a>
+<span class='item-control blog-admin pid-1280472031'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=8055602849557457609' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8284982248329588265'>
+<a name='c8284982248329588265'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/07268083825078466809" rel="nofollow" onclick="" class="avatar-hovercard" id="av-37-07268083825078466809"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="30" alt="" class="delayLoad" style="display: none;" longdesc="http://bp3.blogger.com/_CenKrPFifms/SBeYtXvNhbI/AAAAAAAAAA4/2QN6lTaefoI/S220/0912rafailidis.jpg" title="laiko stroma">
+
+<noscript><img src="http://bp3.blogger.com/_CenKrPFifms/SBeYtXvNhbI/AAAAAAAAAA4/2QN6lTaefoI/S220/0912rafailidis.jpg" width="35" height="30" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/07268083825078466809' rel='nofollow'>laiko stroma</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8284982248329588265'>
+<p>
+Βασικά, είναι ξυριστική μηχανή, για να ξυρίζει τις μασχάλες της. Εϊναι σοβιετικού τύπου, φταγμένη σε μανιφακτούρα στο Βλαδιβοστόκ της Βόρειας Γιακουτίας και καίει ουράνιο από το Τσέρνομπιλ.<BR/>Ρε, άνθρωπε (σκύλε), την παλεύεις;<BR/>Εν πάσει. Καλά να 'σαι.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1214506800000#c8284982248329588265' title='comment permalink'>
+June 26, 2008 10:00 PM
+</a>
+<span class='item-control blog-admin pid-15995529'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=8284982248329588265' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5677085951168665447'>
+<a name='c5677085951168665447'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5677085951168665447'>
+<span class='deleted-comment'>This post has been removed by a blog administrator.</span>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1258218776916#c5677085951168665447' title='comment permalink'>
+November 14, 2009 7:12 PM
+</a>
+<span class='item-control blog-admin '>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=5677085951168665447' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2349871796916963575'>
+<a name='c2349871796916963575'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/12313035317284442941" rel="nofollow" onclick="" class="avatar-hovercard" id="av-39-12313035317284442941"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="22">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/12313035317284442941' rel='nofollow'>22</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2349871796916963575'>
+<span class='deleted-comment'>This post has been removed by a blog administrator.</span>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html?showComment=1264075956343#c2349871796916963575' title='comment permalink'>
+January 21, 2010 2:12 PM
+</a>
+<span class='item-control blog-admin '>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5414799774729303602&postID=2349871796916963575' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<a href='https://www.blogger.com/comment.g?blogID=5414799774729303602&postID=4218373183019213430' onclick=''>Post a Comment</a>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<div id="latency-4218373183019213430"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-4218373183019213430")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://valiacaldadog.blogspot.com/2008/04/blog-post_12.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://valiacaldadog.blogspot.com/2008/04/blog-post_11.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://valiacaldadog.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://valiacaldadog.blogspot.com/feeds/4218373183019213430/comments/default' target='_blank' type='application/atom+xml'>Post Comments (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-left-1'></div>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'>
+<div class='widget LinkList' id='LinkList25'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://enterioni.blogspot.com/'>Εντεριώνη</a></li>
+<li><a href='http://karvouna.wordpress.com/'>Όλα στα κάρβουνα, στη Μύκονο</a></li>
+<li><a href='http://penteli.meteo.gr/stations/vovoussa/camera.htm'>Τι καιρό κάνει τώρα στη Βοβούσα;</a></li>
+<li><a href='http://photochromata.blogspot.com/'>Του βουνού και του λόγκου, επίσης</a></li>
+<li><a href='http://crazytourists.blogspot.com/'>Τρελοτουριστάκια</a></li>
+<li><a href='http://salamadrail.blogspot.com/'>Το κορίτσι που έβλεπε τα τρένα να περνούν</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList25&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList25"));' target='configLinkList25' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/search?updated-min=2011-01-01T00%3A00%3A00%2B02%3A00&updated-max=2012-01-01T00%3A00%3A00%2B02%3A00&max-results=36'>2011</a>
+<span class='post-count' dir='ltr'>(36)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2011_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(11)</span>
+<ul class='posts'>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_28.html'>Τα καπλάνια της βιτρίνας</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_24.html'>Κακούργα ύφεση!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_23.html'>Γειά σου, Μένιο, με τα ωραία σου!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_22.html'>Φανταστική ιστορία (ή σχεδόν)</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_21.html'>Ομίχλη στο Γράμο</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/o-casey-heynes.html'>O Casey Heynes μου έφτιαξε την ημέρα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_11.html'>Είμαι γάτος και όχι γάιδαρος...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_09.html'>Ίσως ο μόνος τρόπος για να δούμε άσπρη μέρα σήμερα...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_06.html'>Και τώρα τι κάνεις;</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post_03.html'>&#171;Δεν είστε μόνοι&#187;</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/03/blog-post.html'>Αχχχ..........</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2011_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='posts'>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_28.html'>Ούφο στον ουρανό μου</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_22.html'>Μια (ή μάλλον δύο) εκδρομές στη Βάλια Κάλντα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_21.html'>Ένα πικρό αλλά εύστοχο σκίτσο</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_14.html'>Μια βόλτα στους μίζερους δρόμους της πόλης</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_6028.html'>Πεθύμησα το καλοκαίρι</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_09.html'>Από τη λίμνη Μουτσάλια στο Γράμο</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_06.html'>Ιστορίες μοτοσικλέτας ΙΙ</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post_04.html'>Φιλοξενούμενοι και εκδηλώσεις</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/02/blog-post.html'>Για την προστασία της τζιπούρας - τζιπούρας</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2011_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(16)</span>
+<ul class='posts'>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_31.html'>Τάξη...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_29.html'>Ένας πολύ γενναίος αμερικανός πεζοναύτης</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_27.html'>Του έδειχναν το φεγγάρι κι αυτός κοίταγε το άσυλο....</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_6017.html'>Μαγειρεύοντας για τους φίλους μας</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_24.html'>&#171;Τι θα γίνει μ&#39; εκείνον τον καφέ....;&#187;</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_21.html'>Κινδυνεύει η λίμνη της Καστοριάς</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_20.html'>Σκουριές και μνήμες</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_8070.html'>Ο φίλος μου, ο Οδυσσέας</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_19.html'>&#171;Φυσικά και είμαι υπέροχος...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/2000.html'>Χαράδρα του Βοϊδομάτη</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/1.html'>Ιστορίες μοτοσικλέτας 1</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_10.html'>Νεκρή φύση με πάπια και σφήκα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_7959.html'>Το σπίτι του Ναπολέοντα Λαπαθιώτη, σήμερα...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_08.html'>Βάλια Κάλντα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post_05.html'>&#171;Πρό της κατασροφής&#187;</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2011/01/blog-post.html'>Τα δέντρα που πληγώναμε.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00%2B02%3A00&updated-max=2011-01-01T00%3A00%3A00%2B02%3A00&max-results=50'>2010</a>
+<span class='post-count' dir='ltr'>(164)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(14)</span>
+<ul class='posts'>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_30.html'>Χρόνια πολλά και καλά</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/63.html'>Ένα γκραφίτι 63 ετών</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_25.html'>Χριστούγεννα στο Πέραμα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_20.html'>Τοίχο-τοίχο</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_17.html'>Εργατικά ατυχήματα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/%CE%BC%CE%B9%CE%B1-%CE%BC%CE%B1%CE%BB%CE%B1%CE%B3%CE%AC%CE%BD%CE%B1-%CE%BC%CE%B5%CE%B3%CE%B1%CE%BB%CF%8E%CE%BD%CE%B5%CE%B9.html'>Μια μαλαγάνα μεγαλώνει</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_13.html'>Δύο αφίσες που μου άρεσαν (και δύο δώρο)</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_39.html'>Κι ένα δυσφημιστικό μήνυμα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_11.html'>Μια αλλόκοτη πινακίδα, ένα αλλόκοτο συναίσθημα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_10.html'>Επειδή πολλά λέγονται για νυχτερινές αναχωρήσεις μ...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_09.html'>Η Λίζα και οι άλλοι</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_05.html'>Πιάσαν τα κρύα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post_02.html'>Το βουνό και τα Μουτσάλια μ&#39; έφεραν σ&#39; αυτά τα χάλ...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2010/12/blog-post.html'>Ο Βλαντιμίρ και ο Γιώργος</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(23)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2010_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/search?updated-min=2009-01-01T00%3A00%3A00%2B02%3A00&updated-max=2010-01-01T00%3A00%3A00%2B02%3A00&max-results=50'>2009</a>
+<span class='post-count' dir='ltr'>(226)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(27)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(27)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2009_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/search?updated-min=2008-01-01T00%3A00%3A00%2B02%3A00&updated-max=2009-01-01T00%3A00%3A00%2B02%3A00&max-results=50'>2008</a>
+<span class='post-count' dir='ltr'>(337)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(31)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(28)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(36)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(35)</span>
+<ul class='posts'>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_25.html'>Πάσχα στη Φολέγανδρο</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_24.html'>Καλό Πάσχα, αρνάκια μου!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_23.html'>&#39;Ονομα και πράμα, ο μάστορας!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_22.html'>Έρχεται το καλοκαίρι</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_7312.html'>Μια ναυτική ιστορία!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/41.html'>41η επέτειος σήμερα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_21.html'>Κλαψάρ Γουώζ Χίαρ</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_6679.html'>Μια ιστορία για διψασμένους και κυνηγημένους</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_20.html'>Απαντώντας στις σύγχρονες ευρωπαϊκές προκλήσεις (κ...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5966.html'>Πάσχα, Ελλήνων Πάσχα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_17.html'>Μία κατάφωρη αδικία από το κράτος</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_16.html'>Πήγα για ψώνια...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_4943.html'>Δένδρον ανθισμένον</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_14.html'>Αχ, αυτοί οι έρωτες του καλοκαιριού...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_9071.html'>Μύρισε καλοκαιράκι</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_12.html'>Ένας σκύλος στη Βάλια Κάλντα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html'>Αλέκα, να ένα μήλο!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_11.html'>Μαθήματα στατικής ή όταν η πέτρα κοιμάται...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_7755.html'>Ηδονή</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_7361.html'>Η ζωή η ίδια</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_09.html'>Το βλέμμα</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_3711.html'>Αν τα ντουβάρια είχαν φωνή, θα έσκουζαν.</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_08.html'>ΠΑΣΠ, μαζική και οικολογική!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_07.html'>Προχτές...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_06.html'>Περί ηρώων και τάφων</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_04.html'>Μποϊκοτάζ αυτοί; Μποϊκοτάζ κι εμείς!</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_3981.html'>Καλά τα &#900;λεγαν ο Γκάτσος και ο Κηλαηδόνης...</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_3892.html'>Μνημείο του ΕΛΑΝ στην Αντίκυρα Βοιωτίας</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_03.html'>Ο φάρος της Τζιάς.</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post_02.html'>Η ψυχή μας είναι τ&#39; όνομά μας;;;;;;</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/i.html'>Η αυλή του σπιτιού μου I</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/ii.html'>Η αυλή του σπιτιού μου II</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/iii.html'>Η αυλή του σπιτιού μου III</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/iv.html'>Η αυλή του σπιτιού μου IV</a></li>
+<li><a href='http://valiacaldadog.blogspot.com/2008/04/blog-post.html'>Η αυλή του σπιτιού μου V</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2008_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(54)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/search?updated-min=2007-01-01T00%3A00%3A00%2B02%3A00&updated-max=2008-01-01T00%3A00%3A00%2B02%3A00&max-results=50'>2007</a>
+<span class='post-count' dir='ltr'>(562)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(41)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(42)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(42)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(89)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(87)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://valiacaldadog.blogspot.com/2007_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(102)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' id='Label1'>
+<h2>Labels</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%91%CE%BB%CE%BB%CE%BF%CF%85%CE%BD%CE%BF%CF%8D'>Αλλουνού</a>
+<span dir='ltr'>(59)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%91%CE%BD%CF%84%CE%B9%CF%81%CE%B1%CF%84%CF%83%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C'>Αντιρατσιστικό</a>
+<span dir='ltr'>(27)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%91%CF%87%CE%B5%CE%BB%CF%8E%CE%BF%CF%82'>Αχελώος</a>
+<span dir='ltr'>(19)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%92%CE%AC%CE%BB%CE%B9%CE%B1%20%CE%9A%CE%AC%CE%BB%CE%BD%CF%84%CE%B1'>Βάλια Κάλντα</a>
+<span dir='ltr'>(105)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%92%CF%81%CF%8D%CF%83%CE%B5%CF%82'>Βρύσες</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%93%CE%B5%CF%86%CF%8D%CF%81%CE%B9%CE%B1'>Γεφύρια</a>
+<span dir='ltr'>(21)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%93%CE%BF%CF%85%CF%86'>Γουφ</a>
+<span dir='ltr'>(100)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%93%CF%81%CE%AC%CE%BC%CE%BF%CF%82'>Γράμος</a>
+<span dir='ltr'>(75)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%95%CE%BE%CE%AC%CF%81%CF%87%CE%B5%CE%B9%CE%B1'>Εξάρχεια</a>
+<span dir='ltr'>(167)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%95%CF%80%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%B1%CE%AF'>Επιγραφαί</a>
+<span dir='ltr'>(246)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%98%CE%AC%CE%BD%CE%B1%CF%84%CE%BF%CF%82'>Θάνατος</a>
+<span dir='ltr'>(59)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%98%CF%81%CE%AC%CE%BA%CE%B7'>Θράκη</a>
+<span dir='ltr'>(44)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B5%CF%82'>Ιστορίες</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%9A%CE%B5%CF%81%CE%BA%CE%AF%CE%BD%CE%B7'>Κερκίνη</a>
+<span dir='ltr'>(20)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%9A%CE%B9%CF%84%CF%82'>Κιτς</a>
+<span dir='ltr'>(37)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%9A%CF%81%CE%AF%CF%83%CE%B7'>Κρίση</a>
+<span dir='ltr'>(17)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%9B%CE%AD%CF%83%CE%B2%CE%BF%CF%82'>Λέσβος</a>
+<span dir='ltr'>(24)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%9C%CE%B5%CE%B9%CE%BF%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1'>Μειονότητα</a>
+<span dir='ltr'>(16)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%A0%CE%AE%CE%BB%CE%B9%CE%BF'>Πήλιο</a>
+<span dir='ltr'>(27)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%A3%CE%B1%CE%BC%CE%BF%CE%B8%CF%81%CE%AC%CE%BA%CE%B7'>Σαμοθράκη</a>
+<span dir='ltr'>(26)</span>
+</li>
+<li>
+<a dir='ltr' href='http://valiacaldadog.blogspot.com/search/label/%CE%A6%CE%BF%CE%BB%CE%AD%CE%B3%CE%B1%CE%BD%CE%B4%CF%81%CE%BF%CF%82'>Φολέγανδρος</a>
+<span dir='ltr'>(70)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList21'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://antistachef.wordpress.com/'>Ο Αντιστασιέφ</a></li>
+<li><a href='http://goldenretriever-perla.blogspot.com/'>Πέρλα, το μαργαριτάρι</a></li>
+<li><a href='http://photostudio112.blogspot.com/'>ΦώτοΣτούντιο112!</a></li>
+<li><a href='http://bunnyindanger.blogspot.com/'>Κούνελος με μεγάλα αυτιά</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList21&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList21"));' target='configLinkList21' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList11'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://e-provatina.blogspot.com/'>Προβατίνα του βουνού</a></li>
+<li><a href='http://nhpiablogeio.wordpress.com/'>Πι-πι-το-Παπί</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList11&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList11"));' target='configLinkList11' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList22'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://blackreddots.over-blog.com/'>Η Πασχαλίτσα μ&#900;!</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList22&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList22"));' target='configLinkList22' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList20'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://sarantakos.wordpress.com/'>Σαραντάγλωσσος</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList20&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList20"));' target='configLinkList20' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList1'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://panokato.blogspot.com/'>Πανωκάτος (περαδώθες)</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList17'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://ntalikierhs.blogspot.com/'>Ο πράσινος νδαλικιέρης</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList17&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList17"));' target='configLinkList17' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList16'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://miadomatadenferneitinanoixi.blogspot.com/'>Η Δήμητρα τ'</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList16&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList16"));' target='configLinkList16' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList10'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://aposargentino.blogspot.com/'>Απος, ο αρχεντίνος</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList10&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList10"));' target='configLinkList10' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList15'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://dytistonniptiron.wordpress.com/'>Δύτης στο νιπτήρα!</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList15&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList15"));' target='configLinkList15' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'><div class='widget LinkList' id='LinkList2'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://aimof.blogspot.com/'>Άντερ Δη Ίνφλουεντζ</a></li>
+<li><a href='http://inlovewithlife.wordpress.com/'>Αγαπά τη ζωή</a></li>
+<li><a href='http://afmarx.wordpress.com/'>Αλλού Φάνης</a></li>
+<li><a href='http://kokkinompaloni.wordpress.com/'>Κόκκινη Μπαλόνη</a></li>
+<li><a href='http://themotorcycleboy.blogspot.com/'>Ο Μοτοσακός</a></li>
+<li><a href='http://valiabazou.wordpress.com/'>Οικο-μπουρμπουλήθρα</a></li>
+<li><a href='http://ouming.blogspot.com/'>Ου Μίνγκ</a></li>
+<li><a href='http://ordinarypontios.blogspot.com/'>ΥπερΠόντιος</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=LinkList&widgetId=LinkList2&action=editWidget&sectionId=footer-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList2"));' target='configLinkList2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Watermark template. Powered by <a href='http://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5414799774729303602&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/1127379606-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '5414799774729303602';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=5414799774729303602','http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html','5414799774729303602');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=5414799774729303602','APq4FmAvWdi81MhhSgY3nfTsi5pVABmAFfQ4cKqF-lR4CkO-lCjnXyuVy77kEtIclhUkd2rsj2DvtTyrsx6N4UJNDfJDuFZQmGFyZu2zk-9JRtiHpE6GHVI=','AOuZoY4ojXjOa1HS1aV_G6nP0z-xiEFKmA:1301402803462');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'Ο σκύλος της Βάλια Κάλντα', 'pageType': 'item', 'url': 'http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html', 'canonicalUrl': 'http://valiacaldadog.blogspot.com/2008/04/blog-post_5336.html', 'homepageUrl': 'http://valiacaldadog.blogspot.com/', 'faviconUrl': 'http://www.blogger.com/favicon.ico', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'Αλέκα, να ένα μήλο!', 'pageTitle': 'Ο σκύλος της Βάλια Κάλντα: Αλέκα, να ένα μήλο!', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Ο σκύλος της Βάλια Κάλντα - Atom\42 href\75\42http://valiacaldadog.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Ο σκύλος της Βάλια Κάλντα - RSS\42 href\75\42http://valiacaldadog.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Ο σκύλος της Βάλια Κάλντα - Atom\42 href\75\42http://www.blogger.com/feeds/5414799774729303602/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0755414799774729303602\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Ο σκύλος της Βάλια Κάλντα - Atom\42 href\75\42http://valiacaldadog.blogspot.com/feeds/4218373183019213430/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e!\75undefined?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42http://www.blogger.com/static/v1/jsbin/126994838-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076'}}]);
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'footer-2-1', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Watermark template. Powered by \74a href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList25', 'footer-1', null, document.getElementById('LinkList25'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'footer-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'footer-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList21', 'footer-1', null, document.getElementById('LinkList21'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList11', 'footer-1', null, document.getElementById('LinkList11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList22', 'footer-1', null, document.getElementById('LinkList22'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList20', 'footer-1', null, document.getElementById('LinkList20'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'footer-1', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList17', 'footer-1', null, document.getElementById('LinkList17'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList16', 'footer-1', null, document.getElementById('LinkList16'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList10', 'footer-1', null, document.getElementById('LinkList10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList15', 'footer-1', null, document.getElementById('LinkList15'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'mobile': false, 'lightboxEnabled': false}, 'displayModeFull'));
+</script>
+</body>
+</html>
