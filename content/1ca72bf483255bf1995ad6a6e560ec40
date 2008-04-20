@@ -1,0 +1,1304 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="distribution" content="global" />
+	<meta name="robots" content="follow, all" />
+	<meta name="language" content="en" />
+
+	
+	<title>  Django on Google App Engine in 13 simple steps : Thomas Brox R&oslash;st</title>
+	<link rel="Shortcut Icon" href="http://thomas.broxrost.com/wp-content/themes/frugal/images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://thomas.broxrost.com/wp-content/themes/frugal/style.css" type="text/css" media="screen" />
+	
+	<link rel="alternate" type="application/rss+xml" title="Thomas Brox R&oslash;st RSS Feed" href="http://thomas.broxrost.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="Thomas Brox R&oslash;st Atom Feed" href="http://thomas.broxrost.com/feed/atom/" />
+	<link rel="pingback" href="http://thomas.broxrost.com/xmlrpc.php" />
+	
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" href="http://thomas.broxrost.com/wp-content/themes/frugal/css/ie6.css" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="http://thomas.broxrost.com/wp-content/themes/frugal/css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	
+			<!--DO NOTHING-->
+		
+			<!--DO NOTHING-->
+		
+			<!--DO NOTHING-->
+		
+	<script type="text/javascript"><!--//--><![CDATA[//><!--
+	sfHover = function() {
+		if (!document.getElementsByTagName) return false;
+		var sfEls = document.getElementById("nav").getElementsByTagName("li");
+
+		for (var i=0; i<sfEls.length; i++) {
+			sfEls[i].onmouseover=function() {
+				this.className+=" sfhover";
+			}
+			sfEls[i].onmouseout=function() {
+				this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+			}
+		}
+
+	}
+	if (window.attachEvent) window.attachEvent("onload", sfHover);
+	//--><!]]></script>
+
+		
+	<link rel="alternate" type="application/rss+xml" title="Thomas Brox R&oslash;st &raquo; Django on Google App Engine in 13 simple steps Comments Feed" href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/feed/" />
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thomas.broxrost.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thomas.broxrost.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Thomas Brox R&oslash;st' href='http://thomas.broxrost.com/' />
+<link rel='start' title='Django on Google App Engine in 13 simple steps' href='http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/' />
+<link rel='next' title='On the value of ignorance' href='http://thomas.broxrost.com/2008/04/14/on-the-value-of-ignorance/' />
+<meta name="generator" content="WordPress 3.1" />
+<link rel='canonical' href='http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/' />
+<link rel='shortlink' href='http://thomas.broxrost.com/?p=8' />
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/prototype.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/scriptaculous/wp-scriptaculous.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/scriptaculous/effects.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/scriptaculous/builder.js?ver=1.8.3'></script>
+                        <script type="text/javascript" src="http://thomas.broxrost.com/wp-content/plugins/flickr-tag/js/lightbox.js"></script>
+
+			<script type="text/javascript">
+				window.LightboxOptions.fileBottomNavCloseImage = "http://thomas.broxrost.com/wp-content/plugins/flickr-tag/images/closelabel.gif";
+				window.LightboxOptions.fileLoadingImage = "http://thomas.broxrost.com/wp-content/plugins/flickr-tag/images/loading.gif";
+			</script>
+
+			<link rel="stylesheet" href="http://thomas.broxrost.com/wp-content/plugins/flickr-tag/css/lightbox.css" type="text/css" media="screen" />
+	
+		<link href="http://thomas.broxrost.com/wp-content/plugins/flickr-tag/css/flickrTag.css" type="text/css" rel="stylesheet"/>
+	<meta name="verify-v1" content="XWGGJU6Cl75kCeu8X1AoyNl37+VcJc0Op/IzxtevwQk=" />
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-9461077-1";
+</script>
+<script src='http://mint.broxrost.com/?js' type='text/javascript'></script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<link href="http://static.tantannoodles.com/jquery-lightbox-0.5/css/jquery.lightbox.css" media="screen" rel="stylesheet" type="text/css"/><script src="http://static.tantannoodles.com/jquery-lightbox-0.5/js/jquery.lightbox.js" type="text/javascript"></script><script type="text/javascript">jQuery(document).ready(function($) { $("a.tt-flickr[href$=.jpg]").lightBox(); });</script>	<link type="text/css" rel="stylesheet" href="http://thomas.broxrost.com/wp-content/plugins/syntaxhighlighter-plus/syntaxhighlighter/styles/shCore.css"></link>
+	<link type="text/css" rel="stylesheet" href="http://thomas.broxrost.com/wp-content/plugins/syntaxhighlighter-plus/syntaxhighlighter/styles/shThemeDefault.css"></link>
+	
+</head>
+
+<body>
+
+	<div id="wrap">
+
+		<div id="header">
+
+										<div class="headerlefttext">
+					<h1><a href="http://thomas.broxrost.com/">Thomas Brox R&oslash;st</a></h1>
+						<h3></h3>
+				   </div>
+						
+				<div class="headerright">
+					<ul id="headerwidgeted">
+													<li></li>
+											</ul>
+				</div>
+					</div>
+
+		<div id="navbar">
+
+						
+				<div id="navbarleft">
+					<ul id="nav">
+						<li class="home "><a href="http://thomas.broxrost.com">Home</a></li>
+							<li class="page_item page-item-6"><a href="http://thomas.broxrost.com/about/" title="About">About</a></li>
+<li class="page_item page-item-4"><a href="http://thomas.broxrost.com/resume/" title="Resume">Resume</a></li>
+<li class="page_item page-item-3"><a href="http://thomas.broxrost.com/publications/" title="Publications">Publications</a></li>
+<li class="page_item page-item-78"><a href="http://thomas.broxrost.com/photography/" title="Photography">Photography</a></li>
+<li class="page_item page-item-5"><a href="http://thomas.broxrost.com/contact/" title="Contact">Contact</a></li>
+					</ul>
+				</div>
+				
+						
+				<div id="navbarright">
+					<strong>Subscribe:</strong> <a href="http://thomas.broxrost.com/feed/rss/">RSS</a>
+				</div>
+				
+					
+			
+						
+		</div>
+
+<div style="clear:both;"></div>
+<div id="content">
+
+	<div id="contentmain">
+			
+		<div class="postarea">		
+
+			
+				<h1>Django on Google App Engine in 13 simple steps</h1>
+				
+			<div class="date">
+				
+				<div class="dateleft">
+
+					<p>by <a href="http://thomas.broxrost.com/author/admin/" title="Posts by Thomas Brox Røst">Thomas Brox Røst</a> on <span class="time">April 8, 2008</span>  <br />in <a href="http://thomas.broxrost.com/category/django/" title="View all posts in Django" rel="category tag">Django</a>, <a href="http://thomas.broxrost.com/category/google-app-engine/" title="View all posts in Google App Engine" rel="category tag">Google App Engine</a>, <a href="http://thomas.broxrost.com/category/python/" title="View all posts in Python" rel="category tag">Python</a></p> 
+
+				</div>
+					
+				<div class="dateright">
+
+					<p><span class="icomment"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/#respond">52 Comments</a></span></p> 
+
+				</div>
+					
+			</div>
+				
+			<div style="clear:both;"></div>
+
+			<p>In this tutorial I will show you how to get a simple datastore-backed Django application up and running on the <a href="http://code.google.com/appengine/" target="_blank">Google App Engine</a>. I will assume that you are somewhat familiar with Django.</p>
+<p><strong>Update 1:</strong> You can download the full set of files from <a href="http://thomas.broxrost.com/wp-content/uploads/2008/04/mashname.zip">here</a>. Make sure to fix the sys.path in main.py.</p>
+<p><strong>Update 2:</strong> There is now a <a href="http://www.tsdesign.info/blog/2008/04/11/google-app-engine-ile-13-basit-adimda-django/" target="_blank">Turkish translation</a> of this tutorial, courtesy of Türker Sezer.</p>
+<p><strong>Update 3:</strong> Now in <a href="http://konkursof.blogspot.com/2008/05/django-google-app-engine-12.html" target="_blank">Russian</a> as well.</p>
+<p><strong>Update 4:</strong> <a href="http://marcioandreyoliveira.blogspot.com/2009/04/13-passos-simples-para-termos-o-django.html">Brazilian Portuguese tranlation</a> by Marcio Andrey Oliveira.</p>
+<hr /><strong>Step 1:</strong> Register an app name and install the development kit per the <a href="http://code.google.com/appengine/docs/gettingstarted/devenvironment.html" target="_blank">instructions</a>.</p>
+<p><strong>Step 2:</strong> Create a directory for your application—for this tutorial my application is called <em>mashname</em>:</p>
+<pre class="brush: bash">
+tmp$ mkdir mashname
+tmp$ cd mashname
+</pre>
+<p><strong>Step 3:</strong> Add a file called <em>main.py</em> to your new directory:</p>
+<pre class="brush: python">
+# main.py
+
+import os, sys
+os.environ[&amp;quot;DJANGO_SETTINGS_MODULE&amp;quot;] = &amp;quot;mashname.settings&amp;quot;
+sys.path.append(&amp;quot;/home/brox/tmp/mashname&amp;quot;)
+
+# Google App Engine imports.
+from google.appengine.ext.webapp import util
+
+# Force Django to reload its settings.
+from django.conf import settings
+settings._target = None
+
+import django.core.handlers.wsgi
+import django.core.signals
+import django.db
+import django.dispatch.dispatcher
+
+# Log errors.
+#django.dispatch.dispatcher.connect(
+#   log_exception, django.core.signals.got_request_exception)
+
+# Unregister the rollback event handler.
+django.dispatch.dispatcher.disconnect(
+django.db._rollback_on_exception,
+django.core.signals.got_request_exception)
+
+def main():
+    # Create a Django application for WSGI.
+    application = django.core.handlers.wsgi.WSGIHandler()
+
+    # Run the WSGI CGI handler with that application.
+    util.run_wsgi_app(application)
+
+if __name__ == &amp;quot;__main__&amp;quot;:
+    main()
+</pre>
+<p>This is basically the same file as suggested <a href="http://code.google.com/appengine/articles/django.html" target="_blank">here</a>, except I had to set the Python path to be able to test locally. I also had to set the DJANGO_SETTINGS_MODULE—this might not be necessary when running on the App Engine. I had to disable the error logging which I was not able to get working.</p>
+<p><strong>Step 4:</strong> Add a file called <em>app.yaml</em> to the same directory:</p>
+<pre class="brush: bash">
+application: mashname
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: main.py
+</pre>
+<p>Make sure to get the application name right.</p>
+<p><strong>Step 5:</strong> From your <em>mashname</em> directory, create a new Django project:</p>
+<pre class="brush: bash">
+tmp/mashname$ django-admin.py startproject mashname
+</pre>
+<p>(I&#8217;m assuming that your current Django setup is working as it should.)</p>
+<p><strong>Step 6:</strong> You should now be able to test your application:</p>
+<pre class="brush: bash">
+tmp/mashname$ cd ..
+tmp$ dev_appserver.py mashname
+INFO     2008-04-08 19:08:10,023 appcfg.py] Checking for updates to the SDK.
+INFO     2008-04-08 19:08:10,384 appcfg.py] The SDK is up to date.
+INFO     2008-04-08 19:08:10,404 dev_appserver_main.py] Running application mash
+name on port 8080: http://localhost:8080
+</pre>
+<p>Point your browser towards <em>http://127.0.0.1:8080/</em> and you should get the standard Django <em>It worked!</em> message.</p>
+<p><strong>Step 7:</strong> Create a Django app within the project:</p>
+<pre class="brush: bash">
+tmp$ cd mashname
+tmp/mashname$ python mashname/manage.py startapp main
+</pre>
+<p><strong>Step 8:</strong> Now it is time to add a model. We will be creating a simple application that logs all visitors to the data store and displays their IP address and time of visit. Edit  <em>~/mashname/mashname/main/models.py</em> so that it looks like this:</p>
+<pre class="brush: python">
+# models.py
+
+from google.appengine.ext import db
+
+class Visitor(db.Model):
+    ip = db.StringProperty()
+    added_on = db.DateTimeProperty(auto_now_add=True)
+</pre>
+<p>There is no need to sync the database since we are not using regular Django models.</p>
+<p><strong>Step 9:</strong> Now we create a view that is responsible for both adding data to the Visitor model and showing the previous visitors. Edit <em>views.py</em> (in the same directory as <em>models.py</em>) so that it does what we want:</p>
+<pre class="brush: python">
+# views.py
+
+from django.http import HttpResponse
+
+from mashname.main.models import Visitor
+
+def main(request):
+    visitor = Visitor()
+    visitor.ip = request.META[&amp;quot;REMOTE_ADDR&amp;quot;]
+    visitor.put()
+
+    result = &amp;quot;&amp;quot;
+    visitors = Visitor.all()
+    visitors.order(&amp;quot;-added_on&amp;quot;)
+
+    for visitor in visitors.fetch(limit=40):
+        result += visitor.ip + u&amp;quot; visited on &amp;quot; + unicode(visitor.added_on) + u&amp;quot;&amp;quot;
+
+    return HttpResponse(result)
+</pre>
+<p><strong>Step 10:</strong> Finally, make your <em>urls.py</em> point towards the view:</p>
+<pre class="brush: python">
+# urls.py
+
+from django.conf.urls.defaults import *
+
+urlpatterns = patterns(&amp;quot;&amp;quot;,
+    (r&amp;quot;^$&amp;quot;, &amp;quot;mashname.main.views.main&amp;quot;),
+)
+</pre>
+<p><strong>Step 11:</strong> Test your application (as in step 6) and everything should hopefully work. For each page reload a new entry is added to the Visitor model and shown in the view.</p>
+<p><strong>Step 12:</strong> Upload your application to the Google App Engine:</p>
+<pre class="brush: bash">
+tmp$ appcfg.py update mashname
+</pre>
+<p>For the first upload you will have to provide the mail address and password for your Google account.</p>
+<p><strong>Step 13:</strong> Enjoy! To view the final results, go to <a href="http://mashname.appspot.com/" target="_blank">http://mashname.appspot.com/</a>.</p>
+<div id="wherego_related"><h3>Readers who viewed this page, also viewed:</h3><ul><li><a href="http://thomas.broxrost.com/2008/08/21/persistent-django-on-amazon-ec2-and-ebs-the-easy-way/" rel="bookmark" class="wherego_title">Persistent Django on Amazon EC2 and EBS &#8211; The easy way</a></li><li><a href="http://thomas.broxrost.com/2009/06/01/how-to-compile-simpleparse-210a1-for-python-26-on-windows-vista/" rel="bookmark" class="wherego_title">How to compile SimpleParse 2.1.0a1 for Python 2.6 on Windows Vista</a></li><li><a href="http://thomas.broxrost.com/2009/04/06/when-endnote-x2-fails/" rel="bookmark" class="wherego_title">When EndNote X2 fails</a></li><li><a href="http://thomas.broxrost.com/2008/04/20/django-on-google-app-engine-templates-and-static-files/" rel="bookmark" class="wherego_title">Django on Google App Engine: Templates and static files</a></li><li><a href="http://thomas.broxrost.com/2009/05/27/on-the-sadness-of-nouns/" rel="bookmark" class="wherego_title">On the sadness of nouns</a></li><li><a href="http://thomas.broxrost.com/2009/08/28/updated-awsgo-daddy-dedicated-server-cost-comparison/" rel="bookmark" class="wherego_title">Updated AWS/Go Daddy dedicated server cost comparison</a></li><li>Powered by <a href="http://ajaydsouza.com/wordpress/plugins/where-did-they-go-from-here/">Where did they go from here?</a></li></ul></div><div style="clear:both;"></div>
+				
+			<div class="postmeta">
+
+				<p><span class="tags">Tags: </span></p>
+
+			</div>
+				
+						
+		</div>
+					
+		<div class="postwidget">
+
+			<ul id="postwidgeted">
+
+				  
+
+					<li><strong>Share this post:</strong> &nbsp;&nbsp;<a href="http://www.stumbleupon.com/submit?url=http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/">Stumbleupon</a>&nbsp; | &nbsp;<a href="http://digg.com/submit?phase=2&url=http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/&title=Django on Google App Engine in 13 simple steps">Digg</a>&nbsp; | &nbsp;<a href="http://del.icio.us/post?url=http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/&title=Django on Google App Engine in 13 simple steps">Del.icio.us</a>&nbsp; | &nbsp;<a href="http://technorati.com/faves?add=http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/">Technorati</a></li>
+						
+				
+			</ul>
+
+		</div>
+				
+		<div class="comments">
+
+			
+<!-- You can start editing here. -->
+
+		<h2 id="comments">Comments</h2>
+		<b>52 Responses to &#8220;Django on Google App Engine in 13 simple steps&#8221;</b>
+	<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="comment-2">
+				<div id="div-comment-2" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/6d1d346595718ad87c774321604be694?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://bardiver.com/' rel='external nofollow' class='url'>Jay</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-2">
+			April 8, 2008 at 9:19 pm</a>		</div>
+
+		<p>I opened a bug about the logging issue at <a href="http://code.google.com/p/googleappengine/issues/detail?id=16" rel="nofollow">http://code.google.com/p/googleappengine/issues/detail?id=16</a><br />
+The docs have been updated to fix it, but line setting the DJANGO_SETTINGS_MODULE is still not complete.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-3">
+				<div id="div-comment-3" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/5c20469d226d7feb01efb6b0a35792fd?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.addto10.com' rel='external nofollow' class='url'>Brent</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-3">
+			April 8, 2008 at 11:30 pm</a>		</div>
+
+		<p>Been having some trouble myself with some of the restrictions they&#8217;ve placed on it&#8230; but great writeup, i think i might take a django route so that i can at least get something up there to test the service out.<br />
+Thanks,<br />
+Brent</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-5">
+				<div id="div-comment-5" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/6d1466c2c5deddff1b354e5f078432ba?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Brenton</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-5">
+			April 9, 2008 at 6:10 am</a>		</div>
+
+		<p>Thanks for the intro.  Django is certainly an interesting-looking environment to program in.  (I&#8217;ve got up through Ch. 4 of the Django Book this evening).</p>
+<p>You should fix your WordPress theme.  It make the quotes slanty, which makes them interpreted as different characters than the standard single quote.  I copied the add path line from your code and got a syntax error because of it.</p>
+<p>Thanks again for documenting Google&#8217;s hacked-up version of Django better than they do. =)</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-6">
+				<div id="div-comment-6" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-6">
+			April 9, 2008 at 9:47 am</a>		</div>
+
+		<p>@Brenton: Thanks for telling me about the single quote problem. I have replaced them with double quotes.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-7">
+				<div id="div-comment-7" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/62c38e95e8a5873bd20d3f9519b6fda7?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.42topics.com' rel='external nofollow' class='url'>Shabda</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-7">
+			April 9, 2008 at 2:03 pm</a>		</div>
+
+		<p>Hi Thomas,<br />
+<a href="http://mashname.appspot.com/" rel="nofollow">http://mashname.appspot.com/</a> is not accessible. IS there someplace from where I can pull up your whole code and then use this? I am able to use things which I have developed from my local dev server, but not from the Google&#8217;s server. I get weird 500 errors.<br />
+PS. You might like to read this, <a href="http://www.42topics.com/dumps/appengine/doc.html" rel="nofollow">http://www.42topics.com/dumps/appengine/doc.html</a>, and we might share ideas.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-8">
+				<div id="div-comment-8" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-8">
+			April 9, 2008 at 4:19 pm</a>		</div>
+
+		<p>@Shabda: It should be accessible most of time&mdash;try again. I get the occassional error message in the App Engine log file:</p>
+<p><em>This request used a high amount of CPU, and was roughly 2.2 times over the average request CPU limit. High CPU requests have a small quota, and if you exceed this quota, your app will be temporarily disabled.</em></p>
+<p>Don&#8217;t really know why, though. I added a link to the full set of files at the top of the page.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-11">
+				<div id="div-comment-11" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/62c38e95e8a5873bd20d3f9519b6fda7?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.42topics.com' rel='external nofollow' class='url'>Shabda</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-11">
+			April 11, 2008 at 6:28 am</a>		</div>
+
+		<p>Hi Thomas,<br />
+You might find this link to be of interest <a href="http://www.42topics.com/dumps/django/docs.html" rel="nofollow">http://www.42topics.com/dumps/django/docs.html</a></p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-14">
+				<div id="div-comment-14" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/de6dda17e069e6c9e22fbfb98faf633f?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Phuong</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-14">
+			April 20, 2008 at 11:35 am</a>		</div>
+
+		<p>Hi, </p>
+<p>this is helping me a great deal to get started. Now I&#8217;m using a template file and I&#8217;m trying to add a CSS file to it, do you know which file do I have to modify to let Django find my CSS file?</p>
+<p>Thanks in advance</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1" id="comment-16">
+				<div id="div-comment-16" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-16">
+			April 20, 2008 at 4:25 pm</a>		</div>
+
+		<p>@Phuong: I just wrote a new tutorial that shows you how to serve templates and static files. Have a look at it <a href="http://thomas.broxrost.com/2008/04/20/django-on-google-app-engine-templates-and-static-files/" rel="nofollow"> here</a>.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-25">
+				<div id="div-comment-25" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/3d04cbd5016544f9eff1c3fbbbbea379?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Dondi</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-25">
+			April 27, 2008 at 8:21 am</a>		</div>
+
+		<p>Thanks for the excellent article Thomas. </p>
+<p>I am encountering the following error with step 6 (any thoughts on how to get past this?):</p>
+<p>ERROR    2008-04-27 06:17:40,287 dev_appserver.py] Encountered error loading module &#8220;main&#8221;: :<br />
+ERROR    2008-04-27 06:17:40,287 dev_appserver.py] Parent package initialization files are present, but must be broken<br />
+ERROR    2008-04-27 06:17:40,289 dev_appserver.py] Exception encountered handling request<br />
+Traceback (most recent call last):<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 2247, in _HandleRequest<br />
+    base_env_dict=env_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 334, in Dispatch<br />
+    base_env_dict=base_env_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1743, in Dispatch<br />
+    self._module_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1654, in ExecuteCGI<br />
+    reset_modules = exec_script(handler_path, cgi_path, hook)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1550, in ExecuteOrImportScript<br />
+    handler_path, cgi_path, import_hook)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1479, in LoadTargetModule<br />
+    module_code = import_hook.get_code(module_fullname)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1350, in get_code<br />
+    full_path, search_path, submodule = self.GetModuleInfo(fullname)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1305, in GetModuleInfo<br />
+    source_file, pathname, description = self.FindModuleRestricted(submodule, fullname, search_path)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1136, in FindModuleRestricted<br />
+    raise CouldNotFindModuleError()<br />
+CouldNotFindModuleError<br />
+INFO     2008-04-27 06:17:40,290 dev_appserver.py] &#8220;GET / HTTP/1.1&#8243; 500 -<br />
+ERROR    2008-04-27 06:17:40,351 dev_appserver.py] Encountered error loading module &#8220;main&#8221;: :<br />
+ERROR    2008-04-27 06:17:40,351 dev_appserver.py] Parent package initialization files are present, but must be broken<br />
+ERROR    2008-04-27 06:17:40,353 dev_appserver.py] Exception encountered handling request<br />
+Traceback (most recent call last):<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 2247, in _HandleRequest<br />
+    base_env_dict=env_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 334, in Dispatch<br />
+    base_env_dict=base_env_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1743, in Dispatch<br />
+    self._module_dict)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1654, in ExecuteCGI<br />
+    reset_modules = exec_script(handler_path, cgi_path, hook)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1550, in ExecuteOrImportScript<br />
+    handler_path, cgi_path, import_hook)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1479, in LoadTargetModule<br />
+    module_code = import_hook.get_code(module_fullname)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1350, in get_code<br />
+    full_path, search_path, submodule = self.GetModuleInfo(fullname)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1305, in GetModuleInfo<br />
+    source_file, pathname, description = self.FindModuleRestricted(submodule, fullname, search_path)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 806, in decorate<br />
+    return func(self, *args, **kwargs)<br />
+  File &#8220;/usr/local/google_appengine/google/appengine/tools/dev_appserver.py&#8221;, line 1136, in FindModuleRestricted<br />
+    raise CouldNotFindModuleError()<br />
+CouldNotFindModuleError<br />
+INFO     2008-04-27 06:17:40,354 dev_appserver.py] &#8220;GET /favicon.ico HTTP/1.1&#8243; 500 -</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1" id="comment-26">
+				<div id="div-comment-26" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-26">
+			April 27, 2008 at 12:25 pm</a>		</div>
+
+		<p>@Dondi: I haven&#8217;t seen that particular error message before. It looks like there is something wrong with one of your files (&#8220;Parent package initialization files are present, but must be broken&#8221;).</p>
+<p>Check that the Django application you created in the previous step (&#8220;main&#8221;) contains all the necessary files (&#8220;__init__.py&#8221;, &#8220;models.py&#8221; and &#8220;views.py&#8221;). Then verify that the Django project directory has the files &#8220;__init__.py&#8221;, &#8220;manage.py&#8221;, &#8220;settings.py&#8221; and &#8220;urls.py&#8221;.</p>
+<p>Finally, make sure that there are no errors in the App Engine configuration files (&#8220;main.py&#8221; and &#8220;app.yaml&#8221;). You might have the wrong path or project name.</p>
+<p>If you downloaded the zip file onto a Linux box: Try running the dos2unix utility on the entire directory. I wrote the tutorial on a Windows machine so there might be some line feed/carriage return encoding weirdness.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-40">
+				<div id="div-comment-40" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/a0842dd69fe8115e74e0d449ca4783d3?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://startupers.ru/' rel='external nofollow' class='url'>V.Sergeyev</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-40">
+			May 11, 2008 at 3:33 pm</a>		</div>
+
+		<p>Thank you for this great tutorial, Thomas!<br />
+I&#8217;m also done Russian translation of it at my blog:<br />
+<a href="http://konkursof.blogspot.com/2008/05/django-google-app-engine-12.html" rel="nofollow">http://konkursof.blogspot.com/2008/05/django-google-app-engine-12.html</a></p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-72">
+				<div id="div-comment-72" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/a25df4f0c5f8e81d36d12c667e3b98f9?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.digitalistic.com' rel='external nofollow' class='url'>Andreas Krohn</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-72">
+			June 4, 2008 at 1:20 pm</a>		</div>
+
+		<p>Thanks for a great post. I have been looking at _a_lot_ of App Engine tutorials today, and your&#8217;s is by far the best written, easiest to follow and no-hassle one. Great work!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-98">
+				<div id="div-comment-98" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/65f903c2c814aa1ad5ae619fe348eb0d?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://adil.2scomplement.com' rel='external nofollow' class='url'>Adil Saleem</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-98">
+			July 1, 2008 at 6:29 pm</a>		</div>
+
+		<p>very nice post. worked like a charm. Thanks</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-102">
+				<div id="div-comment-102" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/e0df75ff9132c562ae676b652c6156ab?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.reyjexter.com' rel='external nofollow' class='url'>Rey Bumalay</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-102">
+			July 4, 2008 at 7:39 pm</a>		</div>
+
+		<p>Nice tutorial! Do you happen to know a way to view google app engine&#8217;s databas on my local machine. Thanks!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-159">
+				<div id="div-comment-159" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://thomas.broxrost.com' rel='external nofollow' class='url'>Thomas Brox Røst</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-159">
+			July 14, 2008 at 8:10 am</a>		</div>
+
+		<p>@Rey: Not really, but at least Google are working on improved data import and export facilities: <a href="http://googleappengine.blogspot.com/2008/04/getting-your-data-on-and-off-of-google.html" rel="nofollow">http://googleappengine.blogspot.com/2008/04/getting-your-data-on-and-off-of-google.html</a>. You might also check out this bulk downloader tool: <a href="http://code.google.com/p/gawsh/wiki/BulkDownload" rel="nofollow">http://code.google.com/p/gawsh/wiki/BulkDownload</a></p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-185">
+				<div id="div-comment-185" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/af33350500a08d1daa809364d5b55394?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">haydn</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-185">
+			July 22, 2008 at 7:02 pm</a>		</div>
+
+		<p>@Rey Bumalay</p>
+<p>Go to <a href="http://localhost:8080/_ah/admin" rel="nofollow">http://localhost:8080/_ah/admin</a> &#8211; (depending on your port/vhost conf, of course) and there&#8217;ll be a (slightly crap) tool to view the datastore.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-7404">
+				<div id="div-comment-7404" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/909b3d03ac1ef3cab5f6c2845010a10d?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://haden-pereira.blogspot.com' rel='external nofollow' class='url'>haden</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-7404">
+			January 12, 2009 at 8:26 am</a>		</div>
+
+		<p>Thanks for the  tutorial. works great</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-8177">
+				<div id="div-comment-8177" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/ed93bbc3eca4811edb6ef732cfdc9a67?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Simon Davies</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-8177">
+			February 13, 2009 at 1:23 pm</a>		</div>
+
+		<p>Hi Thomas </p>
+<p>Thanks for the article.  </p>
+<p>I have Windows Vista, Django 1.02 and Python 2.6.  I am getting the following error on step 6.</p>
+<p> Python 2.6.1: C:\Python26\python.exe<br />
+Fri Feb 13 08:10:21 2009 </p>
+<p>A problem occurred in a Python script. Here is the sequence of function calls leading up to the error, in the order they occurred.</p>
+<p> C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver.py in _HandleRequest(self=)<br />
+ 2459                               infile,</p>
+<p> 2460                               outfile,</p>
+<p> 2461                               base_env_dict=env_dict)</p>
+<p> 2462         finally:</p>
+<p> 2463           self.module_manager.UpdateModuleFileModificationTimes()</p>
+<p>base_env_dict undefined, env_dict = {&#8216;APPLICATION_ID&#8217;: &#8216;removals&#8217;, &#8216;CURRENT_VERSION_ID&#8217;: &#8217;1.1&#8242;, &#8216;REMOTE_ADDR&#8217;: &#8217;127.0.0.1&#8242;, &#8216;REQUEST_METHOD&#8217;: &#8216;GET&#8217;, &#8216;SERVER_NAME&#8217;: &#8216;localhost&#8217;, &#8216;SERVER_PORT&#8217;: &#8217;8080&#8242;, &#8216;SERVER_PROTOCOL&#8217;: &#8216;HTTP/1.0&#8242;, &#8216;SERVER_SOFTWARE&#8217;: &#8216;Development/1.0&#8242;}<br />
+ C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver.py in Dispatch(self=, relative_url=&#8217;/', path=None, headers=, infile=, outfile=, base_env_dict={&#8216;APPLICATION_ID&#8217;: &#8216;removals&#8217;, &#8216;CURRENT_VERSION_ID&#8217;: &#8217;1.1&#8242;, &#8216;REMOTE_ADDR&#8217;: &#8217;127.0.0.1&#8242;, &#8216;REQUEST_METHOD&#8217;: &#8216;GET&#8217;, &#8216;SERVER_NAME&#8217;: &#8216;localhost&#8217;, &#8216;SERVER_PORT&#8217;: &#8217;8080&#8242;, &#8216;SERVER_PROTOCOL&#8217;: &#8216;HTTP/1.0&#8242;, &#8216;SERVER_SOFTWARE&#8217;: &#8216;Development/1.0&#8242;})<br />
+  352                             infile,</p>
+<p>  353                             outfile,</p>
+<p>  354                             base_env_dict=base_env_dict)</p>
+<p>  355 </p>
+<p>  356       return</p>
+<p>base_env_dict = {&#8216;APPLICATION_ID&#8217;: &#8216;removals&#8217;, &#8216;CURRENT_VERSION_ID&#8217;: &#8217;1.1&#8242;, &#8216;REMOTE_ADDR&#8217;: &#8217;127.0.0.1&#8242;, &#8216;REQUEST_METHOD&#8217;: &#8216;GET&#8217;, &#8216;SERVER_NAME&#8217;: &#8216;localhost&#8217;, &#8216;SERVER_PORT&#8217;: &#8217;8080&#8242;, &#8216;SERVER_PROTOCOL&#8217;: &#8216;HTTP/1.0&#8242;, &#8216;SERVER_SOFTWARE&#8217;: &#8216;Development/1.0&#8242;}<br />
+ C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver.py in Dispatch(self=, relative_url=&#8217;/', path=&#8217;main.py&#8217;, headers=, infile=, outfile=, base_env_dict={&#8216;APPLICATION_ID&#8217;: &#8216;removals&#8217;, &#8216;CURRENT_VERSION_ID&#8217;: &#8217;1.1&#8242;, &#8216;REMOTE_ADDR&#8217;: &#8217;127.0.0.1&#8242;, &#8216;REQUEST_METHOD&#8217;: &#8216;GET&#8217;, &#8216;SERVER_NAME&#8217;: &#8216;localhost&#8217;, &#8216;SERVER_PORT&#8217;: &#8217;8080&#8242;, &#8216;SERVER_PROTOCOL&#8217;: &#8216;HTTP/1.0&#8242;, &#8216;SERVER_SOFTWARE&#8217;: &#8216;Development/1.0&#8242;})<br />
+ 1869                      infile,</p>
+<p> 1870                      outfile,</p>
+<p> 1871                      self._module_dict)</p>
+<p> 1872       handler.AddDebuggingConsole(relative_url, env, outfile)</p>
+<p> 1873     finally:</p>
+<p>self = , self._module_dict = {&#8216;Cookie&#8217;: , &#8216;StringIO&#8217;: , &#8216;UserDict&#8217;: , &#8216;__main__&#8217;: , &#8216;_abcoll&#8217;: , &#8216;_collections&#8217;: , &#8216;_functools&#8217;: , &#8216;_hashlib&#8217;: , &#8216;_locale&#8217;: , &#8216;_struct&#8217;: , &#8230;}<br />
+ C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver.py in ExecuteCGI(root_path=r&#8217;C:\Program Files\Google\google_appengine\removals&#8217;, handler_path=&#8217;main.py&#8217;, cgi_path=r&#8217;C:\Program Files\Google\google_appengine\removals\main.py&#8217;, env={&#8216;APPLICATION_ID&#8217;: &#8216;removals&#8217;, &#8216;AUTH_DOMAIN&#8217;: &#8216;gmail.com&#8217;, &#8216;CONTENT_LENGTH&#8217;: &#8221;, &#8216;CONTENT_TYPE&#8217;: &#8216;application/x-www-form-urlencoded&#8217;, &#8216;CURRENT_VERSION_ID&#8217;: &#8217;1.1&#8242;, &#8216;GATEWAY_INTERFACE&#8217;: &#8216;CGI/1.1&#8242;, &#8216;HTTP_ACCEPT&#8217;: &#8216;text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#8242;, &#8216;HTTP_ACCEPT_CHARSET&#8217;: &#8216;ISO-8859-1,utf-8;q=0.7,*;q=0.7&#8242;, &#8216;HTTP_ACCEPT_LANGUAGE&#8217;: &#8216;en-us,en;q=0.5&#8242;, &#8216;HTTP_CACHE_CONTROL&#8217;: &#8216;max-age=0&#8242;, &#8230;}, infile=, outfile=, module_dict={&#8216;Cookie&#8217;: , &#8216;StringIO&#8217;: , &#8216;UserDict&#8217;: , &#8216;__main__&#8217;: , &#8216;_abcoll&#8217;: , &#8216;_collections&#8217;: , &#8216;_functools&#8217;: , &#8216;_hashlib&#8217;: , &#8216;_locale&#8217;: , &#8216;_struct&#8217;: , &#8230;}, exec_script=)<br />
+ 1787     logging.debug(&#8216;Executing CGI with env:\n%s&#8217;, pprint.pformat(env))</p>
+<p> 1788     try:</p>
+<p> 1789       reset_modules = exec_script(handler_path, cgi_path, hook)</p>
+<p> 1790     except SystemExit, e:</p>
+<p> 1791       logging.debug(&#8216;CGI exited with status: %s&#8217;, e)</p>
+<p>reset_modules = True, exec_script = , handler_path = &#8216;main.py&#8217;, cgi_path = r&#8217;C:\Program Files\Google\google_appengine\removals\main.py&#8217;, hook =<br />
+ C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver.py in ExecuteOrImportScript(handler_path=&#8217;main.py&#8217;, cgi_path=r&#8217;C:\Program Files\Google\google_appengine\removals\main.py&#8217;, import_hook=)<br />
+ 1683   try:</p>
+<p> 1684     if module_code:</p>
+<p> 1685       exec module_code in script_module.__dict__</p>
+<p> 1686     else:</p>
+<p> 1687       script_module.main()</p>
+<p>module_code = &lt;code object  at 02593458, file &#8220;C:\Prog&#8230;oogle\google_appengine\removals\main.py&#8221;, line 2&gt;, script_module = , script_module.__dict__ = {&#8216;__builtins__&#8217;: {&#8216;ArithmeticError&#8217;: , &#8216;AssertionError&#8217;: , &#8216;AttributeError&#8217;: , &#8216;BaseException&#8217;: , &#8216;BufferError&#8217;: , &#8216;BytesWarning&#8217;: , &#8216;DeprecationWarning&#8217;: , &#8216;EOFError&#8217;: , &#8216;Ellipsis&#8217;: Ellipsis, &#8216;EnvironmentError&#8217;: , &#8230;}, &#8216;__doc__&#8217;: None, &#8216;__file__&#8217;: r&#8217;C:\Program Files\Google\google_appengine\removals\main.py&#8217;, &#8216;__loader__&#8217;: , &#8216;__name__&#8217;: &#8216;main&#8217;, &#8216;__package__&#8217;: None, &#8216;django&#8217;: , &#8216;os&#8217;: , &#8216;settings&#8217;: , &#8216;sys&#8217;: , &#8230;}<br />
+ C:\Program Files\Google\google_appengine\removals\main.py in ()<br />
+   23 </p>
+<p>   24 # Unregister the rollback event handler.</p>
+<p>   25 django.dispatch.dispatcher.disconnect(</p>
+<p>   26 django.db._rollback_on_exception,</p>
+<p>   27 django.core.signals.got_request_exception)</p>
+<p>django = , django.dispatch = , django.dispatch.dispatcher = , django.dispatch.dispatcher.disconnect undefined, django.db = , django.db._rollback_on_exception = , django.core = , django.core.signals = , django.core.signals.got_request_exception =  </p>
+<p>: &#8216;module&#8217; object has no attribute &#8216;disconnect&#8217;<br />
+      args = (&#8220;&#8216;module&#8217; object has no attribute &#8216;disconnect&#8217;&#8221;,)<br />
+      message = &#8220;&#8216;module&#8217; object has no attribute &#8216;disconnect&#8217;&#8221; </p>
+<p>Thanks</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-8358">
+				<div id="div-comment-8358" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-8358">
+			February 16, 2009 at 7:59 pm</a>		</div>
+
+		<p>Simon, one of the error messages complain about not finding the method disconnect in the Django dispatcher.py file. The django.dispatch module was heavily refactored before the Django 1.0 release (<a href="http://code.djangoproject.com/browser/django/trunk/django/dispatch/dispatcher.py?rev=8223" rel="nofollow">http://code.djangoproject.com/browser/django/trunk/django/dispatch/dispatcher.py?rev=8223</a>), and the disconnect method is now deprecated. Could there be some kind of mismatch between your version of Django and the version that Google App Engine expects?</p>
+<p>I haven&#8217;t been following App Engine developments too closely, but I believe they still aren&#8217;t compatible with Django 1.0.</p>
+<p>You should also check that your local Django installation is working in the first place, maybe be going through the original Django tutorial.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-8521">
+				<div id="div-comment-8521" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/1d0525ae95bf4af239112a8f33695821?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://sankasaurus.blogspot.com/' rel='external nofollow' class='url'>Peter Sankauskas</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-8521">
+			February 18, 2009 at 10:50 pm</a>		</div>
+
+		<p>I have created a slightly different tutorial to this one in case anyone is having issues. It works with the newer App Engine (1.1.9) and Django (1.0.2).</p>
+<p>You can find the tutorial here:<br />
+<a href="http://sankasaurus.blogspot.com/2009/02/django-and-google-app-engine-tutorial.html" rel="nofollow">http://sankasaurus.blogspot.com/2009/02/django-and-google-app-engine-tutorial.html</a></p>
+<p>Comments and improvements are welcome!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-8524">
+				<div id="div-comment-8524" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-8524">
+			February 19, 2009 at 12:04 am</a>		</div>
+
+		<p>Thanks for the link, Peter &#8211; looks good!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-12977">
+				<div id="div-comment-12977" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/9635c7eb1fe599fa43b94e9e8b4d44f8?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Konrad</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-12977">
+			April 10, 2009 at 2:12 pm</a>		</div>
+
+		<p>Great tutorial, thanks.</p>
+<p>It helps understanding the basics preparing for the next step,</p>
+<p>using app engine helper<br />
+presented in your tutorial of 17 February 2009<br />
+<a href="http://blog.pas.net.au/2009/02/17/django-and-google-app-engine-tutorial/" rel="nofollow">http://blog.pas.net.au/2009/02/17/django-and-google-app-engine-tutorial/</a></p>
+<p>or even using a ready made project like appEnginePatch for deploying native Django on appEngine, see<br />
+<a href="http://code.google.com/p/app-engine-patch/wiki/Documentation" rel="nofollow">http://code.google.com/p/app-engine-patch/wiki/Documentation</a><br />
+or visit app engine patch discussion group<br />
+<a href="http://groups.google.com/group/app-engine-patch" rel="nofollow">http://groups.google.com/group/app-engine-patch</a></p>
+<p>Konrad</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-15024">
+				<div id="div-comment-15024" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/3f7df90e0579e9ee52841b8c866776f1?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">shradha</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-15024">
+			May 21, 2009 at 12:11 pm</a>		</div>
+
+		<p>hi,</p>
+<p>I executed the following command: appcfg.py update , to upload my application onto Google App Engine</p>
+<p>It is giving me the following error:</p>
+<p>Scanning files on local disk.<br />
+Initiating update.<br />
+2009-05-21 15:36:44,921 ERROR appcfg.py:1241 An unexpected error occurred. Abort<br />
+ing.<br />
+Traceback (most recent call last):<br />
+  File &#8220;E:\GoogleAppEngine\google\appengine\tools\appcfg.py&#8221;, line 1219, in DoUp<br />
+load<br />
+    missing_files = self.Begin()<br />
+  File &#8220;E:\GoogleAppEngine\google\appengine\tools\appcfg.py&#8221;, line 1014, in Begi<br />
+n<br />
+    version=self.version, payload=self.config.ToYAML())<br />
+  File &#8220;E:\GoogleAppEngine\google\appengine\tools\appengine_rpc.py&#8221;, line 344, i<br />
+n Send<br />
+    f = self.opener.open(req)<br />
+  File &#8220;E:\Python-2.5.4\lib\urllib2.py&#8221;, line 387, in open<br />
+    response = meth(req, response)<br />
+  File &#8220;E:\Python-2.5.4\lib\urllib2.py&#8221;, line 498, in http_response<br />
+    &#8216;http&#8217;, request, response, code, msg, hdrs)<br />
+  File &#8220;E:\Python-2.5.4\lib\urllib2.py&#8221;, line 425, in error<br />
+    return self._call_chain(*args)<br />
+  File &#8220;E:\Python-2.5.4\lib\urllib2.py&#8221;, line 360, in _call_chain<br />
+    result = func(*args)<br />
+  File &#8220;E:\Python-2.5.4\lib\urllib2.py&#8221;, line 506, in http_error_default<br />
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)<br />
+HTTPError: HTTP Error 403: Forbidden<br />
+Error 403: &#8212; begin server output &#8212;<br />
+You do not have permission to modify this app (app_id=u&#8217;mashname&#8217;).<br />
+&#8212; end server output &#8212;</p>
+<p>Can somebody please help me out</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-15697">
+				<div id="div-comment-15697" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/c3af87f6b1d4d247d01ce3b73d918fc7?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://nrw.free.fr' rel='external nofollow' class='url'>Nicolas Raoul</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-15697">
+			June 17, 2009 at 10:44 am</a>		</div>
+
+		<p>Shradha, check that the &#8220;application&#8221; parameter in app.yaml matches the application you are deploying.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-19688">
+				<div id="div-comment-19688" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/09513a3353d1e2d252102ff7abc6d986?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Vivek Sharma</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-19688">
+			October 7, 2009 at 9:05 am</a>		</div>
+
+		<p>Thank you so much for a fantastic writeup! I worked perfectly!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-23196">
+				<div id="div-comment-23196" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/a667c6e0f39938b5d5fe4ae29afea2fb?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Zach</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-23196">
+			December 31, 2009 at 8:09 am</a>		</div>
+
+		<p>Worked like a charm! <img src='http://thomas.broxrost.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Thanks mate.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-26489">
+				<div id="div-comment-26489" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/642ec3c7da8e7c1a90f075bbbc2b4c61?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://codes47.blogspot.com' rel='external nofollow' class='url'>ashish</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-26489">
+			April 6, 2010 at 8:24 pm</a>		</div>
+
+		<p>Thanks for your great post&#8230;Its very useful and simple to develop the Django app on Google app Engine.<br />
+I m using windows-XP (SP2).<br />
+I Installed Django-1.1,python2.6 and google appengine&#8230;<br />
+I make a simple App named as &#8220;vichintan&#8221;.<br />
+I Registered an app on my appengine account with the name of &#8220;vichintan&#8221;.<br />
+and the url is &#8220;vichintan.appspot.com&#8221;<br />
+I m  using Windows Google Appengine Launcher&#8230;<br />
+I Test this app successfully,when i was testing on the Launcher.</p>
+<p>i made this app with the help of your above post.<br />
+and the difference is,where you name the &#8220;mashname&#8221; i used &#8220;vichintan&#8221;<br />
+here is my app.yaml files code</p>
+<p>#########################<br />
+application: vichintan<br />
+version: 1<br />
+runtime: python<br />
+api_version: 1</p>
+<p>handlers:<br />
+- url: /.*<br />
+  script: main.py<br />
+########################</p>
+<p>When m going to Upload my  application(vichintan) to the Google App Engine&#8230;<br />
+Its shows me the following error..</p>
+<p>###########################################################################</p>
+<p>2010-04-05 21:19:41 Running command: &#8220;['C:\\Python26\\pythonw.exe', 'C:\\Program Files\\Google\\google_appengine\\appcfg.py', '--no_cookies', u'--email=codes47@gmail.com', '--passin', 'update', 'C:\\Program Files\\Google\\google_appengine\\vichintan']&#8221;<br />
+Password for <a href="mailto:codes47@gmail.com">codes47@gmail.com</a>: C:\Program Files\Google\google_appengine\appcfg.py:41: DeprecationWarning: the sha module is deprecated; use the hashlib module instead<br />
+  os.path.join(DIR_PATH, &#8216;lib&#8217;, &#8216;antlr3&#8242;),<br />
+C:\Program Files\Google\google_appengine\google\appengine\tools\dev_appserver_login.py:33: DeprecationWarning: the md5 module is deprecated; use hashlib instead<br />
+  import md5<br />
+Application: vichintan; version: 1.<br />
+Server: appengine.google.com.<br />
+Scanning files on local disk.<br />
+Initiating update.<br />
+Error 401: &#8212; begin server output &#8212;<br />
+Must authenticate first.<br />
+&#8212; end server output &#8212;<br />
+2010-04-05 21:20:05 (Process exited with code 1)</p>
+<p>You can close this window now.</p>
+<p>########################################################################</p>
+<p>Thanking you&#8230;</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-27471">
+				<div id="div-comment-27471" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://1.gravatar.com/avatar/51a41bd6f274d879d29cea65da370089?s=80&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.techlocation.com/' rel='external nofollow' class='url'>TechLocation</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-27471">
+			May 4, 2010 at 3:32 pm</a>		</div>
+
+		<p>Hi Thomas,<br />
+Nice to see this article.<br />
+Easy simeple steps.<br />
+however you need to update the zip files link.<br />
+it should be<br />
+<a href="http://thomas.broxrost.com/wp-content/uploads/2008/04/mashname.zip" rel="nofollow">http://thomas.broxrost.com/wp-content/uploads/2008/04/mashname.zip</a></p>
+<p>instead of </p>
+<p><a href="http://blog.broxrost.com/wp-content/uploads/2008/04/mashname.zip" rel="nofollow">http://blog.broxrost.com/wp-content/uploads/2008/04/mashname.zip</a></p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-27472">
+				<div id="div-comment-27472" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-27472">
+			May 4, 2010 at 3:56 pm</a>		</div>
+
+		<p>@TechLocation: Thanks for noticing! I have updated the link.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-28176">
+				<div id="div-comment-28176" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/24617651310fd4e77c246f8e96efb900?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://free-tutorials.org' rel='external nofollow' class='url'>Catalin</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-28176">
+			May 23, 2010 at 10:52 am</a>		</div>
+
+		<p>Hello .<br />
+I have a problem with settings of /google_appengine:<br />
+I unzip the /google_appengine on your folder example:<br />
+mashname]$ ls<br />
+app.yaml          index.yaml   main.py    mashname   settings.py   urls.py<br />
+google_appengine  __init__.py  manage.py  models.py  settings.pyc  views.py<br />
+But i don&#8217;t know how to make working with django.<br />
+Django working fine on my computer, but on /google_appengine<br />
+python test.py say :<br />
+ google_appengine]$ python test.py<br />
+Traceback (most recent call last):<br />
+  File &#8220;test.py&#8221;, line 1, in<br />
+    from google.appengine.ext import webapp<br />
+  File &#8220;/home/tutor/mashname/google_appengine/google/appengine/ext/webapp/__init__.py&#8221;, line 68, in<br />
+    import webob<br />
+ImportError: No module named webob<br />
+And<br />
+google_appengine]$ ./appcfg.py update mashname<br />
+Traceback (most recent call last):<br />
+  File &#8220;./appcfg.py&#8221;, line 68, in<br />
+    run_file(__file__, globals())<br />
+  File &#8220;./appcfg.py&#8221;, line 64, in run_file<br />
+    execfile(script_path, globals_)<br />
+  File &#8220;/home/tutor/mashname/google_appengine/google/appengine/tools/appcfg.py&#8221;, line 59, in<br />
+    from google.appengine.tools import appengine_rpc<br />
+  File &#8220;/home/tutor/mashname/google_appengine/google/appengine/tools/appengine_rpc.py&#8221;, line 32, in<br />
+    https_handler = urllib2.HTTPSHandler<br />
+AttributeError: &#8216;module&#8217; object has no attribute &#8216;HTTPSHandler&#8217;<br />
+What is wrong ? What is correct way to set appengine to working with django?<br />
+Thank you !</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-28840">
+				<div id="div-comment-28840" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/eff952b5d2ef0745423a40d04fd40cc7?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">sheldon</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-28840">
+			June 10, 2010 at 3:21 pm</a>		</div>
+
+		<p>thanks for the portuguese version!</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1" id="comment-28871">
+				<div id="div-comment-28871" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-28871">
+			June 11, 2010 at 11:24 am</a>		</div>
+
+		<p>@Catalin: I&#8217;m not sure what is happening, but from what I can see there are some missing dependencies. The webob module is missing and it looks like urllib2 doesn&#8217;t have SSL support. Have a look at this page: <a href="http://code.google.com/p/googleappengine/issues/detail?id=19" rel="nofollow">http://code.google.com/p/googleappengine/issues/detail?id=19</a></p>
+<p>I haven&#8217;t tested the code on the latest App Engine releases, so for all I know it might be using deprecated features.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-29263">
+				<div id="div-comment-29263" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/05c13dcdd7c7238e7b7ed76496285309?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://www.ib-krajewski.de' rel='external nofollow' class='url'>mrkkrj</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-29263">
+			June 24, 2010 at 9:38 am</a>		</div>
+
+		<p>Hi Thomas,</p>
+<p><a href="http://mashname.appspot.com/" rel="nofollow">http://mashname.appspot.com/</a> says: (Storing new visits temporarily disabled due to App Engine timeout errors). Isn&#8217;t it working anymore?</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1" id="comment-29430">
+				<div id="div-comment-29430" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/050a821f79bf94863d8a6626003ffe17?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn">Thomas Brox Røst</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-29430">
+			June 28, 2010 at 1:45 pm</a>		</div>
+
+		<p>@mrkkrj: I was getting some errors that I didn&#8217;t have time to figure out, so I disabled storing of new visits.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-29953">
+				<div id="div-comment-29953" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://0.gravatar.com/avatar/24aadf243279a70d6c1747a1281fb1ac?s=80&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=G' class='avatar avatar-80 photo' height='80' width='80' />		<cite class="fn"><a href='http://shemigon.blogspot.com' rel='external nofollow' class='url'>Boris</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-1/#comment-29953">
+			July 15, 2010 at 6:03 pm</a>		</div>
+
+		<p>Thank you! This article is that I needed to start successfully working with GAE.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+	</ol>
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+	
+	
+			<div id="respond">
+			<h2>Share Your Thoughts</h2>
+
+		<div class="cancel-comment-reply">
+			<small><a rel="nofollow" id="cancel-comment-reply-link" href="/2008/04/08/django-on-google-app-engine/#respond" style="display:none;">Click here to cancel reply.</a></small>
+		</div>
+
+			<form action="http://thomas.broxrost.com/wp-comments-post.php" method="post" id="commentform">
+
+			<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+		<label for="author"><small>Name *</small></label></p>
+		
+		<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+		<label for="email"><small>E-mail *</small></label></p>
+
+		<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+		<label for="url"><small>Website</small></label></p>
+
+		
+	<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+	<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+	<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+	<input type='hidden' name='comment_post_ID' value='8' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+	</p>
+
+	<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="35606f04cd" /></p>
+</form>
+
+</div>
+
+
+
+		</div>
+			
+	</div>
+
+<!-- begin sidebar -->
+
+<div id="sidebar">
+
+	<ul id="sidebarwidgeted">
+
+		<li id="recent-comments-3" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
+<ul id="recentcomments"><li class="recentcomments"><a href='http://adevnotebook.blogspot.com' rel='external nofollow' class='url'>Ananth</a> on <a href="http://thomas.broxrost.com/2008/04/20/django-on-google-app-engine-templates-and-static-files/comment-page-1/#comment-39678">Django on Google App Engine: Templates and static files</a></li><li class="recentcomments"><a href='http://www.ivankristianto.com/' rel='external nofollow' class='url'>Ivan Kristianto</a> on <a href="http://thomas.broxrost.com/2008/04/20/django-on-google-app-engine-templates-and-static-files/comment-page-1/#comment-37188">Django on Google App Engine: Templates and static files</a></li><li class="recentcomments"><a href='http://moxypark.wordpress.com/2011/01/31/to-the-cloud/' rel='external nofollow' class='url'>To the Cloud! &laquo; Moxy Thinks</a> on <a href="http://thomas.broxrost.com/2008/08/21/persistent-django-on-amazon-ec2-and-ebs-the-easy-way/comment-page-2/#comment-37088">Persistent Django on Amazon EC2 and EBS &#8211; The easy way</a></li><li class="recentcomments"><a href='http://wrongdoor.wordpress.com/2010/04/07/developing-django-app-on-google-app-engine-without-using-google-app-engine-django/' rel='external nofollow' class='url'>Developing Django app on Google App Engine without using google-app-engine-django | wrongdoor</a> on <a href="http://thomas.broxrost.com/2008/04/08/django-on-google-app-engine/comment-page-2/#comment-36015">Django on Google App Engine in 13 simple steps</a></li><li class="recentcomments"><a href='http://ryansholin.com/2008/10/06/hacking-comments-in-django-1-0/' rel='external nofollow' class='url'>Hacking comments in Django 1.0 | Invisible Inkling</a> on <a href="http://thomas.broxrost.com/2008/09/05/hacking-comments-in-django-10/comment-page-1/#comment-35828">Hacking comments in Django 1.0</a></li></ul></li>
+		<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>
+		<ul>
+				<li><a href="http://thomas.broxrost.com/2010/02/02/aws-cuts-data-transfer-rates-pricing-comparison-update/" title="AWS cuts data transfer rates: Pricing comparison update">AWS cuts data transfer rates: Pricing comparison update</a></li>
+				<li><a href="http://thomas.broxrost.com/2009/08/28/updated-awsgo-daddy-dedicated-server-cost-comparison/" title="Updated AWS/Go Daddy dedicated server cost comparison">Updated AWS/Go Daddy dedicated server cost comparison</a></li>
+				<li><a href="http://thomas.broxrost.com/2009/06/01/how-to-compile-simpleparse-210a1-for-python-26-on-windows-vista/" title="How to compile SimpleParse 2.1.0a1 for Python 2.6 on Windows Vista">How to compile SimpleParse 2.1.0a1 for Python 2.6 on Windows Vista</a></li>
+				<li><a href="http://thomas.broxrost.com/2009/05/27/on-the-sadness-of-nouns/" title="On the sadness of nouns">On the sadness of nouns</a></li>
+				<li><a href="http://thomas.broxrost.com/2009/04/06/when-endnote-x2-fails/" title="When EndNote X2 fails">When EndNote X2 fails</a></li>
+				</ul>
+		</li>
+<li id="twitter-1" class="widget widget_twitter"><h2 class="widgettitle"><a href="http://twitter.com/brox" class="twitter_title_link">Recent Tweets</a></h2>
+<ul class="twitter"><li class="twitter-item"> R and Data Mining <a href="http://ff.im/zZKGM" class="twitter-link">http://ff.im/zZKGM</a>  <span class="twitter-timestamp"><abbr title="2011/03/29 12:38:14">8 mins ago</abbr></span></li><li class="twitter-item"> Peer Evaluation <a href="http://ff.im/zrwBF" class="twitter-link">http://ff.im/zrwBF</a>  <span class="twitter-timestamp"><abbr title="2011/03/14 17:45:44">2011/03/14</abbr></span></li><li class="twitter-item"> Academic Productivity » altmetrics11: Tracking scholarly impact on the Social Web <a href="http://ff.im/z5Qp2" class="twitter-link">http://ff.im/z5Qp2</a>  <span class="twitter-timestamp"><abbr title="2011/02/28 23:36:28">2011/02/28</abbr></span></li><li class="twitter-item"> Veikko Hakulinen - Wikipedia, the free encyclopedia <a href="http://ff.im/z3opo" class="twitter-link">http://ff.im/z3opo</a>  <span class="twitter-timestamp"><abbr title="2011/02/28 13:47:52">2011/02/28</abbr></span></li><li class="twitter-item"> Lirekassespiller Ariston-Per i Trondhjem | Flickr - Photo Sharing! <a href="http://ff.im/yLjra" class="twitter-link">http://ff.im/yLjra</a>  <span class="twitter-timestamp"><abbr title="2011/02/24 18:10:58">2011/02/24</abbr></span></li></ul></li>
+<li id="linkcat-9" class="widget widget_links"><h2 class="widgettitle">Links</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://amundblog.blogspot.com/" rel="friend met" target="_blank">Amund Tveit&#8217;s blog</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-3" class="widget widget_links"><h2 class="widgettitle">Projects</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://eventseer.net" rel="me" title="The academic event tracker" target="_blank">Eventseer.net</a></li>
+
+	</ul>
+</li>
+
+<li id="archives-3" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+		<ul>
+			<li><a href='http://thomas.broxrost.com/2010/02/' title='February 2010'>February 2010</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2009/01/' title='January 2009'>January 2009</a></li>
+	<li><a href='http://thomas.broxrost.com/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://thomas.broxrost.com/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://thomas.broxrost.com/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://thomas.broxrost.com/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://thomas.broxrost.com/2008/04/' title='April 2008'>April 2008</a></li>
+		</ul>
+</li>
+<li id="categories-3" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>
+		<ul>
+	<li class="cat-item cat-item-11"><a href="http://thomas.broxrost.com/category/aws/" title="View all posts filed under AWS">AWS</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://thomas.broxrost.com/category/django/" title="View all posts filed under Django">Django</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://thomas.broxrost.com/category/ebs/" title="View all posts filed under EBS">EBS</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://thomas.broxrost.com/category/ec2/" title="View all posts filed under EC2">EC2</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://thomas.broxrost.com/category/endnote/" title="View all posts filed under EndNote">EndNote</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://thomas.broxrost.com/category/finance/" title="View all posts filed under Finance">Finance</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://thomas.broxrost.com/category/google-app-engine/" title="View all posts filed under Google App Engine">Google App Engine</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://thomas.broxrost.com/category/investment/" title="View all posts filed under Investment">Investment</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://thomas.broxrost.com/category/literature/" title="View all posts filed under Literature">Literature</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://thomas.broxrost.com/category/microsoft-word/" title="View all posts filed under Microsoft Word">Microsoft Word</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://thomas.broxrost.com/category/postgresql/" title="View all posts filed under PostgreSQL">PostgreSQL</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://thomas.broxrost.com/category/python/" title="View all posts filed under Python">Python</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://thomas.broxrost.com/category/pytst/" title="View all posts filed under pytst">pytst</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://thomas.broxrost.com/category/research/" title="View all posts filed under Research">Research</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://thomas.broxrost.com/category/science/" title="View all posts filed under Science">Science</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://thomas.broxrost.com/category/simpleparse/" title="View all posts filed under SimpleParse">SimpleParse</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://thomas.broxrost.com/category/writing/" title="View all posts filed under Writing">Writing</a>
+</li>
+		</ul>
+</li>
+<li id="flickr-sidebar" class="widget TanTanFlickrWidget_display"><div class="flickr-photos">
+<h2 class="widgettitle">Latest Flickr images</h2>
+<a href="/photography/photo/5099024377/death-of-the-desktop-app.html"><img src="http://farm2.static.flickr.com/1118/5099024377_ffffc9a09d_s.jpg" width="75" height="75" alt="Death of the desktop app" /></a>
+<a href="/photography/photo/5098590017/quality.html"><img src="http://farm2.static.flickr.com/1390/5098590017_c5667974c8_s.jpg" width="75" height="75" alt="Quality" /></a>
+<a href="/photography/photo/4790532701/the-people-next-door-are-moving.html"><img src="http://farm5.static.flickr.com/4078/4790532701_7ca8579da2_s.jpg" width="75" height="75" alt="The people next door are moving" /></a>
+<a href="/photography/photo/4740008198/bicycle-racers-heading-up-vestoppfarten.html"><img src="http://farm5.static.flickr.com/4079/4740008198_51e2cee5c2_s.jpg" width="75" height="75" alt="Bicycle racers heading up Vestoppfarten" /></a>
+<a href="/photography/photo/4241658187/s%c3%a9curit%c3%a9-civile.html"><img src="http://farm5.static.flickr.com/4020/4241658187_7c7ee35e94_s.jpg" width="75" height="75" alt="S&eacute;curit&eacute; Civile" /></a>
+<a href="/photography/photo/4216566451/photo-op.html"><img src="http://farm3.static.flickr.com/2590/4216566451_491ca31606_s.jpg" width="75" height="75" alt="Photo op" /></a>
+<a href="/photography/photo/4214732180/ignoring-the-notre-dame.html"><img src="http://farm5.static.flickr.com/4026/4214732180_0e1a36eb7b_s.jpg" width="75" height="75" alt="Ignoring the Notre Dame" /></a>
+<a href="/photography/photo/4213914697/angels-at-the-louvre.html"><img src="http://farm5.static.flickr.com/4015/4213914697_d1153110fb_s.jpg" width="75" height="75" alt="Angels at the Louvre" /></a>
+<a href="/photography/photo/4060806914/fog-clearing-up-over-nidelva.html"><img src="http://farm3.static.flickr.com/2432/4060806914_9b6b691491_s.jpg" width="75" height="75" alt="Fog clearing up over Nidelva" /></a>
+<a href="/photography/photo/4031602788/chilly-morning-on-trondheim-dockside.html"><img src="http://farm3.static.flickr.com/2438/4031602788_52d88608e2_s.jpg" width="75" height="75" alt="Chilly morning on Trondheim dockside" /></a>
+<a href="/photography/photo/4007633147/eiffel-tower-by-night.html"><img src="http://farm3.static.flickr.com/2642/4007633147_f12d545898_s.jpg" width="75" height="75" alt="Eiffel tower by night" /></a>
+<a href="/photography/photo/3981671478/wary-athenian-kitten.html"><img src="http://farm3.static.flickr.com/2444/3981671478_b353ce6053_s.jpg" width="75" height="75" alt="Wary Athenian kitten" /></a>
+
+<br /><a href="/photography/" class="more-photos">View more photos &gt;</a>
+</div>
+</li>
+<li id="delicious-1" class="widget widget_delicious"><h2 class="widgettitle"><a href="http://delicious.com/brox123" class="delicious_title_link">Latest from Delicious</a></h2>
+<ul class="delicious"><li class="delicious-item"><a href="http://jehiah.cz/a/data-hacks" class="delicious-link">Data Hacks | jehiah.cz</a><br /><span class="delicious-desc">&quot;Data Hacks is a new library we have developed at bit.ly which is a set of command line tools to assist in data analysis.<br />
+<br />
+We love the beauty of command line tools that read/write from stdin/stdout and these are a set of utilities that do that, and help explore large data sets.<br />
+<br />
+Included: a tool to calculate 95 percentile values, a histogram display, sample to a % of stdin, and a tool to pass stdin to stdout for a set time period.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://yahoo.github.com/boomerang/doc/" class="delicious-link">boomerang</a><br /><span class="delicious-desc">&quot;boomerang is a piece of javascript that you add to your web pages, where it measures the performance of your website from your end user&#039;s point of view. It has the ability to send this data back to your server for further analysis. With boomerang, you find out exactly how fast your users think your site is.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://informationarchitects.jp/100e2r/" class="delicious-link">The 100% Easy-2-Read Standard</a><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://allthingshadoop.com/2010/04/28/map-reduce-tips-tricks-your-first-real-cluster/" class="delicious-link">Tips, Tricks And Pointers When Setting Up Your First Hadoop Cluster To Run Map Reduce Jobs « All Things Hadoop</a><br /><span class="delicious-desc">Recommended Hadoop configuration settings with explanations.</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://playnice.ly/blog/2010/05/05/a-fast-fuzzy-full-text-index-using-redis/" class="delicious-link">A fast, fuzzy, full-text index using Redis</a><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://github.com/facebook/flashcache#readme" class="delicious-link">facebook's flashcache at master - GitHub</a><br /><span class="delicious-desc">&quot;FlashCache is a general purpose writeback block cache for Linux&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://code.google.com/p/pistachiomedia-simpledb-export/" class="delicious-link">pistachiomedia-simpledb-export - Project Hosting on Google Code</a><br /><span class="delicious-desc">&quot;sdbexp.py is a small command line utility that exports your SimpleDB data as a python dictionary.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://live.visitmix.com/MIX10/Sessions/EX01#" class="delicious-link">Cloud Computing Economies of Scale :: Sessions :: Microsoft MIX10</a><br /><span class="delicious-desc">&quot;High-scale cloud services provide economies of scale of five to ten times over small-scale deployments, and are becoming a large part of both enterprise information processing and consumer services. This talk details the costs, and cost advantages, of high-scale, cloud services.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://www.cyberciti.biz/tips/linux-unix-bsd-nginx-webserver-security.html" class="delicious-link">Top 20 Nginx WebServer Best Security Practices</a><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://github.com/facebook/scribe" class="delicious-link">facebook's scribe at master - GitHub</a><br /><span class="delicious-desc">&quot;Scribe is a server for aggregating log data streamed in real time from a large number of servers. It is designed to be scalable, extensible without client-side modification, and robust to failure of the network or any specific machine.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://pypi.python.org/pypi/blist?blist" class="delicious-link">Python Package Index : blist 1.0.2</a><br /><span class="delicious-desc">&quot;The BList is a type that looks, acts, and quacks like a Python list, but has better performance for for modifying large lists. For small lists (fewer than 128 elements), BLists and the built-in list have very similar performance.&quot;</span><br /><div class="delicious-tags"></div></li><li class="delicious-item"><a href="http://www.cyberciti.biz/tips/top-linux-monitoring-tools.html" class="delicious-link">20 Linux System Monitoring Tools Every SysAdmin Should Know</a><br /><span class="delicious-desc">&quot;Need to monitor Linux server performance? Try these built-in command and a few add-on tools. Most Linux distributions are equipped with tons of monitoring. These tools provide metrics which can be used to get information about system activities.&quot;</span><br /><div class="delicious-tags"></div></li></ul></li>
+
+	</ul>
+
+</div>
+
+<!-- end sidebar -->		
+</div><!-- End Main  -->
+
+<!-- begin footer -->
+
+
+<div style="clear:both;"></div>
+
+<div id="footer">
+	<p>Copyright &copy; 2011 Thomas Brox R&oslash;st &bull; <a href="http://frugaltheme.com/" >frugal Wordpress Theme</a> by <a href="http://erichamm.net" >Eric Hamm</a> &bull; Powered by <a href="http://www.wordpress.org/">WordPress</a></p>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461077-1");
+pageTracker._setAllowAnchor(true);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+		<!-- Start of Where Go JS -->
+		<script type='text/javascript' src='http://thomas.broxrost.com/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+		<script type="text/javascript">
+		//<![CDATA[
+			where_go_count = new sack("http://thomas.broxrost.com/index.php");    
+			where_go_count.setVar( "wherego_id", 8 );
+			where_go_count.setVar( "wherego_sitevar", document.referrer );
+			where_go_count.method = 'GET';
+			where_go_count.onError = function() { alert('Ajax error' )};
+			where_go_count.runAJAX();
+			where_go_count = null;
+		//]]>
+		</script>
+		<!-- Start of Where Go JS -->
+
+<!-- SyntaxHighlighter Stuff -->
+<script type="text/javascript" src="http://thomas.broxrost.com/wp-content/plugins/syntaxhighlighter-plus/syntaxhighlighter/src/shCore.js"></script>
+	<script type="text/javascript" src="http://thomas.broxrost.com/wp-content/plugins/syntaxhighlighter-plus/syntaxhighlighter/scripts/shBrushBash.js"></script>
+	<!-- Reassign aliases -->
+	<script type="text/javascript">
+				SyntaxHighlighter.brushes.Bash.aliases = ["bash", "sh", "shell"];
+	</script>
+	<script type="text/javascript" src="http://thomas.broxrost.com/wp-content/plugins/syntaxhighlighter-plus/syntaxhighlighter/scripts/shBrushPython.js"></script>
+	<!-- Reassign aliases -->
+	<script type="text/javascript">
+				SyntaxHighlighter.brushes.Python.aliases = ["py", "python"];
+	</script>
+<script type="text/javascript">
+	SyntaxHighlighter.all();
+</script>
+
+
+</div> <!-- Closes Wrap -->
+
+
+</body>
+
+</html>
