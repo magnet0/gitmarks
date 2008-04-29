@@ -36,3 +36,4 @@
 [summize.com](http://summize.com), 6543a52ddfba601a1fa4d6eacd7d6db8  
 [Instant Color Schemes ](http://www.gpeters.com/color/color-schemes.php), 351c0f11fbd966182f29e6c3ea188352  
 [Open Flash Chart - Home](http://teethgrinder.co.uk/open-flash-chart), b66f025f6aa7382ef4efd245660ad484  
+[The Daily Profeth: ER-Modeling with Google App Engine (updated)](http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html), df966882c4d4a756e41b27f41240d0fe  

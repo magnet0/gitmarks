@@ -1,0 +1,1815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='SwcgSFS/Ajielt+T2pMiWLTeLiRwEAA6rQ1C5gZ89tg=' name='verify-v1'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e!=undefined?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="The Daily Profeth - Atom" href="http://daily.profeth.de/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Profeth - RSS" href="http://daily.profeth.de/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="The Daily Profeth - Atom" href="http://www.blogger.com/feeds/596650637928113520/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=596650637928113520" />
+<link rel="alternate" type="application/atom+xml" title="The Daily Profeth - Atom" href="http://daily.profeth.de/feeds/5405819694095326879/comments/default" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>The Daily Profeth: ER-Modeling with Google App Engine (updated)</title>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/987282334-widget_css_bundle.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=596650637928113520&zx=c3b950a2-444b-4b5d-9f87-fa3c6bd2bd11"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders 2
+Date:     27 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="mainBgColor" description="Main Background Color"
+type="color" default="#fff">
+<Variable name="mainTextColor" description="Text Color" type="color"
+default="#000">
+<Variable name="postTitleColor" description="Post Title Color" type="color"
+default="#333">
+<Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#810">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb">
+<Variable name="mainLinkColor" description="Link Color" type="color"
+default="#b30">
+<Variable name="mainVisitedLinkColor" description="Visited Link Color"
+type="color" default="#c63">
+<Variable name="titleBgColor" description="Page Header Background Color"
+type="color" default="#710">
+<Variable name="titleTextColor" description="Blog Title Color"
+type="color" default="#fff">
+<Variable name="topSidebarHeaderColor"
+description="Top Sidebar Title Color"
+type="color" default="#fff">
+<Variable name="topSidebarBgColor"
+description="Top Sidebar Background Color"
+type="color" default="#999">
+<Variable name="topSidebarTextColor" description="Top Sidebar Text Color"
+type="color" default="#fff">
+<Variable name="topSidebarLinkColor" description="Top Sidebar Link Color"
+type="color" default="#fff">
+<Variable name="topSidebarVisitedLinkColor"
+description="Top Sidebar Visited Link Color"
+type="color" default="#ddd">
+<Variable name="bodyFont" description="Text Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="pageTitleFont" description="Blog Title Font" type="font"
+default="normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="descriptionFont" description="Blog Description Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="headerFont" description="Sidebar Title Font" type="font"
+default="normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="postTitleFont" description="Post Title Font" type="font"
+default="normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+background:#ccc;
+margin:0;
+text-align:center;
+line-height: 1.5em;
+font:x-small Trebuchet MS, Verdana, Arial, Sans-serif;
+color:#000000;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the
+following widths and measurements. If you want to change
+these measurements, the images will also need to change.
+*/
+#outer-wrapper {
+width:740px;
+margin:0 auto;
+text-align:left;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#main-wrap1 {
+width:485px;
+float:left;
+background:#ffffff url("http://www1.blogblog.com/rounders2/corners_main_bot.gif") no-repeat left bottom;
+margin:15px 0 0;
+padding:0 0 10px;
+color:#000000;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#main-wrap2 {
+float:left;
+width:100%;
+background:url("http://www1.blogblog.com/rounders2/corners_main_top.gif") no-repeat left top;
+padding:10px 0 0;
+}
+#main {
+background:url("http://www.blogblog.com/rounders2/rails_main.gif") repeat-y left;
+padding:0;
+width:485px;
+}
+#sidebar-wrap {
+width:240px;
+float:right;
+margin:15px 0 0;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+.main .widget {
+margin-top: 4px;
+width: 468px;
+padding: 0 13px;
+}
+.main .Blog {
+margin: 0;
+padding: 0;
+width: 484px;
+}
+/* Links
+----------------------------------------------- */
+a:link {
+color: #bb3300;
+}
+a:visited {
+color: #cc6633;
+}
+a:hover {
+color: #cc6633;
+}
+a img {
+border-width:0;
+}
+/* Blog Header
+----------------------------------------------- */
+#header-wrapper {
+background:#771100 url("http://www2.blogblog.com/rounders2/corners_cap_top.gif") no-repeat left top;
+margin-top:22px;
+margin-right:0;
+margin-bottom:0;
+margin-left:0;
+padding-top:8px;
+padding-right:0;
+padding-bottom:0;
+padding-left:0;
+color:#ffffff;
+}
+#header {
+background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif") no-repeat left bottom;
+padding:0 15px 8px;
+}
+#header h1 {
+margin:0;
+padding:10px 30px 5px;
+line-height:1.2em;
+font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#header a,
+#header a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+#header .description {
+margin:0;
+padding:5px 30px 10px;
+line-height:1.5em;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+margin-top:0;
+margin-right:28px;
+margin-bottom:0;
+margin-left:43px;
+font-size:85%;
+line-height:2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#881100;
+}
+.post {
+margin:.3em 0 25px;
+padding:0 13px;
+border:1px dotted #bbbbbb;
+border-width:1px 0;
+}
+.post h3 {
+margin:0;
+line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders2/icon_arrow.gif") no-repeat 10px .5em;
+display:block;
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+color: #333333;
+font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.post h3 a, .post h3 a:visited {
+text-decoration:none;
+color: #333333;
+}
+a.title-link:hover {
+background-color: #bbbbbb;
+color: #000000;
+}
+.post-body {
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+border-bottom-color:#ffffff;
+padding-top:10px;
+padding-right:14px;
+padding-bottom:1px;
+padding-left:29px;
+}
+html>body .post-body {
+border-bottom-width:0;
+}
+.post-body {
+margin:0 0 .75em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+background: #eee;
+margin:0;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border:1px dotted #bbbbbb;
+border-width:1px;
+font-size:100%;
+line-height:1.5em;
+color: #666;
+}
+/*
+The first line of the post footer might only have floated text, so we need to give it a height.
+The height comes from the post-footer line-height
+*/
+.post-footer-line-1 {
+min-height:1.5em;
+_height:1.5em;
+}
+.post-footer p {
+margin: 0;
+}
+html>body .post-footer {
+border-bottom-color:transparent;
+}
+.uncustomized-post-template .post-footer {
+text-align: right;
+}
+.uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp {
+display: block;
+float: left;
+text-align:left;
+margin-right: 4px;
+}
+.post-footer a {
+color: #bb3300;
+}
+.post-footer a:hover {
+color: #cc6633;
+}
+a.comment-link {
+/* IE5.0/Win doesn't apply padding to inline elements,
+so we hide these two declarations from it */
+background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+html>body a.comment-link {
+/* Respecified, for IE5/Mac's benefit */
+background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+.post img, table.tr-caption-container {
+margin-top:0;
+margin-right:0;
+margin-bottom:5px;
+margin-left:0;
+padding:4px;
+border:1px solid #bbbbbb;
+}
+.tr-caption-container img {
+border: none;
+margin: 0;
+padding: 0;
+}
+blockquote {
+margin:.75em 0;
+border:1px dotted #bbbbbb;
+border-width:1px 0;
+padding:5px 15px;
+color: #881100;
+}
+.post blockquote p {
+margin:.5em 0;
+}
+#blog-pager-newer-link {
+float: left;
+margin-left: 13px;
+}
+#blog-pager-older-link {
+float: right;
+margin-right: 13px;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+margin-left: 13px;
+}
+/* Comments
+----------------------------------------------- */
+#comments {
+margin:-25px 13px 0;
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+padding-top:20px;
+padding-right:0;
+padding-bottom:15px;
+padding-left:0;
+}
+#comments h4 {
+margin:0 0 10px;
+padding-top:0;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border-bottom:1px dotted #bbbbbb;
+font-size:120%;
+line-height:1.4em;
+color:#333333;
+}
+#comments-block {
+margin-top:0;
+margin-right:15px;
+margin-bottom:0;
+margin-left:9px;
+}
+.comment-author {
+background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif") no-repeat 2px .3em;
+margin:.5em 0;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+font-weight:bold;
+}
+.comment-body {
+margin:0 0 1.25em;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+}
+.comment-body p {
+margin:0 0 .5em;
+}
+.comment-footer {
+margin:0 0 .5em;
+padding-top:0;
+padding-right:0;
+padding-bottom:.75em;
+padding-left:20px;
+}
+.comment-footer a:link {
+color: #000000;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-form {
+padding-left:20px;
+padding-right:5px;
+}
+#comments .comment-form h4 {
+padding-left:0px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 4px solid #ffffff;
+}
+.profile-datablock {
+margin-top:0;
+margin-right:15px;
+margin-bottom:.5em;
+margin-left:0;
+padding-top:8px;
+}
+.profile-link {
+background:url("http://www.blogblog.com/rounders2/icon_profile_left.gif") no-repeat left .1em;
+padding-left:15px;
+font-weight:bold;
+}
+.profile-textblock {
+clear: both;
+margin: 0;
+}
+.sidebar .clear, .main .widget .clear {
+clear: both;
+}
+#sidebartop-wrap {
+background:#999999 url("http://www.blogblog.com/rounders2/corners_prof_bot.gif") no-repeat left bottom;
+margin:0px 0px 15px;
+padding:0px 0px 10px;
+color:#ffffff;
+}
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders2/corners_prof_top.gif") no-repeat left top;
+padding: 10px 0 0;
+margin:0;
+border-width:0;
+}
+#sidebartop h2 {
+line-height:1.5em;
+color:#ffffff;
+border-bottom: 1px dotted #ffffff;
+margin-bottom: 0.5em;
+font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#sidebartop a {
+color: #ffffff;
+}
+#sidebartop a:hover {
+color: #dddddd;
+}
+#sidebartop a:visited {
+color: #dddddd;
+}
+/* Sidebar Boxes
+----------------------------------------------- */
+.sidebar .widget {
+margin:.5em 13px 1.25em;
+padding:0 0px;
+}
+.widget-content {
+margin-top: 0.5em;
+}
+#sidebarbottom-wrap1 {
+background:#ffffff url("http://www.blogblog.com/rounders2/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px;
+padding:10px 0 0;
+color: #000000;
+}
+#sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders2/corners_side_bot.gif") no-repeat left bottom;
+padding:0 0 8px;
+}
+.sidebar h2 {
+margin:0;
+padding:0 0 .2em;
+line-height:1.5em;
+font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 1.25em;
+padding:0;
+}
+.sidebar ul li {
+background:url("http://www2.blogblog.com/rounders2/icon_arrow_sm.gif") no-repeat 2px .25em;
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:3px;
+padding-left:16px;
+margin-bottom:3px;
+border-bottom:1px dotted #bbbbbb;
+line-height:1.4em;
+}
+.sidebar p {
+margin:0 0 .6em;
+}
+#sidebar h2 {
+color: #333333;
+border-bottom: 1px dotted #333333;
+}
+/* Footer
+----------------------------------------------- */
+#footer-wrap1 {
+clear:both;
+margin:0 0 10px;
+padding:15px 0 0;
+}
+#footer-wrap2 {
+background:#771100 url("http://www2.blogblog.com/rounders2/corners_cap_top.gif") no-repeat left top;
+color:#ffffff;
+}
+#footer {
+background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif") no-repeat left bottom;
+padding:8px 15px;
+}
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#ffffff;}
+#footer .widget-content {
+margin:0;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #main-wrap1,
+body#layout #sidebar-wrap,
+body#layout #header-wrapper {
+margin-top: 0;
+}
+body#layout #header, body#layout #header-wrapper,
+body#layout #outer-wrapper {
+margin-left:0,
+margin-right: 0;
+padding: 0;
+}
+body#layout #outer-wrapper {
+width: 730px;
+}
+body#layout #footer-wrap1 {
+padding-top: 0;
+}
+
+--></style>
+<!-- <link href='http://syntaxhighlighter.googlecode.com/svn/trunk/Styles/SyntaxHighlighter.css' rel='stylesheet' type='text/css'/> <script language='javascript' src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shCore.js'/> <script language='javascript' src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shBrushJava.js'/> -->
+<link href='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css' rel='stylesheet' type='text/css'/>
+<script src='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js' type='text/javascript'></script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body onload='prettyPrint();'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+    function showRelatedContent(args) {
+      var el = document.getElementById('related-iframe');
+      if (el.parentNode.style.display != 'none') {
+        el.parentNode.style.display = 'none';
+        document.onclick = showRelatedContent.prevOnClick;
+        return;
+      }
+      
+      var match = /(?:^[?]|&)c=([0-9]+)(?:&|(?!.))/.exec(args);
+      if (match !== null) {
+        document.getElementById('related-loading').style.left = match[1] + 'px';
+        el.style.left = Math.max(0, match[1] - parseInt(el.width) / 2) + 'px';
+      }
+      el.src = "http://www.blogger.com"
+          + '/related-content.g?q='
+          + "http://daily.profeth.de/"
+          + '&id=' + "596650637928113520";
+      el.parentNode.style.display = 'block';
+      showRelatedContent.prevOnClick = document.onclick;
+
+      // Hide related-content dropdown when clicking anywhere but on it.
+      document.onclick = function() {
+        var el = document.getElementById('related-iframe');
+        if (el.parentNode.style.display != 'none') {
+          el.parentNode.style.display = 'none';
+        }
+        document.onclick = showRelatedContent.prevOnClick;
+      };
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=596650637928113520&amp;blogName=The+Daily+Profeth&amp;publishMode=PUBLISH_MODE_HOSTED&amp;navbarType=SILVER&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Fdaily.profeth.de%2Fsearch&amp;blogLocale=de_DE&amp;homepageUrl=http%3A%2F%2Fdaily.profeth.de%2F&amp;targetPostID=5405819694095326879" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+
+<div></div></div></div>
+<div id='outer-wrapper'>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://daily.profeth.de/' style='display: block'>
+<img alt='The Daily Profeth' height='66px; ' id='Header1_headerimg' src='http://1.bp.blogspot.com/_lBJLUOoqxdY/R58yihyRCnI/AAAAAAAAAHo/eEfpFbz-ClU/S758/thedailyprofeth.png' style='display: block' width='541px; '/>
+</a>
+</div>
+</div></div>
+</div>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrap1'><div id='main-wrap2'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Mittwoch, 16. April 2008</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5405819694095326879'></a>
+<h3 class='post-title entry-title'>
+ER-Modeling with Google App Engine (updated)
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5405819694095326879'>
+<p><span style="font-size:85%;">3rd updated version with <a href="http://groups.google.com/group/google-appengine/browse_frm/thread/aa26d529d66ac376">a lot of input</a> from the GAE group. Thanks to everyone!</span></p><p>ER-Modeling with Google App Engine is somewhat different to "normal" modeling for a relational database.</p><p>Here is a small tutorial on how to create well-known relationship models One-to-One (1:1), One-to-Many (1:n), Many-to-Many (m:n) and a special one (Cascading relations) with  GAE:</p> <p>We need the following Model classes for our example. Also if you want to run it, don't forget to import the sys module - we need it for printing to stdout:</p><pre><code><span style="color: rgb(51, 102, 255);">import </span>sys <span style="font-style: italic; color: rgb(153, 153, 153);">#import sys module for printing to stdout</span><br /><br /><span style="color: rgb(51, 102, 255);">class </span><span style="font-weight: bold;">Car</span>(db.Model):<br />   brand  =  db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br />   wheels =  db.ListProperty(db.Key)<br /><br /><span style="color: rgb(51, 51, 255);">class </span><span style="font-weight: bold;">Human</span>(db.Model):<br /></code><code>    </code><code>name    = db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br /></code><code>    </code><code></code><code>drives  = db.ReferenceProperty(reference_class=Car)<br /></code><code>    </code><code>spouse  = db.SelfReferenceProperty()<br /></code><code>    </code><code>owns    = db.ListProperty(db.Key)<br /><br /><span style="color: rgb(51, 51, 255);">class </span><span style="font-weight: bold;">Wheel</span>(db.Model):<br /></code><code>    </code><code>isBroken =  db.BooleanProperty(default=<span style="color: rgb(51, 102, 255);">False</span>)<br /></code><code>    </code><code></code><code>position =  db.StringProperty(choices=set([<span style="color: rgb(51, 204, 0);">"left_front"</span>,<br />                        </code><code>                      </code><code><span style="color: rgb(51, 204, 0);">"left_back"</span>,<br />                        </code><code>    </code><code><span style="color: rgb(51, 204, 0);">                  "right_front"</span>,<br />                        </code><code>     </code><code><span style="color: rgb(51, 204, 0);">                 "right_back"</span>]))</code></pre><p><span style="font-size:180%;">One-to-One (1:1)</span><br /></p><p>A simple relationship between two entities.</p><p>Let's say a human called Jack drives one car.<br />We can model this relationship as following:</p><pre><code><span style="font-style: italic; color: rgb(153, 153, 153);"># one-to-one</span><br />jack        = Human(name=<span style="color: rgb(51, 204, 0);">"Jack"</span>)<br />mercedes    = Car(brand=<span style="color: rgb(51, 204, 0);">"Mercedes"</span>)<br /><span style="color: rgb(255, 0, 0);">jack.drives = mercedes.put()</span><br />jack.put()<br /><span style="color: rgb(51, 102, 255);">print</span> >> sys.stdout, <span style="color: rgb(51, 204, 0);">"Jack drives a "</span>+jack.drives.brand<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># Jack drives a Mercedes</span><br /></pre><p>As you can see, we create a human called "Jack" and a car "Mercedes". After that we assign the car to the <span style="font-family:courier new;">drives</span>-property of Jack and save Jack.</p><p>Hint (Thanks to Miguel for pointing this out): be careful with 1:1 relationships done with <span style="font-family:courier new;">ReferenceProperty</span>-properties - you could easily write something like this:</p><p></p><pre><code>jack        = Human(name=<span style="color: rgb(51, 204, 0);">"Jack"</span>)<br />mike        = Human(name=<span style="color: rgb(51, 204, 0);">"Mike"</span>)<br />mercedes    = Car(brand=<span style="color: rgb(51, 204, 0);">"Mercedes"</span>)<br />mercedesid  = mercedes.put()<br /><br /><span style="color: rgb(255, 0, 0);">jack.drives = mercedesid</span><br />jack.put()<br /><br /><span style="color: rgb(255, 0, 0);">mike.drives = mercedesid</span><br />mike.put()</code></pre>which won't be a 1:1 relation any more. So if you really need to make sure that an entity is only referenced once, you need to do this by your code design (by searching within your existing model kinds and throwing exceptions).<br />Even using a cascading-relationship with a parent entity (see later in this article) does not make sure, that there is only one car per human and therefore includes the same difficulty just the other way round.<br /><br /><p></p><p><span style="font-size:130%;">Special: self references</span></p>Now a special sort of references are self-references. That means a Model references an entity of the same Model class (e.g. a Human references a Human):<pre><code><span style="font-style: italic; color: rgb(153, 153, 153);"># one-to-one self</span><br />bob     = Human(name=<span style="color: rgb(51, 204, 0);">"Bob"</span>)<br />jane    = Human(name=<span style="color: rgb(51, 204, 0);">"Jane"</span>)<br /><br /><span style="color: rgb(255, 0, 0);">bob.spouse = jane.put()</span><br />bob.put()<br />b_spouse = Human.get(bob.spouse.key())<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Bob's spouse is "</span>+b_spouse.name<br /><br /></code><span style="color: rgb(153, 153, 153); font-style: italic;"># Bob's spouse is Jane</span><br /></pre>We created two humans (Bob and Jane) and set Bob's <span style="font-family:courier new;">spouse</span>-property to reference Jane.<br />Now we can easily find out who Bob's spouse is.<br /><br /><p><span style="font-size:130%;">Special: mutual references</span></p>But if Bob is married to Jane, Jane is also married to Bob, isn't she?<br />So let's do this semantically correct:<br /><pre><code><span style="font-style: italic; color: rgb(153, 153, 153);"># one-to-one self mutual</span><br />bob     = Human(name=<span style="color: rgb(51, 204, 0);">"Bob"</span>)<br />jane    = Human(name=<span style="color: rgb(51, 204, 0);">"Jane"</span>)<br /><br /><span style="color: rgb(255, 0, 0);">bob.spouse  = jane.put()</span><br /><span style="color: rgb(255, 0, 0);">jane.spouse = bob.put()</span><br />jane.put()<br /><br /></code><code>j_spouse = Human.get(jane.spouse.key())</code><br /><code><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Jane's spouse is "</span>+j_spouse.name<br /></code><code>b_spouse = Human.get(bob.spouse.key())</code><br /><code><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Bob's spouse is "</span>+b_spouse.name<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># Jane's spouse is Bob</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># Bob's spouse is Jane</span><br /></pre><p>Be careful to check if reflexive references are semantically allowed or not &#8211; in our case it wouldn't be valid if bob's spouse is himself.<br /><br />Also in a monogamous society, it wouldn't be valid if Bob is the spouse of more than one other Human entity (!)<br />If you don't want this behavior, you need to prevent it by throwing exceptions. You could use the <span style="font-family:courier new;">validator</span>-parameter of every <span style="font-family:courier new;">Property </span>class.<br /><br /></p><p><span style="font-size:180%;">One-to-Many (1:n)</span></p><p>Sometimes we need to reference more than one entity from another.<br />When modeling 1:n relationships, a special of the Model class comes in handy: parent models (or ancestors).<br />Let's think of a car having four wheels. Those wheels belong exactly to one car, so we define the car as parent for every wheel we create:<span style="font-size:180%;"><br /></span></p><pre><code><span style="color: rgb(153, 153, 153); font-style: italic;"># one-to-many using parent</span><br />bmw = Car(brand=<span style="color: rgb(51, 204, 0);">"BMW"</span>)<br />bmw.put()<br /><br />lf = Wheel(<span style="color: rgb(255, 0, 0);">parent=bmw</span>,position=<span style="color: rgb(51, 204, 0);">"left_front"</span>)<br />lf.put()<br /><br />lb = Wheel(<span style="color: rgb(255, 0, 0);">parent=bmw</span>,position=<span style="color: rgb(51, 204, 0);">"left_back"</span>)<br />lb.put()<br /><br />rf = Wheel(<span style="color: rgb(255, 0, 0);">parent=bmw</span>,position=<span style="color: rgb(51, 204, 0);">"right_front"</span>)<br />rf.put()<br /><br /></code><code><span><span style="font-style: italic; color: rgb(153, 153, 153);"># uh, snap, the 4th wheel is broken!</span></span></code><br /><code>rb = Wheel(<span style="color: rgb(255, 0, 0);">parent=bmw</span>,position=<span style="color: rgb(51, 204, 0);">"right_back"</span>,isBroken=<span style="color: rgb(51, 102, 255);">True</span>)<br />rb.put()<br /><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># from car to wheels</span><br />bmwWheels = Wheel.all().ancestor(bmw)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"The BMW has the wheels: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>wheel <span style="color: rgb(51, 102, 255);">in </span>bmwWheels:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+wheel.position<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># The BMW has the wheels: </span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - left_front</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - right_back</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - right_front</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - left_back</span><br /><code><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># from wheel to car</span><br />brokenWheels = Wheel.gql(<span style="color: rgb(51, 204, 0);">"WHERE isBroken = :broken"</span>,<br />broken=True)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"The following cars are broken: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>wheel <span style="color: rgb(51, 102, 255);">in </span>brokenWheels:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+wheel.parent().brand<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># The following cars are broken:</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - BMW</span><br /></pre><p>We can see: it is easy to get the wheels for a car and it is also possible to get the car a certain wheel belongs to. Also an entity can only have one parent at a time - so we made sure, that a wheel is not used by more than one car at the same time. You could even add some spare wheels to a car (there is no way to define a maximum number an entity can be used as parent entity).<br /><br /></p><p><span style="font-size:130%;">The other way round</span></p><p>It is also possible to do this the other way round. Lets say we have an additional Model like this:</p><p></p><pre><code><span style="color: rgb(51, 102, 255);">class </span><span style="font-weight: bold;">OwnedCar</span>(db.Model):<br />   brand  =  db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br />   owner  =  db.ReferenceProperty(Human, required=<span style="color: rgb(51, 102, 255);">True</span>)</code></pre><p></p><p>then we could add cars to a person as following:</p><p></p><pre><code>paul = Human(name=<span style="color: rgb(51, 204, 0);">"Paul"</span>)<br />paul.put()<br /><br />pauls_bmw = OwnedCar(brand=<span style="color: rgb(51, 204, 0);">"BMW"</span>, <span style="color: rgb(255, 0, 0);">owner=paul</span>)<br />pauls_bmw.put()<br /><br />pauls_mercedes = OwnedCar(brand=<span style="color: rgb(51, 204, 0);">"Mercedes"</span>, <span style="color: rgb(255, 0, 0);">owner=paul</span>)<br />pauls_mercedes.put()<br /><br />pauls_cars = <span style="color: rgb(255, 0, 0);">paul.ownedcar_set</span><br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Paul's cars: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>car <span style="color: rgb(51, 102, 255);">in </span>pauls_cars:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+car.brand<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># Paul's cars:</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - BMW</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - Mercedes</span><br /></pre><p></p><p>This makes for example sure, that one car is only owned by one human at a time.</p><p>Also notice the part on how to get Paul's cars. You don't even need to create a GQL query - the <span style="font-family:courier new;">property </span><span style="font-style: italic;">modelname_set</span> holds the references. You can find <a href="http://code.google.com/appengine/docs/datastore/entitiesandmodels.html">more about this in the docs</a>.<br /></p><p>Thanks to Aprigio for his input!<br /><br /></p><p><span style="font-size:130%;">Special: One-to-Many using a list</span></p><p>You can also create 1:n relationships using a list:<span style="font-size:130%;"><br /></span></p><pre><code><span style="font-style: italic; color: rgb(153, 153, 153);"># one-to-many using list</span><br />dodge = Car(brand=<span style="color: rgb(51, 204, 0);">"Dodge"</span>)<br />w1 = Wheel(position=<span style="color: rgb(51, 204, 0);">"left_front"</span>)<br />w2 = Wheel(position=<span style="color: rgb(51, 204, 0);">"left_back"</span>)<br />w3 = Wheel(position=<span style="color: rgb(51, 204, 0);">"right_front"</span>)<br />w4 = Wheel(position=<span style="color: rgb(51, 204, 0);">"right_back"</span>)<br /><span style="color: rgb(255, 0, 0);">dodge.wheels = [w1.put(),w2.put(),w3.put(),w4.put()]</span><br />dodge.put()<br /><br />dodgeWheels = Wheel.get(dodge.wheels)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"The Dodge has the wheels: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>wheel <span style="color: rgb(51, 102, 255);">in </span>dodgeWheels:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"-"</span>+wheel.position<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># The Dodge has the wheels: </span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># -left_front</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># -left_back</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># -right_front</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># -right_back</span><br /></pre><p><span style="font-weight: bold; color: rgb(255, 0, 0);">but:</span> <span style="color: rgb(255, 0, 0);">be careful, this model does not make sure, a wheel does belong to exactly one car! You could reference a wheel from more than one car, which would be semantically wrong in our example. So rather use this model for n:m relationships!<br /></span>  <span style="font-size:180%;"><br /></span></p><p><span style="font-size:180%;">Many-to-Many (m:n)</span></p><p>For creating m:n relationships, use the following model:<span style="font-size:180%;"><br /></span></p><pre><code><span style="color: rgb(153, 153, 153); font-style: italic;"># many-to-many using list+db.Key</span><br />jack    = Human(name=<span style="color: rgb(51, 204, 0);">"Jack"</span>)<br />bob     = Human(name=<span style="color: rgb(51, 204, 0);">"Bob"</span>)<br /><br />vw      = Car(brand=<span style="color: rgb(51, 204, 0);">"VW"</span>)<br />chevy   = Car(brand=<span style="color: rgb(51, 204, 0);">"Chevy"</span>)<br /><br />carpool = [vw.put(),chevy.put()]<br /><br /><span style="color: rgb(255, 0, 0);">jack.owns = carpool</span><br />jack.put()<br /><br /><span style="color: rgb(255, 0, 0);">bob.owns = carpool</span><br />bob.put()<br /><br />chrysler = Car(brand=<span style="color: rgb(51, 204, 0);">"Chrysler"</span>)<br /><span style="color: rgb(255, 0, 0);">jack.owns.append(chrysler.put())</span><br />jack.put()<br /><br />jackOwns = Car.get(jack.owns)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Jack owns: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>car <span style="color: rgb(51, 102, 255);">in </span>jackOwns:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+car.brand<br /><br /></code><span style="color: rgb(153, 153, 153); font-style: italic;"># Jack owns: </span><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># - VW</span><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># - Chevy</span><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># - Chrysler</span><code><br /><br />whoOwnsTheChevy = Human.gql(<span style="color: rgb(51, 204, 0);">"WHERE owns = :car"</span>,car=chevy)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"These humans own the Chevy: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>who <span style="color: rgb(51, 102, 255);">in </span>whoOwnsTheChevy:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+who.name<br /><br /></code><span style="font-style: italic; color: rgb(153, 153, 153);"># These humans own the Chevy: </span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - Jack</span><br /><span style="font-style: italic; color: rgb(153, 153, 153);"># - Bob</span><br /></pre><p>First we create our two guys Jack and Bob. Then they decide on sharing cars. Their carpool consists of a VW and a Chevy. After that, Jack decides on buying an additional car for himself (the Chrysler).</p><p>When adding to a list like in this example, there is no check if the value already is present within the list - so it would be possible to reference the same entity multiple times. If you want to prevent this, you need to run a function on the list, which makes sure there are only unique entities:<br /></p><pre><code><span style="color: rgb(51, 102, 255);">def </span>unique(lst):<br /></code><code>    </code><code>d = {}<br /></code><code>    </code><code><span style="color: rgb(51, 102, 255);">for </span>item <span style="color: rgb(51, 102, 255);">in </span>lst:<br /></code><code>        </code><code>d[item] = 1<br /></code><code>    </code><code><span style="color: rgb(51, 102, 255);">return </span>d.keys()<br /><br />jeep = Car(brand=<span style="color: rgb(51, 204, 0);">"Jeep"</span>)<br /><span style="color: rgb(255, 0, 0);">jack.owns = unique(jack.owns + [jeep.put()])</span><br />jack.put()<br /></code></pre>You could also check to content of the list before adding an entity, if it is already referenced.<br /><br /><span style="font-size:130%;">Most flexible:  using mapping entities</span><br /><p>It might be a better idea to implement a different entity to represent the relationship<br />between a human and the cars they own.<br />The reason for this is that you could add more fields to this which may be beneficial later in a query. Lets say we add a bought field that contains the date the car was bough. Then one could get cars owned by Jack that he bought after a certain date.</p><pre><code><span style="color: rgb(51, 102, 255);">class </span><span style="font-weight: bold;">CarOwner</span>(db.Model):<br /> car    = db.Reference(Car, required=<span style="color: rgb(51, 102, 255);">True</span>)<br /> owner  = db.Reference(Human, required=<span style="color: rgb(51, 102, 255);">True</span>)<br /> bought = db.DateProperty(auto_now_add=<span style="color: rgb(51, 102, 255);">True</span>)<br /><br /><span style="color: rgb(153, 153, 153);">  @staticmethod</span><br /> <span style="color: rgb(51, 102, 255);">def </span>get_owner_cars(human, bought):<br /><span style="color: rgb(51, 204, 0);">        """Returns the cars that the given human</span><br /><span style="color: rgb(51, 204, 0);">           bought before a specified date"""</span><br />     <span style="color: rgb(51, 102, 255);">if not</span> human: <span style="color: rgb(51, 102, 255);">return </span>[]<br />     query = </code><code>db.Query(CarOwner)<br />     query.filter(</code><code><span style="color: rgb(51, 204, 0);">'owner ='</span>,human)<br />     query</code><code>.filter(<span style="color: rgb(51, 204, 0);">'bought >= '</span>,bought)</code><code>                            <br />     <span style="color: rgb(51, 102, 255);">return </span>[entry.car <span style="color: rgb(51, 102, 255);">for </span>entry <span style="color: rgb(51, 102, 255);">in </span>query]</code></pre><p>also we'd like to add a function to the Car-Model, so that it looks like this:</p><pre><code><span style="color: rgb(51, 102, 255);">class </span><span style="font-weight: bold;">Car</span>(db.Model):<br />   brand  = db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br />   wheels = db.ListProperty(db.Key)<br /><br />   <span style="color: rgb(51, 102, 255);">def </span>human_owns(<span style="font-style: italic;">self</span>, human):<br />       <span style="color: rgb(51, 204, 0);">"""Returns true if the given human owns this car."""</span><br />    <span style="color: rgb(51, 102, 255);">   if not</span> human: return <span style="color: rgb(51, 102, 255);">False</span><br />       query = db.Query(CarOwner)<br />       query.filter(<span style="color: rgb(51, 204, 0);">'car ='</span>, <span style="font-style: italic;">self</span>)<br />       query.filter(<span style="color: rgb(51, 204, 0);">'owner ='</span>, human)<br />    <span style="color: rgb(51, 102, 255);">   return </span>query.get()</code></pre>When we have the Models defined like that, we can go on using them:<pre><code>max = Human(name=<span style="color: rgb(51, 204, 0);">"Max"</span>)<br />max.put()<br />saab = Car(brand=<span style="color: rgb(51, 204, 0);">"Saab"</span>)<br />saab.put()<br /><br /><span style="color: rgb(255, 0, 0);">ownership = CarOwner(car=saab,owner=max)</span><br /><span style="color: rgb(255, 0, 0);">ownership.put()</span><br /><br /><span style="color: rgb(51, 102, 255);">import </span>datetime<br />delta = datetime.timedelta(days=-1)<br />yesterday = (datetime.datetime.utcnow() + delta)<br /><br />maxs_cars = CarOwner.get_owner_cars(max,yesterday)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Max's cars since yesterday: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>car <span style="color: rgb(51, 102, 255);">in </span>maxs_cars:<br />   <span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+car.brand<br /><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># Max's cars since yesterday:</span><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># - Saab</span><br /><br />max_owns_saab = <span style="color: rgb(0, 0, 0);">bool</span>(saab.human_owns(max))<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"Max owns the Saab: "</span>+str(max_owns_saab)<br /><br /><span style="color: rgb(153, 153, 153); font-style: italic;"># Max owns the Saab: True</span><br /></code></pre><p>As you can see, the additional property on the mapping entity comes in handy when selecting the cars Max bought since yesterday.<br />And also the method on the car-Model is pretty neat to bundle functionality related to a model within it.</p><p><span style="color: rgb(255, 0, 0);">Note: you can use this sort of referencing also use for 1:1 and 1:n relationships. You just need to make sure, that either one referenced entity (1:n) is unique, or both (the combination of those - for 1:1)</span><br /></p><p>Thanks to Brian, who brought this up!<br /></p><p><span style="font-size:180%;">Cascading relations</span></p>With the <span style="font-family:courier new;">parent</span>-property, cascading relationships are possible. This is very useful, if you have a folder-like structure (e.g. categories and products of an online shop). Let's have a look on how to do this:<pre><code><span style="color: rgb(51, 102, 255);">import </span>sys<br /><br /><span style="color: rgb(51, 102, 255);">class </span>Category(db.Model):<br /></code><code>    </code><code>name     = db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br /><br /><span style="color: rgb(51, 102, 255);">class </span>Product(db.Model):<br /></code><code>    </code><code>name       = db.StringProperty(required=<span style="color: rgb(51, 102, 255);">True</span>)<br /></code><code>    </code><code>price      = db.FloatProperty()<br />   categories = db.ListProperty(db.Key)<br /><br />root    = Category(name=<span style="color: rgb(51, 204, 0);">"Products"</span>)<br />root.put()<br />tech    = Category(<span style="color: rgb(255, 0, 0);">parent=root</span>,name=<span style="color: rgb(51, 204, 0);">"Tech stuff"</span>).put()<br />books   = Category(<span style="color: rgb(255, 0, 0);">parent=root</span>,name=<span style="color: rgb(51, 204, 0);">"Books"</span>)<br />books.put()<br />fantasy = Category(<span style="color: rgb(255, 0, 0);">parent=books</span>,name=<span style="color: rgb(51, 204, 0);">"Fantasy"</span>)<br />fantasy.put()<br />scifi   = Category(<span style="color: rgb(255, 0, 0);">parent=books</span>,name=<span style="color: rgb(51, 204, 0);">"Science Fiction"</span>)<br />scifi.put()<br />scomics = Category(<span style="color: rgb(255, 0, 0);">parent=scifi</span>,name=<span style="color: rgb(51, 204, 0);">"SciFi comics"</span>)<br />scomics.put()<br /><br />somebook = Product(<span style="color: rgb(255, 0, 0);"></span>name=<span style="color: rgb(51, 204, 0);">"Some book"</span>)<br />somebook.categories.append(books.key())<br />somebook.price = <span style="color: rgb(204, 0, 0);">9.99</span><br />somebook.put()<br /><br />lotr = Product(name=<span style="color: rgb(51, 204, 0);">"Lord Of The Rings"</span>)<br />lotr.categories.append(fantasy.key())<br />lotr.price = <span style="color: rgb(204, 0, 0);">29.99</span><br />lotr.put()<br /><br />allFantasyBooks = Product.gql(<span style="color: rgb(51, 204, 0);">"WHERE categories = :cat"</span>,<br />                  cat=fantasy)<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"All fantasy books: "</span><br /><span style="color: rgb(51, 102, 255);">for </span>book <span style="color: rgb(51, 102, 255);">in </span>allFantasyBooks:<br /><span style="color: rgb(51, 102, 255);">    print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">"- "</span>+book.name<br /><br /><br /><br />path = []<br />p = scomics<br /><span style="color: rgb(51, 102, 255);">while </span>p.parent():<br /></code><code>    </code><code>path.append(p.name)<br /></code><code>    </code><code>p = p.parent()<br /><br />path.reverse()<br /><span style="color: rgb(51, 102, 255);">print </span>>> sys.stdout, <span style="color: rgb(51, 204, 0);">" > "</span>.join(path)<br /></code><br /><span style="font-style: italic; color: rgb(153, 153, 153);"></span><span style="font-style: italic; color: rgb(153, 153, 153);"></span><span style="font-style: italic; color: rgb(153, 153, 153);"># Books > Science Fiction > SciFi comics</span><br /></pre><p>Now getting all books in a category is pretty easy, huh? And also generating a breadcrumb-like "where am I" is simple by iterating through all parent entities for a given entity (here it is the science fiction comics <span style="font-family:courier new;">Category</span>).</p><p style="color: rgb(255, 0, 0);"><span style="font-weight: bold;">Attention:</span> while the use of parent relationships if fine for the use case here, it would not be very efficient in the case where there are a lot of children associated with a parent.<br />This is because this results in a very large entity group.<br />The more entity groups your application has - that is, the more root entities there are - the more efficiently the datastore can distribute the entity groups across datastore nodes.<br />Thus for efficiency you should avoid the case where there are a lot of children.<br />According to the docs:</p><p style="color: rgb(255, 0, 0);"></p><blockquote style="font-style: italic;">"A good rule of thumb for entity groups is that they should be about the size of a<br />single user's worth of data or smaller."</blockquote> <p></p><p>Thanks to Ben, Michael and Brian for pointing this out.<br /></p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Eingestellt von
+<span class='fn'>Joscha Feth</span>
+</span>
+<span class='post-timestamp'>
+um
+<a class='timestamp-link' href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html' rel='bookmark' title='permanent link'><abbr class='published' title='2008-04-16T16:08:00+02:00'>16:08</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1929847326'>
+<a href='http://www.blogger.com/post-edit.g?blogID=596650637928113520&postID=5405819694095326879' title='Post bearbeiten'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=596650637928113520&postID=5405819694095326879&target=email' target='_blank' title='Diesen Post per E-Mail versenden'>
+<span class='share-button-link-text'>Diesen Post per E-Mail versenden</span>
+</a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=596650637928113520&postID=5405819694095326879&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'>
+<span class='share-button-link-text'>BlogThis!</span>
+</a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=596650637928113520&postID=5405819694095326879&target=twitter' target='_blank' title='In Twitter freigeben'>
+<span class='share-button-link-text'>In Twitter freigeben</span>
+</a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=596650637928113520&postID=5405819694095326879&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='In Facebook freigeben'>
+<span class='share-button-link-text'>In Facebook freigeben</span>
+</a><a class='goog-inline-block share-button sb-buzz' href='http://www.blogger.com/share-post.g?blogID=596650637928113520&postID=5405819694095326879&target=buzz' onclick='window.open(this.href, "_blank", "height=415,width=690"); return false;' target='_blank' title='Freigeben in Google Buzz'>
+<span class='share-button-link-text'>Freigeben in Google Buzz</span>
+</a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://daily.profeth.de/search/label/App%20Engine%20SDK' rel='tag'>App Engine SDK</a>,
+<a href='http://daily.profeth.de/search/label/AppEngine' rel='tag'>AppEngine</a>,
+<a href='http://daily.profeth.de/search/label/entity%20relationship%20model' rel='tag'>entity relationship model</a>,
+<a href='http://daily.profeth.de/search/label/ER-model' rel='tag'>ER-model</a>,
+<a href='http://daily.profeth.de/search/label/GAE' rel='tag'>GAE</a>,
+<a href='http://daily.profeth.de/search/label/Google' rel='tag'>Google</a>,
+<a href='http://daily.profeth.de/search/label/Python' rel='tag'>Python</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>
+18
+Kommentare:
+        
+</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c8215637844055672627'>
+<a name='c8215637844055672627'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://gurlz.com" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Venks">
+
+</a></span></div>
+<a href='http://gurlz.com' rel='nofollow'>Venks</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8215637844055672627'>
+<p>
+Das ist zehr gut. Veilen Danke.<BR/><BR/>Venkatesh
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1208276040000#c8215637844055672627' title='comment permalink'>
+15. April 2008 18:14
+</a>
+<span class='item-control blog-admin pid-133186981'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=8215637844055672627' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1109985531488333850'>
+<a name='c1109985531488333850'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.arikfr.com/blog/" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Arik">
+
+</a></span></div>
+<a href='http://www.arikfr.com/blog/' rel='nofollow'>Arik</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1109985531488333850'>
+<p>
+Very, very useful and helpful ! Thanks.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1208418780000#c1109985531488333850' title='comment permalink'>
+17. April 2008 09:53
+</a>
+<span class='item-control blog-admin pid-1535984498'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=1109985531488333850' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1426069187748125502'>
+<a name='c1426069187748125502'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://archi-checker.appspot.com" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="g-man">
+
+</a></span></div>
+<a href='http://archi-checker.appspot.com' rel='nofollow'>g-man</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1426069187748125502'>
+<p>
+I'm sure I speak for all when i say how helpful your writeup has been!<BR/><BR/>My question involves 'entity groups':<BR/><BR/>Shouldn't entity groups be applied in all cases where you have a reference property?<BR/><BR/>For instance, I have blog posts, and comments which have a reference property to the blog post. If I want to delete a post and all its comments, I want to run them as a transaction, and therefore I need the comments to have the blog post as its 'parent'.<BR/><BR/>So, should your analysis mention this for ALL reference property use cases?<BR/><BR/>Thanks again!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1215360420000#c1426069187748125502' title='comment permalink'>
+6. Juli 2008 18:07
+</a>
+<span class='item-control blog-admin pid-889357482'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=1426069187748125502' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c6623659932828990173'>
+<a name='c6623659932828990173'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/04180478904744217779" rel="nofollow" onclick="" class="avatar-hovercard" id="av-3-04180478904744217779"><img src="http://img1.blogblog.com/img/blank.gif" width="23" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_lBJLUOoqxdY/R-AQt5rWWII/AAAAAAAAAJY/aRqofwQ5m5s/S220/Joscha_2008_150x225.png" title="Joscha Feth">
+
+<noscript><img src="http://4.bp.blogspot.com/_lBJLUOoqxdY/R-AQt5rWWII/AAAAAAAAAJY/aRqofwQ5m5s/S220/Joscha_2008_150x225.png" width="23" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/04180478904744217779' rel='nofollow'>Joscha Feth</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6623659932828990173'>
+<p>
+@g-man:<BR/>actually in the case of blog posts and comments it might be a good idea to store all entities in one entity group if (and only if) as far as I understand you always fetch all comments with the blog post. If not, it might be better to store them in different groups...specifically if you expect a high number of comments.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1215367620000#c6623659932828990173' title='comment permalink'>
+6. Juli 2008 20:07
+</a>
+<span class='item-control blog-admin pid-1929847326'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=6623659932828990173' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8715081936287267414'>
+<a name='c8715081936287267414'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://archi-checker.appspot.com" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="G-man">
+
+</a></span></div>
+<a href='http://archi-checker.appspot.com' rel='nofollow'>G-man</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8715081936287267414'>
+<p>
+Yes, I should use the entity group idea, but my problem has been getting Django to do that from its form editing.<BR/><BR/>Because the GAE API requirement is:<BR/><BR/>comment=Comment(parent=item)<BR/><BR/>which must be assigned at the moment of instantiation, and the Django forms are immutable, it makes it tricky for me to figure out how to insert my parent information before the Model instance is saved.<BR/><BR/>I appreciated you previous Django writing, but this is a tricky problem...
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1215403620000#c8715081936287267414' title='comment permalink'>
+7. Juli 2008 06:07
+</a>
+<span class='item-control blog-admin pid-967705223'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=8715081936287267414' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2711442955185125570'>
+<a name='c2711442955185125570'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonym">
+
+</span></div>
+Anonym
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2711442955185125570'>
+<p>
+Quick question:<BR/><BR/>Is it true that in your example (quoted below) bob != j_spouse?<BR/><BR/>It seems this would be difficult to deal with if the model in question were mutable since every dereference will give you a different copy of the model. No?<BR/><BR/># one-to-one self mutual<BR/>bob     = Human(name="Bob")<BR/>jane    = Human(name="Jane")<BR/><BR/>bob.spouse  = jane.put()<BR/>jane.spouse = bob.put()<BR/>jane.put()<BR/><BR/>j_spouse = Human.get(jane.spouse.key())<BR/>print >> sys.stdout, "Jane's spouse is "+j_spouse.name<BR/>b_spouse = Human.get(bob.spouse.key())<BR/>print >> sys.stdout, "Bob's spouse is "+b_spouse.name
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1215879540000#c2711442955185125570' title='comment permalink'>
+12. Juli 2008 18:19
+</a>
+<span class='item-control blog-admin pid-1054182219'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=2711442955185125570' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1076089750484057526'>
+<a name='c1076089750484057526'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonym">
+
+</span></div>
+Anonym
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1076089750484057526'>
+<p>
+Hello, can you please help me:<BR/><BR/>Given only the books category, how do I get all the products that has category's parent of books category?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1218631380000#c1076089750484057526' title='comment permalink'>
+13. August 2008 14:43
+</a>
+<span class='item-control blog-admin pid-1012405409'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=1076089750484057526' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c4287907903286523978'>
+<a name='c4287907903286523978'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/04180478904744217779" rel="nofollow" onclick="" class="avatar-hovercard" id="av-7-04180478904744217779"><img src="http://img1.blogblog.com/img/blank.gif" width="23" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_lBJLUOoqxdY/R-AQt5rWWII/AAAAAAAAAJY/aRqofwQ5m5s/S220/Joscha_2008_150x225.png" title="Joscha Feth">
+
+<noscript><img src="http://4.bp.blogspot.com/_lBJLUOoqxdY/R-AQt5rWWII/AAAAAAAAAJY/aRqofwQ5m5s/S220/Joscha_2008_150x225.png" width="23" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/04180478904744217779' rel='nofollow'>Joscha Feth</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4287907903286523978'>
+<p>
+@Anonymous: you can use the parent relationship to the categories to walk up in the tree and fetch any categories' items you like.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1218639420000#c4287907903286523978' title='comment permalink'>
+13. August 2008 16:57
+</a>
+<span class='item-control blog-admin pid-1929847326'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=4287907903286523978' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1240706171675965497'>
+<a name='c1240706171675965497'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonym">
+
+</span></div>
+Anonym
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1240706171675965497'>
+<p>
+Hello Joscha, thanks for your reply, I assume you want me to do this:<BR/><BR/>child_categories = Category.all().ancestor(books)<BR/><BR/>the_books = []<BR/><BR/>for category in child_categories:     the_books.append(Product.all().filter("category =", category))<BR/><BR/>This method seems to work just fine, but then I can't do the fetch with limit and offset just for the books category (since I have to do the fetch(limit, offset) on Product that has parent of books category):<BR/><BR/>for category in child_categories:     the_books.append(Product.all().filter("category =", category).fetch(0, 10))<BR/><BR/>I hope I don't confuse you so far. Anyway, I was hoping if there's some way to fetch the products using :<BR/><BR/>the_books = Product.all().filter("category.parent =", books).fetch(0,10)<BR/><BR/>so the_books will contain only 10 books that has parent category of books. Thank you.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1218705900000#c1240706171675965497' title='comment permalink'>
+14. August 2008 11:25
+</a>
+<span class='item-control blog-admin pid-1260352946'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=1240706171675965497' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8685861919868342962'>
+<a name='c8685861919868342962'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Mostafa Siraj">
+
+</span></div>
+Mostafa Siraj
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8685861919868342962'>
+<p>
+vielen danke, a great port.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1222000020000#c8685861919868342962' title='comment permalink'>
+21. September 2008 14:27
+</a>
+<span class='item-control blog-admin pid-1339667617'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=8685861919868342962' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c506628710668273193'>
+<a name='c506628710668273193'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonym">
+
+</span></div>
+Anonym
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-506628710668273193'>
+<p>
+Very helpful man.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1228008120000#c506628710668273193' title='comment permalink'>
+30. November 2008 02:22
+</a>
+<span class='item-control blog-admin pid-1902934328'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=506628710668273193' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3565861649236826498'>
+<a name='c3565861649236826498'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://twitter.com/vladimircezar" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Vladimir Cezar">
+
+</a></span></div>
+<a href='http://twitter.com/vladimircezar' rel='nofollow'>Vladimir Cezar</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3565861649236826498'>
+<p>
+Awesome article. Thanks a lot.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1235410980000#c3565861649236826498' title='comment permalink'>
+23. Februar 2009 18:43
+</a>
+<span class='item-control blog-admin pid-1191085499'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=3565861649236826498' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4742664283496658512'>
+<a name='c4742664283496658512'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonym">
+
+</span></div>
+Anonym
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4742664283496658512'>
+<p>
+Thanks ' for this article.  I have problem. Actuaaly i ma working in Python language and want to know the searching creteria. Like in SQl we used "Like" operator but in GQL how we do this same Thing. So please help me..<br /><br />Thanks..
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1240568520000#c4742664283496658512' title='comment permalink'>
+24. April 2009 12:22
+</a>
+<span class='item-control blog-admin pid-1130218513'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=4742664283496658512' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c6037589418492434213'>
+<a name='c6037589418492434213'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/04180478904744217779" rel="nofollow" onclick="" class="avatar-hovercard" id="av-13-04180478904744217779"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_lBJLUOoqxdY/SZdQwU7cAoI/AAAAAAAAcPs/7hjzIiaXKik/S45/Joscha_2008_150x225.png" title="Joscha Feth">
+
+<noscript><img src="http://3.bp.blogspot.com/_lBJLUOoqxdY/SZdQwU7cAoI/AAAAAAAAcPs/7hjzIiaXKik/S45/Joscha_2008_150x225.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/04180478904744217779' rel='nofollow'>Joscha Feth</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6037589418492434213'>
+<p>
+Hi - LIKE queries are not possible with GAE, but what you can do to get some of this functionality is described here: http://code.google.com/appengine/docs/python/datastore/queriesandindexes.html#Introducing_Indexes<br />Also, there is an undocumented (and unsupported) way of doing fulltext searches on GAE, you can find more information here: http://appengineguy.com/2008/06/how-to-full-text-search-in-google-app.html
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1240569420000#c6037589418492434213' title='comment permalink'>
+24. April 2009 12:37
+</a>
+<span class='item-control blog-admin pid-1929847326'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=6037589418492434213' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6773616184447085448'>
+<a name='c6773616184447085448'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Chriag Pithadya">
+
+</span></div>
+Chriag Pithadya
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6773616184447085448'>
+<p>
+hey.. this was a really really nice article.. I was in need of such..<br /><br />thanks a lot.. :)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1259323204330#c6773616184447085448' title='comment permalink'>
+27. November 2009 13:00
+</a>
+<span class='item-control blog-admin pid-1400810000'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=6773616184447085448' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6532796337701031894'>
+<a name='c6532796337701031894'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06785840069104994126" rel="nofollow" onclick="" class="avatar-hovercard" id="av-15-06785840069104994126"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_XXIULPhrEdo/SeNNZEJh-XI/AAAAAAAAAAk/KPg5MihaRh8/S45/admin.jpeg" title="afewtips.com">
+
+<noscript><img src="http://3.bp.blogspot.com/_XXIULPhrEdo/SeNNZEJh-XI/AAAAAAAAAAk/KPg5MihaRh8/S45/admin.jpeg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06785840069104994126' rel='nofollow'>afewtips.com</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6532796337701031894'>
+<p>
+Best summary by far, and all in one spot. <br />Ich danke dir.<br />Thanks
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1261136183137#c6532796337701031894' title='comment permalink'>
+18. Dezember 2009 12:36
+</a>
+<span class='item-control blog-admin pid-1840779909'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=6532796337701031894' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3745211120800815603'>
+<a name='c3745211120800815603'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/12818468574018206917" rel="nofollow" onclick="" class="avatar-hovercard" id="av-16-12818468574018206917"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Aman">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/12818468574018206917' rel='nofollow'>Aman</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3745211120800815603'>
+<p>
+I really appreciate,nice.<br />I&#39;ve written about it on my following blog:-<br />http://bygsoft.wordpress.com/2010/01/09/cloudy-combo-google-app-engine-and-amazon-s3-combo-pack/
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1263380702927#c3745211120800815603' title='comment permalink'>
+13. Januar 2010 12:05
+</a>
+<span class='item-control blog-admin pid-1611547872'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=3745211120800815603' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c16171926662295913'>
+<a name='c16171926662295913'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/06090690491880824920" rel="nofollow" onclick="" class="avatar-hovercard" id="av-17-06090690491880824920"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Tom (arlingtonva)">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/06090690491880824920' rel='nofollow'>Tom (arlingtonva)</a>
+hat gesagt&#8230;
+</dt>
+<dd class='comment-body' id='Blog1_cmt-16171926662295913'>
+<p>
+2 years later this is still one of the best posts on the internet for this topic.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html?showComment=1274183269825#c16171926662295913' title='comment permalink'>
+18. Mai 2010 13:47
+</a>
+<span class='item-control blog-admin pid-1155278823'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=596650637928113520&postID=16171926662295913' title='Kommentar löschen'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<h4 id='comment-post-message'>Kommentar veröffentlichen</h4>
+<p>
+</p>
+<a href='http://www.blogger.com/comment-iframe.g?blogID=596650637928113520&postID=5405819694095326879' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/596650637928113520/posts/default/5405819694095326879";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/596650637928113520/5405819694095326879/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 5405819694095326879
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/596650637928113520/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/596650637928113520/comments/default";
+          
+          holder.currentBlogUrl = "http://daily.profeth.de/";
+          holder.currentBlogId = "596650637928113520";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<script type="text/javascript" src="http://www.blogger.com/static/v1/jsbin/3868580601-comment_from_post_iframe.js"></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '01070443328038884161');
+    </script>
+</div>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<div id="latency-5405819694095326879"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-5405819694095326879")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://daily.profeth.de/2008/04/using-custom-django-template-helpers.html' id='Blog1_blog-pager-newer-link' title='Neuerer Post'>Neuerer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://daily.profeth.de/2008/04/google-app-engine-eclipse-pydev.html' id='Blog1_blog-pager-older-link' title='Älterer Post'>Älterer Post</a>
+</span>
+<a class='home-link' href='http://daily.profeth.de/'>Startseite</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Abonnieren
+<a class='feed-link' href='http://daily.profeth.de/feeds/5405819694095326879/comments/default' target='_blank' type='application/atom+xml'>Kommentare zum Post (Atom)</a>
+</div>
+</div>
+</div></div>
+</div></div>
+<div id='sidebar-wrap'>
+<div id='sidebartop-wrap'><div id='sidebartop-wrap2'>
+<div class='sidebar section' id='sidebartop'><div class='widget Profile' id='Profile1'>
+<h2>Über mich</h2>
+<div class='widget-content'>
+<a href='http://www.blogger.com/profile/04180478904744217779'><img alt='Mein Foto' class='profile-img' height='80' src='http://bp3.blogger.com/_lBJLUOoqxdY/R-AQt5rWWII/AAAAAAAAAJY/aRqofwQ5m5s/S220/Joscha_2008_150x225.png' width='53'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link' href='http://www.blogger.com/profile/04180478904744217779' rel='author'>
+Joscha Feth
+</a>
+</dt>
+<dd class='profile-data'>Stuttgart, Baden-Württemberg, Germany</dd>
+</dl>
+<a class='profile-link' href='http://www.blogger.com/profile/04180478904744217779' rel='author'>Mein Profil vollständig anzeigen</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=596650637928113520&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebartop' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div></div>
+<div id='sidebarbottom-wrap1'><div id='sidebarbottom-wrap2'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' id='HTML1'>
+<h2 class='title'>FeedBurner FeedCount</h2>
+<div class='widget-content'>
+<p><a href="http://feeds.feedburner.com/TheDailyProfeth"><img width="88" style="border:0" alt="" src="http://feeds.feedburner.com/~fc/TheDailyProfeth?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26"/></a></p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=596650637928113520&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Label' id='Label1'>
+<h2>Labels</h2>
+<div class='widget-content cloud-label-widget-content'>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/adaptive%20navigation'>adaptive navigation</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Apache'>Apache</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/App%20Engine%20SDK'>App Engine SDK</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/AppEngine'>AppEngine</a>
+<span class='label-count' dir='ltr'>(5)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/apple'>apple</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/badge'>badge</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/captcha'>captcha</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Circuit%20Breaker%20Pattern'>Circuit Breaker Pattern</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/context%20awareness'>context awareness</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/CouchDB'>CouchDB</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/django'>django</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/eclipse'>eclipse</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/enterprisity'>enterprisity</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/entity%20relationship%20model'>entity relationship model</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/eps'>eps</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/eps2svg'>eps2svg</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/epstosvg'>epstosvg</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/ER-model'>ER-model</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Expeditor'>Expeditor</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/free'>free</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/gadget'>gadget</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/GAE'>GAE</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/ghostscript'>ghostscript</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/GMail'>GMail</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-5'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Google'>Google</a>
+<span class='label-count' dir='ltr'>(6)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Google%20Reader'>Google Reader</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/howto'>howto</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/inkscape'>inkscape</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/iphone'>iphone</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Java'>Java</a>
+<span class='label-count' dir='ltr'>(3)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Lotus'>Lotus</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/plotutils'>plotutils</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/pstoedit'>pstoedit</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/PyDev'>PyDev</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-4'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Python'>Python</a>
+<span class='label-count' dir='ltr'>(4)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/RCP'>RCP</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/sip'>sip</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/sipgate'>sipgate</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/situational%20applications'>situational applications</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-3'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/svg'>svg</a>
+<span class='label-count' dir='ltr'>(2)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/Symphony'>Symphony</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/usability'>usability</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/voip'>voip</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<span class='label-size label-size-1'>
+<a dir='ltr' href='http://daily.profeth.de/search/label/web%202.0'>web 2.0</a>
+<span class='label-count' dir='ltr'>(1)</span>
+</span>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=596650637928113520&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' id='Followers1'>
+<h2 class='title'>Readers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/596650637928113520/posts/default/5405819694095326879";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/596650637928113520/5405819694095326879/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 5405819694095326879
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/596650637928113520/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/596650637928113520/comments/default";
+          
+          holder.currentBlogUrl = "http://daily.profeth.de/";
+          holder.currentBlogId = "596650637928113520";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-a7ceiasa61we" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['TITLE'] = "Readers";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#000000";
+    skin['ENDCAP_LINK_COLOR'] = "#000000";
+    skin['ALTERNATE_BG_COLOR'] = "transparent";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#000000";
+    skin['CONTENT_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#FFFFFF";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_HEADLINE_COLOR'] = "#000000";
+    skin['FONT_FACE'] = "normal normal 100% \x27Trebuchet MS\x27,Verdana,Arial,Sans-serif";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-a7ceiasa61we",
+     height: 260,
+     
+     
+     
+     site: "01070443328038884161",
+      
+     locale: 'de_DE' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=596650637928113520&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog-Archiv</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/search?updated-min=2009-01-01T00%3A00%3A00%2B01%3A00&updated-max=2010-01-01T00%3A00%3A00%2B01%3A00&max-results=8'>2009</a>
+<span class='post-count' dir='ltr'>(8)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2009_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2009/12/apache-couchdb-external-process-using.html'>Apache CouchDB: External Process using Java and se...</a></li>
+<li><a href='http://daily.profeth.de/2009/12/apple-please-add-adaptive-navigation.html'>Apple, please add adaptive navigation and context-...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2009/11/lotus-expeditor-using-custom-launch.html'>Lotus Expeditor: Using custom launch items</a></li>
+<li><a href='http://daily.profeth.de/2009/11/google-reader-integration-for-gmail.html'>Google Reader integration for GMail</a></li>
+<li><a href='http://daily.profeth.de/2009/11/enterprisity.html'>The Enterprisity</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2009_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2009/10/possible-iphone-slide-to-unlock.html'>Possible iPhone slide to unlock usability enhancem...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2009/07/free-voip-calls-with-sipgate-on-iphone.html'>Free VoIP calls with sipgate on iPhone using XSPho...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2009/04/circuit-breaker-pattern-on-google-app.html'>Circuit Breaker Pattern on Google App Engine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/search?updated-min=2008-01-01T00%3A00%3A00%2B01%3A00&updated-max=2009-01-01T00%3A00%3A00%2B01%3A00&max-results=6'>2008</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2008_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(5)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2008/04/using-recaptcha-with-google-app-engine.html'>Using reCAPTCHA with Google App Engine</a></li>
+<li><a href='http://daily.profeth.de/2008/04/using-custom-django-template-helpers.html'>Using custom django template helpers with Google A...</a></li>
+<li><a href='http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html'>ER-Modeling with Google App Engine (updated)</a></li>
+<li><a href='http://daily.profeth.de/2008/04/google-app-engine-eclipse-pydev.html'>Google App Engine &amp; eclipse (PyDev)</a></li>
+<li><a href='http://daily.profeth.de/2008/04/web-20-svg-badge.html'>web 2.0 SVG badge</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://daily.profeth.de/2008_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://daily.profeth.de/2008/03/eps-zu-svg-konvertieren-eps2svg.html'>EPS zu SVG konvertieren (EPS2SVG)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=596650637928113520&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div></div>
+</div>
+<div id='footer-wrap1'><div id='footer-wrap2'>
+<div class='footer section' id='footer'></div>
+</div></div>
+</div>
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+var pageTracker = _gat._getTracker("UA-4287490-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- <script language='javascript'> dp.SyntaxHighlighter.BloggerMode(); dp.SyntaxHighlighter.HighlightAll('code'); </script> -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/1127379606-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '596650637928113520';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=596650637928113520','http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html','596650637928113520');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=596650637928113520','APq4FmAaFb5C5c3jxlTfYyrY8FuPw9Lg13sb74smvo4_Dbi4M98o5-XxB4AINyWUBtXOvIUZi1rW-BzG_tPylVUDR2Zwr0f97a4FUR-j4GYtrZgV1UxeU7Q=','AOuZoY5CGMqhe6UNWcAcM3abjUSv4_xrkA:1301320770095');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'The Daily Profeth', 'pageType': 'item', 'url': 'http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html', 'canonicalUrl': 'http://daily.profeth.de/2008/04/er-modeling-with-google-app-engine.html', 'homepageUrl': 'http://daily.profeth.de/', 'faviconUrl': 'http://www.blogger.com/favicon.ico', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'ER-Modeling with Google App Engine (updated)', 'pageTitle': 'The Daily Profeth: ER-Modeling with Google App Engine (updated)', 'encoding': 'UTF-8', 'locale': 'de-DE', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42The Daily Profeth - Atom\42 href\75\42http://daily.profeth.de/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42The Daily Profeth - RSS\42 href\75\42http://daily.profeth.de/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42The Daily Profeth - Atom\42 href\75\42http://www.blogger.com/feeds/596650637928113520/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\075596650637928113520\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42The Daily Profeth - Atom\42 href\75\42http://daily.profeth.de/feeds/5405819694095326879/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e!\75undefined?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': ''}}]);
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebartop', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'), {'title': 'Readers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n        if (!window.google || !google.friendconnect) {\n          document.write(\47\74script type\75\42text/javascript\42\47 +\n              \47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47 +\n              \47\74/scr\47 + \47ipt\76\47);\n        }\n      \74/script\76\n\74script type\75\42text/javascript\42\76\n      if (!window.registeredBloggerCallbacks) {\n        window.registeredBloggerCallbacks \75 true;\n\n        \n\n        \n        gadgets.rpc.register(\47requestReload\47, function() {\n          document.location.reload();\n        });\n\n        \n        gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n          \n          google.friendconnect.container.openSocialSiteId \75 siteId;\n          google.friendconnect.requestSignOut();\n        });\n      }\n    \74/script\76\n\74script type\75\42text/javascript\42\76\n    \n    function registerGetBlogUrls() {\n      gadgets.rpc.register(\47getBlogUrls\47, function() {\n        var holder \75 {};\n        \n          \n            \n            \n              holder.currentPost \75 \42http://www.blogger.com/feeds/596650637928113520/posts/default/5405819694095326879\42;\n            \n            \n            \n              holder.currentComments \75 \42http://www.blogger.com/feeds/596650637928113520/5405819694095326879/comments/default\42;\n            \n            holder.currentPostUrl \75 \42\42;\n            holder.currentPostId \75 5405819694095326879\n          \n          \n          \n            holder.postFeed \75 \42http://www.blogger.com/feeds/596650637928113520/posts/default\42;\n          \n          \n          \n            holder.commentFeed \75 \42http://www.blogger.com/feeds/596650637928113520/comments/default\42;\n          \n          holder.currentBlogUrl \75 \42http://daily.profeth.de/\42;\n          holder.currentBlogId \75 \042596650637928113520\42;\n        \n        return holder;\n      });\n    }\n  \74/script\76\n\74script type\75\42text/javascript\42\76\n  if (!window.registeredCommonBloggerCallbacks) {\n    window.registeredCommonBloggerCallbacks \75 true;\n\n    gadgets.rpc.register(\47resize_iframe\47, function(height) {\n      var el \75 document.getElementById(this[\47f\47]);\n      if (el) {\n        el.style.height \75 height + \47px\47;\n      }\n    });\n\n    \n    gadgets.rpc.register(\47set_pref\47, function() {});\n\n    registerGetBlogUrls();\n  }\n  \74/script\76\n\74div id\75\42div-131k79udvyg8y\42 style\75\42width: 100%; \42\76\74/div\76\n\74script type\75\42text/javascript\42\76\n    var skin \75 {};\n    skin[\47FACE_SIZE\47] \75 \04732\47;\n    skin[\47HEIGHT\47] \75 \042260\42;\n    skin[\47TITLE\47] \75 \42Readers\42;\n    skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n    skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n    skin[\47ENDCAP_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47ENDCAP_LINK_COLOR\47] \75 \42#000000\42;\n    skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n    \n    skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n    skin[\47CONTENT_LINK_COLOR\47] \75 \42#000000\42;\n    skin[\47CONTENT_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#FFFFFF\42;\n    skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n    skin[\47FONT_FACE\47] \75 \42normal normal 100% \\x27Trebuchet MS\\x27,Verdana,Arial,Sans-serif\42;\n    google.friendconnect.container.setParentUrl(\42/\42);\n    google.friendconnect.container[\42renderMembersGadget\42](\n    {id: \42div-131k79udvyg8y\42,\n     height: 260,\n     \n     \n     \n     site: \04201070443328038884161\42,\n      \n     locale: \47de_DE\47 },\n     skin);\n  \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'mobile': false, 'lightboxEnabled': false}, 'displayModeFull'));
+</script>
+</body>
+</html>
