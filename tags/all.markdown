@@ -34,3 +34,4 @@
 [ΤΟ ΒΗΜΑ - 404](http://tovima.dolnet.gr/print_article.php?e=B&f=12467&m=A15&aa=2), 5f3b62b9ea5901bfc5ffebf8d6757012  
 [[No Title]](http://www.url2jpg.co.uk), 6e51d171d6a0f0464685cc75e22da909  
 [summize.com](http://summize.com), 6543a52ddfba601a1fa4d6eacd7d6db8  
+[Instant Color Schemes ](http://www.gpeters.com/color/color-schemes.php), 351c0f11fbd966182f29e6c3ea188352  
