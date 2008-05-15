@@ -33,3 +33,4 @@
 [Project 10 to the 100](http://www.project10tothe100.com/index.html), 19ca19a98b1060f185a05edf781df114  
 [ΤΟ ΒΗΜΑ - 404](http://tovima.dolnet.gr/print_article.php?e=B&f=12467&m=A15&aa=2), 5f3b62b9ea5901bfc5ffebf8d6757012  
 [[No Title]](http://www.url2jpg.co.uk), 6e51d171d6a0f0464685cc75e22da909  
+[summize.com](http://summize.com), 6543a52ddfba601a1fa4d6eacd7d6db8  
