@@ -31,3 +31,4 @@
 [[No Title]](http://metablogging.gr), b9a8432db540446617e6f00a4092954b  
 [AniliPod](http://anilipod.blogspot.com), dcca7a0af1c0419429a0cf9fa23a292f  
 [Project 10 to the 100](http://www.project10tothe100.com/index.html), 19ca19a98b1060f185a05edf781df114  
+[ΤΟ ΒΗΜΑ - 404](http://tovima.dolnet.gr/print_article.php?e=B&f=12467&m=A15&aa=2), 5f3b62b9ea5901bfc5ffebf8d6757012  
