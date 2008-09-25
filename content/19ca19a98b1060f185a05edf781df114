@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Project 10 to the 100th is a call for ideas to change the world by helping as many people as possible." />
+<title>Project 10 to the 100</title>
+<link href="http://www.google.com/css/goog.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<link href="http://www.google.com/css/gooey.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<link href="http://www.google.com/project10tothe100/css/helps.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<script>
+if (window.location.host == 'g10to100.appspot.com') {
+  document.write('<' + 'script src="http://www.google.com/jsapi?key=ABQIAAAA1afXxk89iJm7-pTew0XzjRQ31D1CKi2rXSoD_p1HQmc0LofJyRSXUFTuOddUg2dzoX330vNwqKy2ag" type="text/javascript">'+
+  '<'+'/script>');
+} 
+else if (window.location.host == 'g10helps.appspot.com') {
+  document.write('<' + 'script src="http://www.google.com/jsapi?key=ABQIAAAA1afXxk89iJm7-pTew0XzjRR5oL64uREal6F0lILmusxS2uWG7hTK-VMmOvRwA2AAka5A-c_ssGbh6w" type="text/javascript">'+
+  '<'+'/script>');
+}
+else if (window.location.host == 'www.project10tothe100.com') {
+  document.write('<' + 'script src="http://www.google.com/jsapi?key=ABQIAAAA1afXxk89iJm7-pTew0XzjRQ8qPSVGcYsjVYtbhMUSqV2rZO5EBSzkGMt9bHTPHeqVkjy5mYtL8BxZg" type="text/javascript">'+
+  '<'+'/script>');
+}
+else if (window.location.host == 'project10tothe100.com') {
+  document.write('<' + 'script src="http://www.google.com/jsapi?key=ABQIAAAA1afXxk89iJm7-pTew0XzjRRp1EQKFRj-P4JVOUtm3hg1FMKs4RQBXE3tGWp2rah7yRVLg19PRJvfQw" type="text/javascript">'+
+  '<'+'/script>');
+}
+// Use any API key for localhost
+else if (window.location.host == 'localhost:8080') {
+  document.write('<' + 'script src="http://www.google.com/jsapi?key=ABQIAAAA1afXxk89iJm7-pTew0XzjRR5oL64uREal6F0lILmusxS2uWG7hTK-VMmOvRwA2AAka5A-c_ssGbh6w" type="text/javascript">'+
+  '<'+'/script>');
+}
+</script>
+<script type="text/javascript" src="http://www.google.com/project10tothe100/js/routing.js"></script>
+</head>
+<body class="refresh">
+  <div class="g-doc-1024">
+    <div class="g-section g-tpl-180 header">
+      <div class="g-unit g-first"> <a href="http://www.google.com"><img id="logo" src="http://www.google.com/images/logo_sm.gif" alt="Google" height="55" width="150"/></a> </div>
+      <div class="g-unit title">
+        <div>
+          <div id="lang-select">
+            <select name="Language" id="Language" onchange="helps_routing.route(this.options[this.selectedIndex].value);">
+              <option value="EN" selected="selected">English (US)</option>
+              <option value="EN_GB">English (GB)</option>
+              <option value="DE">Deutsch</option>
+              <option value="FR">Français</option>
+              <option value="PT_BR">Português (Brasil)‎</option>
+              <option value="TR">Türkçe</option>
+              <option value="CN">中文（简体）‎</option>
+              <option value="B5">中文（繁體）‎</option>
+              <option value="CN_HK">中文（香港）‎</option>
+              <option value="ES">Español (España)</option>
+              <option value="JA">日本語</option>
+              <option value="IT">Italiano</option>
+              <option value="PL">Polski</option>
+              <option value="NL">Nederlands</option>
+              <option value="KO">한국어</option>
+              <option value="RU">Русский</option>
+              <option value="TH">ภาษาไทย</option>
+            </select>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="g-section g-tpl-180">
+      <div class="g-unit g-first">
+        <ul class="nav">
+          <li><strong>Project 10<sup>100</sup></strong></li>
+          <li><a href="ideas.html">Ideas</a></li>
+          <li><a href="why.html">Why this project?</a></li>
+          <li><a href="how_it_works.html">How it works</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="g-unit">
+        <div class="g-section main winners">
+          <h2 class="large">Project 10<sup>100</sup> Winners</h2>
+          <div class="mov">
+            <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/58mNnPeeTGs&amp;hl=en&amp;fs=1%26rel=0" height="217" width="340">
+              <param name="src" value="http://www.youtube.com/v/58mNnPeeTGs&amp;hl=en&amp;fs=1%26rel=0" />
+              <param name="wmode" value="transparent" />
+            </object>
+          </div>
+          <div class="intro short">
+            <p>We are pleased to announce the winners of Google’s Project 10<sup>100</sup>.</p>
+            <p>Thousands of people from more than 170 countries submitted over 150,000 ideas.
+               From that group, we narrowed it to the <a href="ideas.html">final 16 ideas</a> for public vote.</p>
+            <p>The following five ideas received the most votes and are the winners of Project 10<sup>100</sup>.
+               Over the past 12 months, we have reviewed concrete proposals to tackle these ideas. We are pleased to give a total of $10 million to five inspiring organizations 
+               working on solutions to each of these global challenges:</p>
+          </div>
+          <div class="proj">
+            <img src="http://www.google.com/project10tothe100/images/idea_icon02_sm.gif" width="80" alt="Make educational content available online for free" />
+            <h3><strong>Idea:</strong> Make educational content available online for free</h3>
+            <p><strong>Project funded:</strong> The <a href="http://khanacademy.org">Khan Academy</a> is a non-profit educational organization that provides high-quality, free education to anyone, anywhere 
+               via an online library of more than 1,600 teaching videos.  We are providing $2 million to support the creation of more courses and to enable the 
+               Khan Academy to translate their core library into the world’s most widely spoken languages.</p>
+          </div>
+          
+          <div class="proj">
+            <img src="http://www.google.com/project10tothe100/images/idea_icon09_sm.gif" width="80" alt="Enhance science and engineering education"/>
+            <h3><strong>Idea:</strong> Enhance science and engineering education</h3>
+            <p><strong>Project funded:</strong> <a href="http://www.usfirst.org/">FIRST</a> is a non-profit organization that promotes science and math education around the world through team competition. 
+               Its mission is to inspire young people to be science and technology leaders by giving them real world experience working with professional engineers and 
+               scientists.  We are providing $3 million to develop and jump start new student-driven robotics team fundraising programs that will empower more student teams to participate in FIRST.</p>
+          </div>
+          
+          <div class="proj">
+            <img src="http://www.google.com/project10tothe100/images/idea_icon01_sm.gif" width="80" alt="Make government more transparent"/>
+            <h3><strong>Idea:</strong> Make government more transparent</h3>
+            <p><strong>Project funded:</strong> <a href="http://public.resource.org">Public.Resource.Org</a> is a non-profit organization focused on enabling online access to public government documents in the United States.
+               We are providing $2 million to Public.Resource.Org to support the Law.Gov initiative, which aims to make all primary legal materials in the United States available to all.</p>
+          </div>
+          
+          <div class="proj">
+            <img src="http://www.google.com/project10tothe100/images/idea_icon05_sm.gif" width="80" alt="Drive innovation in public transport"/>
+            <h3><strong>Idea:</strong> Drive innovation in public transport</h3>
+            <p><strong>Project funded:</strong> <a href="http://shweeb.com">Shweeb</a> is a concept for short to medium distance, urban personal transport, using human-powered vehicles on a monorail.  We are 
+               providing $1 million to fund research and development to test Shweeb’s technology for an urban setting.</p>
+          </div>
+          
+          <div class="proj">
+            <img src="http://www.google.com/project10tothe100/images/idea_icon06_sm.gif" width="80" alt="Provide quality education to African students"/>
+            <h3><strong>Idea:</strong> Provide quality education to African students</h3>
+            <p><strong>Project funded:</strong> The <a href="http://www.aims.ac.za/">African Institute for Mathematical Sciences</a> (AIMS) is a center for math and science education and research in Cape Town, 
+               South Africa. AIMS’ primary focus is a one-year bridge program for recent university graduates that helps build skills and knowledge prior to Masters and PhD study. 
+               We are providing $2 million to fund the opening of additional AIMS centers to promote graduate level math and science study in Africa.</p>
+          </div>
+          <br/>
+          <p>Each idea is a broad, ambitious, many-year mission. We are excited about the potential of the projects proposed by these innovative organizations. We hope you will follow the progress on their websites.</p>
+          <p>Thank you to everyone who has supported Project 10<sup>100</sup> either by voting on ideas or submitting your own. Your participation has helped make these ideas come to life.</p>
+        </div>
+      </div>
+    <div class="g-section footer">
+      <p>&copy;2010 Google - <a href="http://www.google.com/">Google Home</a> - <a href="http://www.google.com/about.html">About Google</a> - <a href="tos.html">Terms
+          of Service</a> - <a href="http://www.google.com/privacypolicy.html">Privacy Policy</a></p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5379380-2");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
