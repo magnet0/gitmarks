@@ -24,3 +24,4 @@
 [  The First Country in Cyber War is “Arming” its Computer Users - The Next Web](http://thenextweb.org/2008/09/30/the-first-country-in-cyber-war-is-%e2%80%9carming%e2%80%9d-its-computer-users), f5d1556e375f5eac319b61444cc46b5e  
 [BlackBerry - Device Software v5.0 - Download BlackBerry Device Software Today](http://na.blackberry.com/eng/services/devices), 148c0cb3808ae8a1bd472c1b79ee7966  
 [Wal*Mart shutting down DRM server, nuking your music collection -- only people who pay for music risk losing it to DRM shenanigans - Boing Boing](http://www.boingboing.net/2008/09/26/walmart-shutting-dow.html), 669043ed614220c84edff0d142bae890  
+[Tango Icon Library - Tango Desktop Project](http://tango.freedesktop.org/Tango_Icon_Library), 461d0f70242a40159002ad822c87b64c  
