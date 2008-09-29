@@ -1,0 +1,1145 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- template-body -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>BlackBerry - Device Software v5.0 - Download BlackBerry Device Software Today</title>
+	<meta name="description" content="Get the BlackBerry Device Software v5.0 upgrade & sophisticate your smartphone. New BlackBerry Device Software provides intuitive icons, layout, apps & advanced functionality.
+" />
+	<meta name="keywords" content="blackberry device software, blackberry v5.0 software, blackberry software, blackberry smartphone software" />
+	
+
+
+
+
+
+
+<link rel="canonical" href="http://us.blackberry.com/apps-software/devices/" />
+
+
+<link rel="stylesheet" href="/assets/css/global.css" type="text/css" media="screen" title="Global" charset="utf-8" />
+<link rel="stylesheet" href="/assets/css/print.css" type="text/css" media="print" title="Global" charset="utf-8" />
+<link rel="stylesheet" href="/assets/css/sIFR-print.css" type="text/css" media="print" title="Global" charset="utf-8" />
+<link rel="stylesheet" href="/assets/css/regional.css" type="text/css" media="screen" title="Global" charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <!--[if IE]>
+        <link rel="stylesheet" href="/assets/css/ie.css" type="text/css" media="screen" title="main" charset="utf-8" />
+        <![endif]-->
+				<!--[if gt IE 6]>
+				<link rel="stylesheet" href="/assets/css/ie7.css" type="text/css" media="screen" title="main" charset="utf-8" />
+				<![endif]-->
+
+
+
+				<!--[if IE 6]>
+						<link rel="stylesheet" href="/eng/assets/css/shadowbox-3.0.3.css" type="text/css" media="screen" title="Global" charset="utf-8" />
+						<script src="/eng/assets/js/ie6Eol.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+						<![endif]-->
+
+
+
+
+		<script type="text/javascript" charset="utf-8">
+			if ((navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf('iPhone') != -1)) {
+				var iPadCSS = document.createElement('link');
+				iPadCSS.rel = "stylesheet";
+				iPadCSS.href= "/assets_refresh/css/iPad.css";
+				iPadCSS.type= "text/css";
+				document.getElementsByTagName('head')[0].appendChild(iPadCSS);
+			}
+		</script>
+		<meta name="viewport" content="width=device-width, user-scalable=yes" />
+
+
+
+		<script type="text/javascript">/*<![CDATA[*/
+					try {
+						document.execCommand('BackgroundImageCache', false, true);
+					} catch(e) {}
+		/*]]>*/</script>
+				<!--[if lt IE 7]>
+        <script defer="defer" type="text/javascript" charset="utf-8" src="/assets/js/pngfix.js"></script>
+        <![endif]-->
+
+        <script src="/assets/js/scripts.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script type="text/javascript" src="/assets_refresh/js/ThirdParty/cufon-yui.js"></script>
+		<script type="text/javascript" src="/assets_refresh/js/ThirdParty/bblove.font.js"></script>
+
+        <noscript><style type="text/css">/*<![CDATA[*/ #content-start { visibility:visible; } /*]]>*/</style></noscript>
+        <noscript><style type="text/css">/*<![CDATA[*/ #docmgrd ul#sidenav li ul li { display:block; } /*]]>*/</style></noscript>
+
+		<script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+
+
+<meta property="og:site_name" content="BlackBerry.com" />
+<meta property="fb:admins" content="651018957,1370995634"/>
+
+	<meta property="og:title" content="BlackBerry Device Software v5.0"/>
+
+<style type="text/css">
+<!--
+/********** General Classes *********/
+.clear
+{
+	clear:both;
+}
+
+/*************** Containers ***************/
+.overviewContainer{
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%; 
+	position:relative;  
+}
+
+.leftCopy 
+{
+	float:left;
+	width:200px; /* was 230 */
+	margin-top:30px;
+	text-align:center;
+}
+
+.rightCopy
+{
+	margin-top:35px;
+	float:right;
+	width:455px;
+}
+
+
+/**************** PROMOS *****************/
+
+.promo {
+	color: #FFFFFF;
+	height: 130px;
+	width: 394px;
+	margin:0 0 15px 200px;
+}
+
+.promo1 {
+	background:url("torch_promo_bg1.jpg") no-repeat scroll 0 0 transparent;
+}
+
+.promo2 {
+	background:url("torch_promo_bg2.jpg") no-repeat scroll 0 0 transparent;
+}
+
+.promo p {
+	padding: 65px 0 0 27px;
+	width: 250px;
+}
+
+.promo1 p {
+	padding-top:62px;
+}
+
+/**************** Other classes and Ids *****************/
+
+.main ul li.needsRoom {
+	margin-top:8px;
+}
+
+
+div.heroDiv {
+	display:none;
+}
+
+
+
+/* Fat Footer */
+
+.fatFooter{
+	width:100%;
+	height:140px;
+	background:url(/blank_footer_bg.jpg) no-repeat 0 0 transparent;
+	margin:30px 0 0 0;
+}
+
+.fatFooter .cell {
+	float: left;
+	height: 90%;
+	margin: 0 2% 0 3%;
+	position: relative;
+	width: 28%;
+}
+
+.fatFooter .cell h4 {
+	font-size: 15px;
+	font-weight: normal;
+	margin: 16px 0 5px;
+}
+
+.fatFooter .cell p {
+	font-size: 10px;
+	position: absolute;
+	top: 50px;
+	width: 145px;
+}
+.fatFooter .cell ul {
+	margin:0;
+	position:absolute;
+	bottom:0;
+}
+
+
+.fatFooter .cell img {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.fatFooter .cell2 img { bottom: -13px; }
+
+.fatFooter .cell img.hasReflection {
+	bottom:-6px;
+}
+
+
+-->
+
+</style>
+
+</head>
+
+<body id="apps-software">
+<div id="pageTop"><a name="top"></a></div>
+<div id="header">
+    
+
+
+<div id="hdr">
+	<div id="gNav" class="clr">
+	<ul class="utilNav clr">
+		<li class="accessibility"><a href="#main">Skip to Content</a></li>
+		<!--<li class="partners"><a href="#">Partners</a></li>
+		<li class="developers"><a href="#">Developers</a></li>
+		<li class="region"><a href="#">North America</a></li>
+		<li class="region">
+			<select>
+				<option rfprompt="true" selected="selected">North America</option>
+				<option selected="selected">Canada</option>
+				<option selected="selected">North America</option>
+			</select>
+		</li>
+	--></ul>
+	</div>
+	<ul id="mainNav" class="clr">
+		<li id="nav_logo"><a href="/">BlackBerry</a></li>
+		<li id="nav_devices" rel="devices"><a href="/smartphones/" rel="Find a BlackBerry smartphone designed for your lifestyle. View models, compare features and learn where to buy.">Smartphones</a></li>
+		<li id="devicesDropNav"><a href="#">^</a></li>
+		<li id="nav_tablet" rel="tablet"><a href="/playbook-tablet/" rel="Tablet">Tablet</a></li>
+		<li id="nav_software" rel="apps-software"><a href="/apps-software/" rel="Make life a little easier&mdash;or just more fun. Download BlackBerry smartphone software and apps for work, play and everything in between.">Apps & Software</a></li>
+		<li id="nav_support" rel="support"><a href="/support/" rel="View manuals and tips, watch tutorials and visit support forums to get help for your BlackBerry smartphone and software.">Support</a></li>
+		<li id="nav_solution" rel="solutions"><a href="/business/" rel="Stay connected to every part of your business. Find BlackBerry products and services based on your business type, needs and industry.">Solutions</a></li>
+		<li id="nav_purchase" rel="purchase"><a href="/where-to-buy/" rel="Select from BlackBerry smartphones by location or carrier, and find out where to buy accessories, apps, software and support services.">Where To Buy</a></li>
+		<li id="wtbDropNav"><a href="#">^</a></li>
+		<li id="nav_community" rel="community"><a href="http://my.blackberry.com/" rel="Ask a question, share your thoughts and connect with other BlackBerry users when you join one of our online communities.">Community</a></li>
+		<li id="communityDropNav"><a href="#">^</a></li>
+		<li id="nav_search">
+
+
+
+<form name="searchForm" method="GET" action="/navigation/search.do">
+	<p class="clr">
+		
+		<input type="text" name="siteSearch" id="siteSearch" rimprompt="Search" value="Search">
+		<button id="searchSubmit" type="submit">Search</button>
+	</p>
+	<input type="hidden" name="searchMode" value="simple">
+	<input type="hidden" name="pageServletPath" value="/apps-software/devices/">
+	<input type="hidden" name="pageQueryString" value="">
+	<input type="hidden" name="domainID" value="47">          
+	<input type="hidden" name="firstTime" value="true">
+</form>
+
+
+		</li>
+	</ul>
+	<div id="dropNavTab"></div>
+	<ul id="dropNav">
+		<li class="left"></li>
+		<li><a href="/devices/blackberrytorch.jsp" class="bbPhoneName replace"><div class="torch">&nbsp;</div><span class="bb">BlackBerry</span>Torch</a><a href="/smartphones/blackberrytorch/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li><a href="/devices/blackberrystyle.jsp" class="bbPhoneName replace"><div class="style">&nbsp;</div><span class="bb">BlackBerry</span>Style</a><a href="/smartphones/blackberrystyle/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li><a href="/devices/blackberrycurve.jsp" class="bbPhoneName replace"><div class="curve">&nbsp;</div><span class="bb">BlackBerry</span>Curve</a><a href="/smartphones/blackberrycurve3G/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li><a href="/devices/blackberrypearl.jsp" class="bbPhoneName replace"><div class="pearl">&nbsp;</div><span class="bb">BlackBerry</span>Pearl</a><a href="/smartphones/blackberrypearl3G/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li><a href="/devices/blackberrybold.jsp" class="bbPhoneName replace"><div class="bold">&nbsp;</div><span class="bb">BlackBerry</span>Bold</a><a href="/smartphones/blackberrybold/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li><a href="/devices/blackberrytour.jsp" class="bbPhoneName replace"><div class="tour">&nbsp;</div><span class="bb">BlackBerry</span>Tour</a><a href="/smartphones/blackberrytour/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li class="lastPhone"><a href="/devices/blackberrystorm.jsp" class="bbPhoneName replace"><div class="storm">&nbsp;</div><span class="bb">BlackBerry</span>Storm</a><a href="/smartphones/blackberrystorm/#!where-to-buy" class="buyNow">Buy Now</a></li>
+		<li class="divider"></li>
+		<li class="promo"><a href="http://www.blackberrytradeup.com/" target="_blank" class="bbPhoneName replace"><div>&nbsp;</div><span class="top">Trade Up</span>Program<br/><span class="getDetails">Get Details</span></a></li>
+		<li class="right dark"></li>
+	</ul>
+	<div id="wtbNavTab"></div>
+	<ul id="wtbNav">
+		<li class="left"></li>
+		<li class="playbook"><a href="/where-to-buy/" class="bbPhoneName replace"><div class="playbook">&nbsp;</div><p class="bb">BlackBerry</p>Tablets</a></li>
+		<li><a href="/where-to-buy/smartphones.jsp" class="bbPhoneName replace"><div class="smartphones">&nbsp;</div><p class="bb">BlackBerry</p>Smartphones</a></li>
+		<li><a href="/smartphones/accessories/" class="bbPhoneName replace"><div class="accessories">&nbsp;</div><p class="bb">BlackBerry</p>Accessories</a></li>
+		<li class="right"></li>
+	</ul>
+	<div id="loginNavTab"></div>
+	<ul id="loginNav">
+		<li class="left"></li>
+		<li class="text">
+		<div class="loginText replace"><img src="/assets_refresh/images/loginNavText.png" />Personalize your smartphone, write<br />reviews or share tips and tricks with<br />other BlackBerry users.</div>
+		<a href="http://my.blackberry.com/index.jspa?showReg=true">Register Now</a> | <a href="http://my.blackberry.com/">Browse</a></li>
+		<li class="divider"><img src="/assets_refresh/images/loginNavDivider.png" border="0" /></li>
+		<li class="login">
+			<div class="large replace">Sign in</div>
+			<form action="http://my.blackberry.com/cs_login" method="post" class="searchForm">
+				<label for="loginNavUsername">Username</label><input type="text" value="Username" rimprompt="Username" id="loginNavUsername" name="username" />
+				<label for="loginNavPassword">Password</label><input type="text" value="Password" rimprompt="Password" id="loginNavFakePassword" name="fakepassword" /><input type="password" id="loginNavPassword" name="password" />
+				<button type="submit" id="loginNavSubmit">Sign in</button>
+			</form>
+			<a href="http://my.blackberry.com/emailPasswordToken!input.jspa" class="gray">Forgot your password?</a>
+		</li>
+		<li class="right"></li>
+	</ul>
+</div>
+<div class="print-logo"><img src="/assets/images/logo-print.gif" border="0" width="160" height="36" alt="BlackBerry" /></div> 
+<script type="text/javascript" charset="utf-8">
+	/*if (navigator.userAgent.indexOf("IE 7") == -1 && navigator.userAgent.indexOf("IE 8") == -1) {
+		Cufon.replace('.replace', {fontFamily: 'bblove', hover: true});
+	} else if (navigator.userAgent.indexOf("IE 8") == -1) {
+		Cufon.replace('.replace', {fontFamily: 'bblove'});
+	}*/
+	Cufon.replace('.replace', {fontFamily: 'bblove', hover: true});
+	//$('.replace').css({ visibility: 'visible' });
+	Window.addLoad(function() {
+		if (navigator.userAgent.indexOf("IE 8") > -1) {
+			setTimeout("Cufon.now();", 200);
+		} else {
+			Cufon.now();
+		}
+	});
+</script>
+</div><!-- /#header -->
+<div id="wrapper" class="twocolumn">
+  <div id="content"><!-- begin! -->
+    <div class="sidenav">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h3 class="sidenav_head"><a href="/apps-software/">Apps & Software</a></h3>
+      <h3 class="hide">Local Navigation</h3>
+	
+      
+
+		<!-- level 2 -->
+		<ul id="sidenav">
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li  class="firstSidenav" >
+					   <span><a href="/apps-software/appworld">BlackBerry App World</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/desktop/">BlackBerry Desktop Software</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/blackberry6/">BlackBerry 6 OS</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li class="selected" >
+					   
+					   <span>BlackBerry Device Software 5.0</span>
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/blackberrymessenger/">BlackBerry Messenger</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/protect/">BlackBerry Protect</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/themestudio/">BlackBerry Theme Studio</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="http://us.blackberry.com/apps-software/websignals/">BlackBerry Web Signals</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/eap.jsp">Early Adopter Program</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+			   
+			   
+				
+				
+				
+				
+				
+			    
+			    
+			    <li >
+					   <span><a href="/apps-software/super-apps/">Super Apps</a></span>
+					   
+					   <!-- level 3 -->
+					   
+					   <!-- /level 3 -->
+					</li>
+			    
+			    
+		   
+		</ul>
+		<!-- /level 2 -->
+      
+
+
+
+		
+    </div><!-- /.sidenav -->
+   	
+
+<p><a href="http://www.blackberryworld.com/?CPID=OTC-2011BBWORLD15"><img src="http://us.blackberry.com//apps-software/bbworld_707x25_8px_margin.jpg" height="25" class="promo_banner_img" style="margin-bottom:-11px; *margin-bottom:0px;" width="715" border="0" alt="Register Now for BlackBerry World™ 2011" /></a></p>
+
+
+
+    <div class="main" id="content-start">
+      <div class="breadcrumb">
+      	
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="/">Home</a>
+
+	
+		<span class="separator">&nbsp;</span><span class="hide">&gt;&nbsp;</span>
+		<a href="/apps-software/">Apps & Software</a>
+	
+	
+
+	
+	
+		<span class="separator">&nbsp;</span><span class="hide">&gt;&nbsp;</span>
+		<!--  <span class="selected">BlackBerry Device Software 5.0</span>  -->
+	
+
+
+<h1>BlackBerry Device Software 5.0</h1>
+
+
+      </div>
+      <!-- Tabs-->
+<div id="tabs_container">
+<table cellspacing="1" id="ddetail_tabs">
+    <tbody>
+        <tr>
+            <td class="first"><a href="#tab_overview">Overview</a></td>
+            <td><a href="#tab_features">Features</a></td>
+            <td><a onclick="showlayer(this)" style="padding-right: 8px;" href="#tab_compatibility">Compatibility</a></td>
+            <td><a href="#tab_update">Update</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- Subtabs-->
+<div id="ddetail_subtabs_wrapper" style="display: none;">&nbsp;</div>
+<div id="tab_overview"><a name="tab_overview" class="hide">&nbsp;</a>
+
+  <div class="overviewContainer">
+<div class="leftCopy"><img src="curve8520.jpg" alt="" /></div>
+<!-- end of left copy -->
+<div class="rightCopy">
+<p>Did you know your BlackBerry&reg; smartphone includes sophisticated software right on the device? It provides you with the full-featured applications and advanced functionality you use every day.</p>
+<h1>BlackBerry Device Software v5.0</h1>
+<p>BlackBerry Device Software v5.0 is now available as a free upgrade for <a href="#tab_compatibility">supported smartphones</a>.<sup>1</sup>  By upgrading your software, you can enjoy new functionality on the BlackBerry smartphone you already have:</p>
+<ul>
+    <li>New features in BlackBerry&reg; Maps</li>
+    <li>Chat-style SMS text messages with emoticons</li>
+    <li>Integrated Gmail&#8482; features<sup>3</sup></li>
+    <li>BlackBerry&reg; Browser enhancements</li>
+    <li><a href="#tab_features">Learn more about the new features</a></li>
+</ul>
+<ul style="margin-top: 10px;">
+    <li><a href="#tab_compatibility">View supported BlackBerry smartphones</a></li>
+</ul>
+<p>To find out which version of BlackBerry Device Software you&#8217;re currently running on your BlackBerry smartphone, click Options on the smartphone Home screen, then click About.</p>
+<div style="margin: 10px 0px;"><a href="#tab_update"><img src="updatetoday_button.jpg" alt="Update your BlackBerry Device Software v5.0 today!" /></a></div>
+<!--<iframe frameborder="0" scrolling="no" allowtransparency="true" style="border: medium none; overflow: hidden; width: 450px; height: 20px;" src="http://www.facebook.com/plugins/like.php?href=http%253A%252F%252Fna.blackberry.com%252Feng%252Fservices%252Fdevices%252F&amp;layout=button_count&amp;show_faces=false&amp;font=arial"></iframe>--></div>
+</div>
+<div class="clear">&nbsp;</div>
+<!--<div class="promo promo1"><p>Now available on the BlackBerry&reg; Torch&#8482; smartphone! <a href="/smartphones/blackberrytorch/torch_blackberry6.jsp">Learn more</a></p></div><div class="clear">&nbsp;</div><div class="promo promo2"><p>Receive up to $120 toward a new smartphone. <a href="http://www.blackberrytradeup.com/URLAction.do?fetchType=rim&amp;promoCode=BBwebtrade" target="_blank">Find out how</a></p></div>	<div class="clear">&nbsp;</div>-->
+<div class="fatFooter">
+<div class="cell cell1">
+<h4>Download BlackBerry Software</h4>
+<p>Download software for your smartphone, desktop and server.</p>
+<ul>
+    <li><a href="/support/downloads/">Download software</a></li>
+</ul>
+<img class="hasReflection" alt="Download software" src="software_promo.png" /></div>
+<div class="cell cell2">
+<h4>Trade Up to a New BlackBerry Experience</h4>
+<p>Receive up to $120 for trading in your old BlackBerry smartphone.</p>
+<ul>
+    <li><a target="_blank" href="http://www.blackberrytradeup.com/URLAction.do?fetchType=rim&amp;promoCode=BBwebtrade">Find out how</a></li>
+</ul>
+<img alt="Trade up to a new BlackBerry Experience" src="tradeup_promo.png" /></div>
+<div class="cell cell3">
+<h4>Introducing BlackBerry&reg; 6</h4>
+<p>Now available on select BlackBerry smartphones!</p>
+<ul>
+    <li><a href="/apps-software/blackberry6/">Learn more</a></li>
+</ul>
+<img class="hasReflection" alt="Introducing BlackBerry 6" src="bb6intro_promo.png" /></div>
+</div>
+</div><div id="tab_features"><a name="tab_features" class="hide">&nbsp;</a>
+<h2>Features</h2>
+  <p>Do even more  with the BlackBerry&reg; smartphone you already own with the free upgrade to BlackBerry&reg;  Device Software v5.0.<sup>1</sup> Take a look at the features you could enjoy by upgrading:</p>
+<p><strong>Email </strong></p>
+<ul>
+    <li>Flag For Follow Up &#8211; apply different colors, assign due dates, set reminders and more, so you can easily stay on top of all your important email messages.</li>
+    <li>Mail Folder Management2 &#8211; Add, remove or rename folders to help simplify your email management.</li>
+</ul>
+<p><strong>Calendar</strong></p>
+<ul>
+    <li>Forward Appointments<sup>2</sup> &#8211; Forward a calendar entry from the email message list or directly from the calendar and make sure the right people are there.</li>
+    <li>Viewing Attachments<sup>2</sup> &#8211; Open attachments from calendar entries in formats like JPEG, Adobe&reg; PDF, Microsoft&reg; Word, Microsoft&reg; Excel&reg; and Microsoft&reg; PowerPoint&reg;.</li>
+</ul>
+<p><strong>Files</strong></p>
+<ul>
+    <li>Remote File Access<sup>1</sup> &#8211; Find, open, view, edit, save, or email your JPEG, Adobe&reg; PDF, Microsoft&reg; Word, Microsoft&reg; Excel&reg; and Microsoft&reg; PowerPoint&reg; files directly from your BlackBerry smartphone.</li>
+</ul>
+<p><strong>Contacts</strong></p>
+<ul>
+    <li>Wireless Contact Synchronization &#8211; Wirelessly sync your contact list with your multiple contact folders and personal distribution lists on your desktop, so you can be sure that your contacts are in sync.</li>
+</ul>
+<p><strong>Gmail</strong></p>
+<ul>
+    <li>Gmail&#8482; Integration<sup>3</sup> &#8211; Get many of the same great Gmail&#8482; features you&#8217;ve come to love, like search, labels and stars, archive, conversation view, and report as spam on your BlackBerry&reg; smartphone.</li>
+</ul>
+<p><strong>SMS Text Messaging</strong></p>
+<ul>
+    <li>Threaded SMS Text Messages&nbsp; &#8211; Enjoy a chat-like look and feel, emoticons, display pictures and the ability to send an SMS text message with the press of the Enter key.</li>
+</ul>
+<p><strong>Time Zone Detection</strong></p>
+<ul>
+    <li>Time Zone Change Detection<sup>4</sup> &#8211; Receive automatic prompts as you travel across the country, with the option to choose a different time zone, making it easy to stay on schedule wherever life takes you.</li>
+</ul>
+<p><strong>&nbsp;BlackBerry Browser</strong></p>
+<ul>
+    <li>Improved Browsing Capabilities &#8211; Enjoy a more interactive experience with colorful web pages and rich animations.</li>
+</ul>
+<p><strong>BlackBerry Maps</strong></p>
+<ul>
+    <li>BlackBerry&reg; Map Display &#8211; Access maps, zoom in for a closer look, and plan your route faster than you could before. You can also place your cursor over an unlabeled street to make the name pop up.</li>
+    <li>Automatic Address Detection &#8211; Simply click on an address is displayed in an email or on a web page to view the location with BlackBerry Maps.&nbsp;</li>
+    <li>Points of Interest &#8211; View points of interest like hotels, restaurants, and shopping centers, get directions from one to the other, and see ratings and reviews all on BlackBerry Maps.</li>
+    <li>Navigation &#8211; Find your current location, search for an address from your contact list, or get directions to the company party from your pre-stored &#8220;work&#8221; or &#8220;home&#8221; location, all in one place.</li>
+    <li>Photo Geotagging &#8211; View pictures you&#8217;ve taken while on the go &#8211; your geotagged photos appear as a layer on your map so you can view them as thumbnail images in BlackBerry Maps.</li>
+</ul>
+<div style="margin: 10px 0px;"><a href="#tab_update"><img alt="Update your BlackBerry Device Software v5.0 today!" src="updatetoday_button.jpg" /></a></div>
+</div><div id="tab_compatibility"><a name="tab_compatibility" class="hide">&nbsp;</a>
+<h2>Compatibility</h2>
+  <p>BlackBerry&reg; Device Software v5.0 supports the following smartphones:</p>
+<ul>
+    <li>BlackBerry&reg; Curve&#8482; 8330 smartphone</li>
+    <li>BlackBerry&reg; Curve&#8482; 8350i smartphone</li>
+    <li>BlackBerry&reg; Curve&#8482; 8520 smartphone</li>
+    <li>BlackBerry&reg; Curve&#8482; 8530 smartphone</li>
+    <li>BlackBerry&reg; Curve&#8482; 8900 smartphone</li>
+    <li>BlackBerry&reg; Storm&#8482; 9530 smartphone</li>
+    <li>BlackBerry&reg; Storm2&#8482; 9550 smartphone</li>
+    <li>BlackBerry&reg; Tour&#8482; 9630 smartphone</li>
+    <li>BlackBerry&reg; Bold&#8482; 9000 smartphone</li>
+    <li>BlackBerry&reg; Bold&#8482; 9650 smartphone</li>
+    <li>BlackBerry&reg; Bold&#8482; 9700 smartphone</li>
+</ul>
+<p>Check with your service provider to see if they support BlackBerry Device Software v5.0 for your smartphone. If not, you may still enjoy some new features by upgrading to BlackBerry Device Software v4.5.</p>
+<ul>
+    <li><a href="http://na.blackberry.com/eng/services/devices/softwarev4.5.jsp">Learn about BlackBerry Device Software v4.5</a></li>
+</ul>
+<div style="margin: 10px 0px;"><a href="#tab_update"><img src="updatetoday_button.jpg" alt="Update your BlackBerry Device Software v5.0 today!" /></a></div>
+</div><div id="tab_update"><a name="tab_update" class="hide">&nbsp;</a>
+<h2>Update</h2>
+  <p>Update to the latest BlackBerry&reg; Device Software and unlock a whole new appreciation for your BlackBerry&reg; smartphone.</p>
+<ul>
+    <li><a href="#tab_compatibility">View supported BlackBerry smartphones</a></li>
+</ul>
+<h3>For Business Software Users</h3>
+<p>If your BlackBerry smartphone is integrated with a BlackBerry&reg; Enterprise Server, BlackBerry&reg; Enterprise Server Express or BlackBerry&reg; Professional Software, please contact your IT administrator to find out whether your organization supports BlackBerry Device Software v5.0.</p>
+<ul>
+    <li><a href="enterprise.jsp">Learn more about updating your BlackBerry smartphone software in an enterprise</a></li>
+</ul>
+<h3>For All Other BlackBerry Smartphone Users</h3>
+<p>To download, simply connect your BlackBerry smartphone to your computer using your USB cable and then click the Update button below*!</p>
+<p><strong>Note: </strong>You may need to download BlackBerry&reg; Application Loader software to your desktop before the BlackBerry Device Software will begin downloading. If this is the case, you will be prompted to do so after clicking the Update button. Click &quot;Run&quot;, then follow the additional instructions in order to update your smartphone&#8217;s software.</p>
+<div id="devmontrouble" style="font-weight: bold; text-align: left;">
+<p>If you do not see an &quot;Update&quot; button here, please check the following items:</p>
+<ol>
+    <li>This page requires Windows&reg; Internet Explorer&reg; v5.5 or later, running on Windows&reg;.</li>
+    <li>An ActiveX control provided by Research In Motion Ltd. needs to be installed to update your BlackBerry smartphone. Click on the Internet Explorer Information Bar, shown at the top of the page, and select &quot;Install ActiveX Control...&quot; to install this component.</li>
+</ol>
+</div>
+<div id="apploaderlaunch" style="display: none;"><input type="button" id="Button2" onclick="launchLoader();" value="Update" /></div>
+<div id="apploaderlink" style="display: none;"><input type="button" id="B1" onclick="return upgradeApploader();  " value="Update" /></div>
+<div id="axcontrol">&nbsp;</div>
+<div id="prereqstatus">&nbsp;</div>
+<p class="footnote">* If your BlackBerry smartphone is connected to a BlackBerry Enterprise Server or BlackBerry Professional Software, you must use a <a href="enterprise.jsp">different update process</a>.<br />
+<br />
+Using this software and any updates or upgrades as provided by Research In Motion Limited or any of its affiliates (&quot;RIM&quot;) is subject to the BlackBerry Software License Agreement (&quot;BBSLA&quot;), unless otherwise stated.  The BBSLA is available at <a href="http://www.blackberry.com/legal">http://www.blackberry.com/legal</a>.</p>
+</div><p class="footnote">
+<sup>1</sup> BlackBerry® Device Software v.5.0 is available at no charge to the user subject to applicable licensing terms. Check with your service provider to determine costs that may be associated with downloading and using the software.<br />
+<sup>2</sup> Features require BlackBerry® Enterprise Server v5.0.<br />
+<sup>3</sup> Requires valid Gmail™ account.<br />
+<sup>4</sup> Not available from all service providers.<br /><br />
+
+Certain features outlined in this document may require activation with a data plan with internet service and a minimum version of BlackBerry® Device Software, BlackBerry® Desktop Software, BlackBerry® Enterprise Server and/or third party software.   RIM assumes no obligations or liability and makes no representation, warranty, endorsement or guarantee in relation to any aspect of any third party products or services.<br /><br />
+
+BlackBerry® Maps services require activation with a data plan with internet service.  Map, direction, location, point of interest and navigation services (collectively “BlackBerry Maps services”) are not available for all geographic locations or from all service providers.   BlackBerry Maps services are provided “as is” and RIM assumes no obligations or liability and makes no representation, warranty, endorsement or guarantee in relation to any aspect of any third-party products or services.  Certain features outlined above require a BlackBerry® smartphone with GPS functionality.<br /><br />  
+
+Check with your service provider for availability, associated costs and restrictions.</p>
+<script type="text/javascript" language="javascript" src="http://na.blackberry.com/eng/support/blackberry101/tips/tips_and_tricks.js"></script>
+
+<script type="text/javascript">
+
+
+      var bPollForControl = false;
+
+	        function loadControl(bProvideSource)
+	        {
+	          var strCABFileName = "BBWebSLLauncher.cab";
+	          var strVersion = "1,0,0,1";
+	          var strCodeBase = "";
+
+	          if( bProvideSource )
+	          {
+	              strCodeBase = "codebase='";
+	              strCodeBase += strCABFileName;
+	              strCodeBase += "#Version="
+	              strCodeBase += strVersion;
+	              strCodeBase += "'";
+	          }
+
+	          var strAxHTML = "<object classid='clsid:53DBCD97-3FDF-4B60-975B-2596B57482EF' id='launcher' ";
+	          strAxHTML += strCodeBase;
+	          strAxHTML += " onreadystatechange='onReadyStateChange();' width=0 height=0> </object>";
+
+	          // alert("Setting to " + strAxHTML);
+
+	          axcontrol.innerHTML = strAxHTML;
+	        }
+
+	        function startControlPoll()
+	        {
+	          bPollForControl = true;
+	          setTimeout('loadControl(false)', 10000);
+
+	          return true;
+	        }
+
+	        function checkPrerequisites(obj)
+	        {
+
+	          switch( obj.CheckPrerequisites() )
+	          {
+	          case 0:
+	            document.getElementById('apploaderlaunch').style.display = "block";
+	            document.getElementById('apploaderlink').style.display = "none";
+
+	            prereqstatus.innerText = "";
+	            break;
+	          case 1:
+	            document.getElementById('apploaderlaunch').style.display = "none";
+	            document.getElementById('apploaderlink').style.display = "block";
+
+	            prereqstatus.innerText = "Prerequisites not met";
+
+	            setTimeout("checkPrerequisites(launcher)", 1500);
+	            break;
+	          case 2:
+	          default:
+	            prereqstatus.innerText = "Unexpected result from prerequisites check";
+	            alert("Unexpected return from control!");
+	            break;
+	          }
+	        }
+
+                 function upgradeApploader(){
+                  
+                  //document.getElementById('apploaderlaunch').style.display= "block";
+	         //document.getElementById('apploaderlink').style.display = "none";
+                  startControlPoll();
+window.location.href='http://bfs.websl.blackberry.com/bfs/bfs/apploader/ApploaderWebSL-Upgrade.msi';
+
+                  return true;
+                 }
+
+	        function launchLoader()
+	        {
+	          launcher.Launch(0);
+	        }
+
+	        function addRemoveApps()
+	        {
+	          launcher.Launch(1);
+	        }
+
+	        function onLoad()
+	        {
+                    var browserName=navigator.appName; 
+                    if (browserName=="Netscape")
+                     { 
+document.getElementById('devmontrouble').style.display = "block";
+
+                     }
+                      else 
+                     { 
+                     if (browserName=="Microsoft Internet Explorer")
+                     {
+document.getElementById('devmontrouble').style.display = "none";
+
+          	      loadControl(false);
+                     }
+                      
+                    }
+
+
+
+
+	        }
+
+	        function onReadyStateChange()
+	        {
+	           var obj = window.event.srcElement;
+
+	           if( obj.id == "launcher" )
+	           {
+	               // alert("launcher.readyState = " + obj.readyState);
+	  			 if( obj.readyState == 4 && obj.Version )
+	  			 {
+	  		        bPollForControl = false;
+
+	  		        checkPrerequisites(obj);
+	  			 }
+	               else
+	               {
+                           
+	                  apploaderlaunch.style.display = "none";
+	                  apploaderlink.style.display = "block";
+
+	  		        if( bPollForControl )
+	  		        {
+	  		            setTimeout("loadControl(false)", 1500);
+	  		        }
+	  			 }
+	           }
+	        }
+window.onload = onLoad;
+
+
+    </script>
+	
+    <script type="text/javascript">
+document.body.id = "services";
+</script><script type="text/javascript">
+if(typeof sIFR == "function"){
+  sIFR.replaceElement(named({sSelector:".promo h3", sFlashSrc:"/assets/flash/quay_medium.swf", sColor:"#ffffff", sLinkColor:"#ffffff", sBgColor:"transparent", sHoverColor:"#ffffff", sWmode: "transparent"}));
+};
+</script>
+
+<script type="text/javascript">
+// --------------------- cufon and sifr
+ScriptLoader.load([
+	'Anvers_Rg_400-Anvers_Rg_700-Anvers_Rg_italic_400-Anvers_Rg_italic_700.font.js'
+]);
+
+function initCufon() {
+	Cufon.replace('.fatFooter h4', {fontFamily: 'Anvers Rg', hover: false});
+}
+setTimeout("initCufon();", 200);
+
+
+
+</script><script type="text/javascript">
+var e = new Element('div', {'class':'heroDiv','id':'heroDiv','html':'<a href="http://na.blackberry.com/eng/devices/blackberrytorch/torch_blackberry6.jsp">&nbsp;</a>'});
+e.injectBefore($$('.sidenav')[0]);
+</script>
+
+<style type="text/css">
+div.heroDiv {
+width:880px;
+height:249px;
+overflow:hidden;
+background:url(hero_static2.jpg);
+}
+div.heroDiv a {
+position:absolute;
+top:182px;
+left:50px;
+width:90px;
+height:18px;
+line-height:200px;
+overflow:hidden;
+}
+</style>
+
+<script src="/eng/swfobject2.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+if (window.onload) {
+	window.oldload = window.onload;
+}
+
+window.onload = function() {
+    if (window.oldload) {
+        window.oldload();
+    }
+       
+
+    var so = new SWFObject("torch_index.swf", "BlackBerry Torch", "880", "249", "9", "#ffffff");
+    so.addParam("scale", "noscale");
+    so.addParam("allowfullscreen", "true");
+    so.addParam("wmode", "transparent");
+    so.addParam("allowScriptAccess", "always");
+    so.addParam("bgcolor", "#ffffff");
+    so.addParam("salign", "TL");
+
+    so.addVariable("movieID", "BlackBerry Torch");
+    so.addVariable("account", "rimglobal,rimbbus");
+    so.addVariable("pageName", "index");
+
+    so.addVariable("xmlPath", "torch_index.xml");
+
+    var hasFlash = so.write("heroDiv");
+	
+
+    if (!hasFlash) {
+    } else {
+    }	
+};
+</script>
+    </div>
+    <div class="clear"></div>
+  </div><!-- /#content -->
+  <div id="footer">
+		<script type="text/javascript">
+			var _rpn = "BlackBerry Device Software";
+		</script>
+    
+
+
+
+
+
+
+
+	
+
+	<!-- SiteCatalyst code version: H.17.
+	Copyright 1997-2008 Omniture, Inc. More info available at
+	http://www.omniture.com -->
+	<script type="text/javascript">/*<![CDATA[*/
+		s_ol_id = "";
+		s_account = window.location.href.indexOf('wwwa.com') > -1 || window.location.href.indexOf("_TMP") > -1 ? "rimdev" : "rimglobal,rimbbus";
+		s_siteID = "us:bb";
+	/*]]>*/</script>
+	<script type="text/javascript" src="/assets/js/s_code.js"></script>
+	<script type="text/javascript">/*<![CDATA[*/
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code)
+	/*]]>*/</script>
+
+	<script type="text/javascript">/*<![CDATA[*/
+	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+	/*]]>*/</script><!--/DO NOT REMOVE/-->
+	<!-- End SiteCatalyst code version: H.17. -->
+<span style="display: none;">BlackBerry site monitoring</span>
+<script type="text/javascript">
+/*Fix for IE Cufon Hovers*/
+(function() {
+   var old = s.ot;
+   s.ot = function(el) {
+       return el.tagUrn ? '' : old(el);
+   };
+
+})();
+
+</script>
+<!--[if IE 6]>
+	<div id="eolWrapper">
+		<div id="ie6Eol">
+			<ul>
+				<li><a href="http://www.firefox.com/" target="_blank">Firefox</a></li>
+				<li><a href="http://www.apple.com/safari/" target="_blank">Safari</a></li>
+				<li><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">Internet Explorer 8</a></li>
+				<li><a href="http://www.google.com/chrome" target="_blank">Chrome</a></li>
+			</ul>
+			<div id="sbjs"></div>
+		</div>
+		<style type="text/css">
+			#eolWrapper{
+				display:none;
+			}
+
+			#sbjs{
+				display:none;
+			}
+
+			#ie6Eol{
+				background:url("/assets/images/ie6eol_bg.jpg") no-repeat scroll 0 0 transparent;
+				height:346px;
+				left:0;
+				margin:0;
+				padding:0;
+				width:406px;
+				position:relative;
+			}
+			#ie6Eol ul{
+				margin:0px;
+				padding:124px 0 0;
+
+			}
+			#ie6Eol ul li{
+				height:55px;
+				width:360px;
+				list-style:none;
+			}
+			#ie6Eol li a{
+				display:block;
+				height:100%;
+				text-indent:-9999px;
+				width:100%;
+			}
+		</style>
+	</div>
+	<![endif]-->
+
+  </div><!-- /#footer -->
+</div>
+
+
+
+
+
+
+
+
+<div id="newFooter">
+<div id="ftr" class="utilNav">
+	<ul id="footerNavLeft">
+		<li id="ftrAmerica" class="footerBg"><a href="http://us.blackberry.com" class="ftrLink">United States<div>&nbsp;</div></a>
+		<ul id="ftrAmericaNav" class="ftrDropNav">
+			<li><a href="http://ca.blackberry.com/">Canada (en)</a></li>
+			<li><a href="http://ca.blackberry.com/fr/">Canada (fr)</a></li>
+			<li><a href="http://uk.blackberry.com">UK</a></li>
+			<li><a href="http://fr.blackberry.com">France</a></li>
+			<li><a href="http://ae.blackberry.com">&#1587;&#1593;&#1608;&#1583;&#1610;&#1577; &#1608;&#1575;&#1604;&#1575;&#1605;&#1575;&#1585;&#1575;&#1578;</a></li>
+			<li><a href="http://worldwide.blackberry.com">Worldwide</a></li>
+		</ul></li>
+		<li><a class="ftrLink" href="/partners/">Partners</a></li>
+		<li><a class="ftrLink" href="/developers/">Developers</a></li>
+		<li class="noBg"><a class="ftrLink" href="http://m.blackberry.com/us/en/index.html">View Mobile Site</a></li>
+	</ul>
+	<ul id="footerNavRight">
+		<li id="ftrCompany" class="footerBg"><a href="/company.jsp" class="ftrLink">Company<div>&nbsp;</div></a>
+		<ul id="ftrCompanyNav" class="ftrDropNav">
+			<li><a href="/careers/">Careers</a></li>
+			<li><a href="/contact/">Contact Us</a></li>
+			<li><a href="/feedback/">Feedback</a></li>
+			<li><a href="/newsroom/">Newsroom</a></li>
+			<li><a href="/company.jsp">Overview</a></li>
+			<li><a href="/sitemap/">Sitemap</a></li>
+			<li><a href="/siteindex/?selectedIndex=A">Site Index</a></li>
+			<li><a href="/ataglance/">Why BlackBerry</a></li>
+		</ul>
+		</li>
+		<li id="ftrLegal" class="footerBg"><a href="/eng/legal/" class="ftrLink">Legal<div>&nbsp;</div></a>
+		<ul id="ftrLegalNav" class="ftrDropNav">
+			<li><a href="/support/devices/blackberry_accessibility/">Accessibility</a></li>
+			<li><a href="/legal/trademarks.jsp">Trademarks</a></li>
+			<li><a href="/legal/privacy_policy.jsp">Privacy Policy</a></li>
+			<li><a href="/legal/">Overview</a></li>
+		</ul>
+		</li>
+		<li id="ftrFacebook" class="footerBg"><a href="#" class="ftrLink"><span>&nbsp;</span>BlackBerry on Facebook Livestream<div>&nbsp;</div></a>
+		<div id="ftrFacebookNav"></div></li>
+		<li id="ftrFollowUs" class="footerBg"><a href="#" class="ftrLink">Follow Us<div>&nbsp;</div><span>&nbsp;</span></a>
+		<ul id="ftrFollowUsNav" class="ftrDropNav">
+			<li class="like"></li>
+			<li><a target="_blank" href="http://www.flickr.com/photos/blackberryimages" class="followBg" id="flickr">Flickr</a></li>
+			<li><a href="http://my.blackberry.com" class="followBg" id="myBB">myBlackBerry</a></li>
+			<li><a target="_blank" href="http://www.youtube.com/blackberry" class="followBg" id="youTube">YouTube</a></li>
+			<li><a target="_blank" href="http://twitter.com/blackberry/blackberry-on-twitter" class="followBg" id="twitter">Twitter</a></li>
+			<li><a href="http://blogs.blackberry.com/" class="followBg" id="blog">BlackBerry Blog</a></li>
+		</ul></li>
+	</ul>
+	
+	<div class="legal">Copyright &#169; 2011 Research In Motion Limited, unless otherwise noted.</div>
+</div>
+</div>
+
+</body>
+<!-- /template-body -->
+</html>

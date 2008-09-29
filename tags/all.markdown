@@ -22,3 +22,4 @@
 [Curve Smartphone at BlackBerry.com](http://www.blackberrycurve.com), d8f1beb6bff0d481c6220976c49779ee  
 [Manual :: An OO-interface for easily retrieving and modifying data in a database](http://pear.php.net/manual/en/package.database.mdb-querytool.intro.php), 6d4f66231c6f530fe3d6f2e6e6095cb6  
 [  The First Country in Cyber War is “Arming” its Computer Users - The Next Web](http://thenextweb.org/2008/09/30/the-first-country-in-cyber-war-is-%e2%80%9carming%e2%80%9d-its-computer-users), f5d1556e375f5eac319b61444cc46b5e  
+[BlackBerry - Device Software v5.0 - Download BlackBerry Device Software Today](http://na.blackberry.com/eng/services/devices), 148c0cb3808ae8a1bd472c1b79ee7966  
