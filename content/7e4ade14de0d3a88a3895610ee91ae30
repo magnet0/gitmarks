@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html id="en_us" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Google for BlackBerry
+    </title>
+    <meta content=
+    "Get Google Maps, Sync, Gmail, YouTube, and more for your phone. Available for BlackBerry."
+    name="description">
+    <link href="/mobile/css/mgc3.base.v2.css" rel="stylesheet">
+    <script src="/mobile/js/mgc3-compiled.js">
+</script>
+    <script src="/intl/en/mobile/js/mgc3.messages.base.js">
+</script>
+    <script src="/intl/en/mobile/js/mgc3.messages.stp.js">
+</script>
+  </head>
+  <body class="platform">
+    <div class="mgc">
+      <div class="search-box">
+        <form id="cse-search-box">
+          <input name="cx" type="hidden" value="014703211769038569089:pugezbby1z4"> <input name=
+          "cof" type="hidden" value="FORID:10"> <input name="ie" type="hidden" value="UTF-8">
+          <input id="query-input" maxlength="255" name="q" type="text"> <button type=
+          "submit">Search this site</button>
+        </form><script src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en" type=
+        "text/javascript">
+</script>
+      </div>
+      <h1>
+        <a href="/mobile/"><img alt="Google Mobile" src=
+        "/intl/en_us/images/logos/mobile_logo.gif"></a>
+      </h1>
+      <div class="mgc-toolbar">
+        <ul id="mgc-toolbar">
+          <li>
+            <a href="/mobile/">Home</a>
+          </li>
+          <li>
+            <a href="javascript:">Google for Your Phone</a>
+            <ul>
+              <li class="android">
+                <a href="/mobile/android/">Android</a>
+              </li>
+              <li class="blackberry">
+                <a href="/mobile/blackberry/">BlackBerry</a>
+              </li>
+              <li class="iphone">
+                <a href="/mobile/iphone/">iPhone</a>
+              </li>
+              <li class="nokia-s60">
+                <a href="/mobile/nokia-s60/">Nokia S60</a>
+              </li>
+              <li class="other">
+                <a href="/mobile/more/">Other phones</a>
+              </li>
+            </ul>
+          </li>
+          <li class="wide">
+            <a href="javascript:">Mobile Apps</a>
+            <ul>
+              <li class="google-mobile-app">
+                <a href="/mobile/google-mobile-app/">Google Search App</a>
+              </li>
+              <li class="search">
+                <a href="/mobile/search/">Search</a>
+              </li>
+              <li class="maps">
+                <a href="/mobile/maps/">Maps</a>
+              </li>
+              <li class="mail">
+                <a href="/mobile/mail/">Gmail</a>
+              </li>
+              <li class="buzz">
+                <a href="/mobile/buzz/">Buzz</a>
+              </li>
+              <li class="youtube">
+                <a href="/mobile/youtube/">YouTube</a>
+              </li>
+              <li class="sync">
+                <a href="/mobile/sync/">Sync</a>
+              </li>
+              <li class="latitude">
+                <a href="/mobile/latitude/">Latitude</a>
+              </li>
+              <li class="igoogle">
+                <a href="/mobile/igoogle/">iGoogle</a>
+              </li>
+              <li class="earth">
+                <a href="/mobile/earth/">Earth</a>
+              </li>
+              <li class="sms">
+                <a href="/mobile/sms/">SMS apps</a>
+              </li>
+              <li class="voice-actions">
+                <a href="/mobile/voice-actions/">Voice Actions <span class="new">New!</span></a>
+              </li>
+              <li class="goggles">
+                <a href="/mobile/goggles/">Goggles <span class="new">New!</span></a>
+              </li>
+              <li class="shopper">
+                <a href="/mobile/shopper/">Shopper</a>
+              </li>
+              <li class="no-icon">
+                <a href="/mobile/more/">More...</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://googlemobile.blogspot.com/">Blog</a>
+          </li>
+          <li>
+            <a href="javascript:">Help</a>
+            <ul class="no-icons">
+              <li>
+                <a href="http://www.google.com/support/mobile/">Mobile Help Center</a>
+              </li>
+              <li>
+                <a href="http://www.google.com/support/forum/p/Google+Mobile?hl=en">Mobile Help
+                Forum</a>
+              </li>
+              <li>
+                <a href="http://productideas.appspot.com/#16/e=cf&amp;hl=en">Product Ideas</a>
+              </li>
+            </ul>
+          </li>
+        </ul><script>
+  mgc.components.toolbar = new mgc.Toolbar('mgc-toolbar');
+        </script>
+      </div>
+      <div class="mgc-body">
+        <div class="mgc-title">
+          <img class="product-icon" src="/mobile/images/mgc3/blackberry48.png">
+          <h2>
+            Google for BlackBerry
+          </h2>
+          <p class="intro">
+            Stay connected on the go with BlackBerry apps by Google.
+          </p>
+        </div>
+        <div class="clr"></div>
+        <div class="cta-banner">
+          <img class="hero" src="hero.jpg">
+          <div class="cta-right-section">
+            <div class="mgc-stp-box up">
+              <div class="mgc-stp-box-border">
+                <h3>
+                  Get Google applications for your BlackBerry
+                </h3>
+                <div class="stp">
+                  <p>
+                    Just use your phone and visit:
+                  </p>
+                  <p>
+                    <strong>m.google.com</strong>
+                  </p>
+                  <div class="g-button-basic">
+                    <div>
+                      <span><span><a class="g-stp" data-g-stp-awconversionid="1054028134"
+                      data-g-stp-awconversionlabel="ecbXCL6wggEQ5uLM9gM" data-g-stp-country="US"
+                      data-g-stp-hash="AFXxHiBvGJjHQqc-p_sCu-LsKwgb8hP3Dg" data-g-stp-language="en"
+                      data-g-stp-readable-url="m.google.com" data-g-stp-share-buzz=
+                      "http://www.google.com/buzz/post?message=I%20just%20got%20Google%20for%20my%20Blackberry&amp;url=http%3A//www.google.com/mobile/blackberry/"
+                      data-g-stp-share-facebook=
+                      "http://www.facebook.com/sharer.php?u=http%3A//www.google.com/mobile/blackberry/"
+                      data-g-stp-share-twitter=
+                      "http://twitter.com/home?status=I%20just%20got%20Google%20for%20my%20Blackberry%20from%20http%3A//m.google.com%20%23googlemobile"
+                      data-g-stp-text="http://m.google.com/?dc=mgc_bb" href="javascript:">Send to
+                      Phone</a></span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="expand">
+          Click thumbnail to see larger image
+        </div>
+        <h3>
+          Best BlackBerry apps from Google
+        </h3>
+        <ul class="features">
+          <li class="icon google-mobile-app has-thumbnail">
+            <a class="mgc-screen" href="gma-query-italian.jpg"><img src=
+            "phone-google-mobile-app.png"></a> <strong>Google Search App</strong>
+            <p>
+              Search Google using your voice and your location. *
+            </p>
+            <p>
+              <a href="../google-mobile-app/">Learn more</a>
+            </p>
+          </li>
+          <li class="maps icon">
+            <a class="mgc-screen" href="sfo_driving_directions.jpg"><img src="phone-maps.png"></a>
+            <strong>Google Maps</strong>
+            <p>
+              Search for local businesses, and get driving, transit, or walking directions. **
+            </p>
+            <p>
+              <a href="../maps/">Learn more</a>
+            </p>
+          </li>
+          <li class="mail icon">
+            <a class="mgc-screen" href="gmail_inbox.jpg"><img src="phone-mail.png"></a>
+            <strong>Gmail</strong>
+            <p>
+              Read and send emails on the go. Search for any email saved in your account.
+            </p>
+            <p>
+              <a class="mgc-video" href="http://www.youtube.com/watch?v=ykbMU58W08k">Watch
+              video</a> <a href="../mail/">Learn more</a>
+            </p>
+          </li>
+          <li class="voice icon">
+            <a class="mgc-screen" href="voice_inbox.jpg"><img src="phone-voice.png"></a>
+            <strong>Google Voice</strong>
+            <p>
+              Listen to voicemail, send free SMS, call internationally at low rates.
+            </p>
+            <p>
+              <a href="../voice/">Learn more</a>
+            </p>
+          </li>
+          <li class="sync icon">
+            <a class="mgc-screen" href="sync_settings.jpg"><img src="phone-sync.png"></a>
+            <strong>Google Sync</strong>
+            <p>
+              Automatically synchronize your Google Calendar and Contacts to your BlackBerry.
+            </p>
+            <p>
+              <a href="../sync/">Learn more</a>
+            </p>
+          </li>
+        </ul>
+        <div class="clr"></div>
+        <p class="mgc-footnote">
+          * Search by voice and speech recognition are currently available in English (US, UK, AU,
+          IN accents), Mandarin Chinese, Japanese.
+        </p>
+        <p class="mgc-footnote">
+          ** Google Maps Navigation is currently available in the US.
+        </p>
+      </div>
+      <div class="g-section footer">
+        <p class="fineprint">
+          ©2011 Google - <a href="/accounts/TOS">Terms of Service</a> - <a href=
+          "/mobile/privacy.html">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
