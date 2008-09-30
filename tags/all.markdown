@@ -21,3 +21,4 @@
 [BlackBerry Sync Mac - Bluetooth sync for BlackBerry and Mac with iTunes, Entourage, iCal and iPhoto ](http://www.markspace.com/missingsync_blackberry.php), 00ad643745e4b2d04c2ce6aa1acee686  
 [Curve Smartphone at BlackBerry.com](http://www.blackberrycurve.com), d8f1beb6bff0d481c6220976c49779ee  
 [Manual :: An OO-interface for easily retrieving and modifying data in a database](http://pear.php.net/manual/en/package.database.mdb-querytool.intro.php), 6d4f66231c6f530fe3d6f2e6e6095cb6  
+[  The First Country in Cyber War is “Arming” its Computer Users - The Next Web](http://thenextweb.org/2008/09/30/the-first-country-in-cyber-war-is-%e2%80%9carming%e2%80%9d-its-computer-users), f5d1556e375f5eac319b61444cc46b5e  

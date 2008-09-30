@@ -1,0 +1,1 @@
+[  The First Country in Cyber War is “Arming” its Computer Users - The Next Web](http://thenextweb.org/2008/09/30/the-first-country-in-cyber-war-is-%e2%80%9carming%e2%80%9d-its-computer-users), f5d1556e375f5eac319b61444cc46b5e  
