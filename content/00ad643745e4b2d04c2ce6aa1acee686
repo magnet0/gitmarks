@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+
+<title>BlackBerry Sync Mac - Bluetooth sync for BlackBerry and Mac with iTunes, Entourage, iCal and iPhoto </title>
+
+<meta name="Description" content="The Missing Sync for BlackBerry 2.0 bluetooth and automatic wireless synchronization for your vital data between your BlackBerry and Mac." />
+
+<meta name="keywords" content="blackberry mac sync, bluetooth wireless sync blackberry bold, syncing blackberry storm, blackberry storm sync, sync Entourage, iCal BlackBerry sync" />
+
+<link rel="stylesheet" type="text/css" href="/common/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/msstyle-main.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/msstyle-products.css" />
+
+<script language="JavaScript" type="text/javascript" src="/common/js/dropdownmenu.js"></script>
+
+<!--for the gallery/screenshots pop-up-->
+<script language="javascript" type="text/javascript" src="/common/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/common/js/thickbox.js"></script>
+<link rel="stylesheet" href="/common/css/thickbox.css" type="text/css" media="screen" />
+<!--for the gallery/screenshots pop-up-->
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<script language="javascript" type="text/javascript">
+<!--
+function buynow() {
+	if (document.getElementById("download").checked) {
+	    document.getElementById("buynow").action = 'http://store.markspace.com/add.php?id=6269&qty=1&cart=add&back=product';
+        return 1;
+	}	
+		
+	if (document.getElementById("businessed").checked) {
+	    document.getElementById("buynow").action = 'http://store.markspace.com/add.php?id=6420&qty=1&cart=add&back=product';
+        return 1;
+	}
+
+	
+/*	if (document.getElementById("cdrom").checked) {
+	    document.getElementById("buynow").action = 'http://store.markspace.com/add.php?id=6425&qty=1&cart=add&back=product';
+        return 1;
+	} */
+	
+/*	if (document.getElementById("upgrade").checked) {
+	    document.getElementById("buynow").action = 'blackberry-sync-crossgrade.php';
+        return 1;
+	}
+*/
+    return 0;
+}
+//-->
+</script>
+<style type="text/css">
+#rightcolumn a.button {
+	display:block;
+	background: #e7b877 url(/common/images/nav_productmenu_bg_active.gif) repeat-x top left;	color: #333;
+	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
+	font-weight:normal;
+	font-size: 1.2em;
+	padding: 4px; 
+	/*
+	font-size:1.3em;
+	font-weight:bold;
+	line-height:1.5em;
+	padding: 10px 4px; 
+	*/
+	margin:10px;
+	border: 1px solid #afa9a6;
+	text-align:center;
+	text-decoration:none;
+}
+
+#rightcolumn a.button:hover {
+	background: #c4c4c4 url(/common/images/nav_productmenu_bg_normal.gif) repeat-x top left;
+	border: 1px solid #333;
+	cursor: pointer;
+	
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<script language="JavaScript" type="text/javascript">
+<!--
+var requestSubmitted = false;
+	function submitOnce() {
+    	if (!requestSubmitted ) {
+			requestSubmitted  = true;
+			return true;
+		}
+		return false;
+	}
+
+
+	function popUp(URL) {
+		day = new Date();
+		id = day.getTime();
+		eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=350');");
+	}
+//-->
+</script>
+
+
+
+
+<!-- Google Analytics code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3193508-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics code -->
+
+	<div id="header">
+		<div id="logo"><a href='/'><img src="/common/images/mark-space-logo-384x80.gif" width="384" height="80" border="0" alt="Mark/Space" /></a></div>
+		
+		<div id="secondaryNav">	
+		<ul>
+		<li><a href="http://www.markspace.com/"><img src="/images/btn_en_on.gif" width="43" height="16" border="0" alt="English" title="English" /></a></li><li><a href="http://www.markspace.com/de/"><img src="/images/btn_de_off.gif" width="43" height="16" border="0" alt="Deutsch" title="Deutsch" /></a></li>
+		<li><a href="http://www.markspace.com/es/"><img src="/images/btn_es_off.gif" width="43" height="16" border="0" alt="Espa&#241;ol" title="Espa&#241;ol" /></a></li>
+		<li><a href="http://www.markspace.com/fr/"><img src="/images/btn_fr_off.gif" width="43" height="16" border="0" alt="Fran&#231;ais" title="Fran&#231;ais" /></a></li>
+		<li><a href="http://www.markspace.com/it/"><img src="/images/btn_it_off.gif" width="43" height="16" border="0" alt="Italiano" title="Italiano" /></a></li>
+		<li><a href="http://www.markspace.com/jp/"><img src="/images/btn_jp_off.gif" width="43" height="16" border="0" alt="&#26085;&#26412;&#35486;" title="&#26085;&#26412;&#35486;" /></a></li>
+		</ul></div>
+		
+		<div id="primaryNav">
+		<a href="/products.html" onmouseover="dropdownmenu(this, event, menu1, '150px'), image1.src='/common/images/nav_products_on.gif';" onmouseout="delayhidemenu(), image1.src='/common/images/nav_products_off.gif';"><img name="image1" src="/common/images/nav_products_off.gif" border="0" width="119" height="31" alt="Products" /></a><a href="/services/premium-support.html" onmouseover="dropdownmenu(this, event, menu5, '165px'), image2.src='/common/images/nav_services_on.gif';" onmouseout="delayhidemenu(), image2.src='/common/images/nav_services_off.gif';"><img name="image2" src="/common/images/nav_services_off.gif" border="0" width="119" height="31" alt="Services" /></a><a href="https://support.markspace.com/" onmouseover="dropdownmenu(this, event, menu2, '118px'), image3.src='/common/images/nav_support_on.gif';" onmouseout="delayhidemenu(), image3.src='/common/images/nav_support_off.gif';"><img name="image3" src="/common/images/nav_support_off.gif" border="0" width="119" height="31" alt="Support" /></a><a href="/about.html" onmouseover="dropdownmenu(this, event, menu3, '118px'), image5.src='/common/images/nav_about_on.gif';" onmouseout="delayhidemenu(), image5.src='/common/images/nav_about_off.gif';"><img name="image5" src="/common/images/nav_about_off.gif" border="0" width="119" height="31" alt="About" /></a><a href="http://store.markspace.com/" onmouseover="dropdownmenu(this, event, menu4, '118px'), image6.src='/common/images/nav_store_on.gif';" onmouseout="delayhidemenu(), image6.src='/common/images/nav_store_off.gif';"><img name="image6" src="/common/images/nav_store_off.gif" border="0" width="120" height="31" alt="Store" /></a></div></div><!--end header div-->
+
+
+	<div id="dropShadow">
+	
+	<div id="content">
+	
+	<img class="productImage" src="images/missing-sync-blackberry.jpg" width="973" height="239" alt="blackberry sync mac" />
+	
+	<!--begin product submenu-->
+	
+	<div id="subnav">
+		<ul>
+	    <li class="highlight"><a href="blackberry-sync-mac-software.html">overview</a></li>
+			<li><a href="blackberry-sync-mac-features.html">features</a></li>
+			<li><a href="blackberry-sync-mac-requirements.html">requirements</a></li>
+			<li><a href="blackberry-sync-awards.html">accolades</a></li>
+			<li><a href="tour/tour-ms-bb-main.html?keepThis=true&amp;TB_iframe=true&amp;height=525&amp;width=650" title="The Missing Sync for BlackBerry - Screenshot Gallery" class="thickbox">gallery</a></li>
+			<li><a href="blackberry-purchase-options-mac.html"><b>buy now</b></a></li>
+		</ul>
+	</div>
+	
+	<!--end product submenu-->
+	
+	<!--start product content div-->
+	
+	<div id="productfeatures">
+	
+	<div id="leftcolumn">
+	
+	<h1 class="intro">The award-winning Missing Sync for BlackBerry connects your BlackBerry phone to your Mac to <b>sync contacts, calendars, photos, music and more</b>. Plus, you can sync wireless and automatically too, with Proximity Sync&trade;. Whenever your phone is near your Mac, sync happens - even when your BlackBerry is in your pants pocket or bag.</h1>
+
+	<!--p class="overview">Sync automatically and wirelessly via Bluetooth with Proximity Sync&trade; technology. Whenever your phone is near your Mac, sync happens - even when your BlackBerry is in your pants pocket or bag. Contacts and calendars are kept in sync. Photos and notes are transferred from your phone to your computer. <b>Its syncing without thinking - automatic, without wires, and hassle-free</b>.</p -->	
+	
+	<!--product overview table-->
+	
+	<table width="100%" cellspacing="0" cellpadding="0" align="left" border="0" class="overview">
+		<tr>
+		<td width="50%">
+		
+		<h2 class="overview">Contacts, Calendars and Tasks</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#contact"><img src="images/blackberry-contacts-calendar.jpg" width="100" height="76" class="feature-icon" alt="blackberry sync software" /></a>Reliably <a href="blackberry-sync-mac-features.html#cal">sync contacts, calendars and tasks</a> with Address Book or Microsoft Entourage and iCal. Sync them all, or select groups of contacts and events to keep synchronized.</p>
+		
+		</td>
+		
+		<td width="30"><img src="/images/spacer.gif" width="30" height="1" alt="spacer image" /></td>
+		
+		<td width="50%">	
+		
+		<h2 class="overview">Photos, Video and Music</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#media"><img src="images/sync-blackberry-itunes-iphoto.jpg" width="100" height="76" class="feature-icon" alt="syncs blackberry with iphoto and itunes"  /></a>Transfer <a href="blackberry-sync-mac-features.html#media">photo albums and playlists of music</a> from iPhoto and iTunes&sup1;. Save pictures you shoot with your phone to your Mac too. Enjoy video optimized to view on your phone.</p>
+		
+		</td></tr>
+		 
+         <tr><td>
+		
+		<h2 class="overview">Sync via Bluetooth or USB Cable</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#prox"><img src="images/blackberry-mac-bluetooth.jpg" width="100" height="76" class="feature-icon" alt="blackberry sync bluetooth" /></a>Choose how you want to sync. Use a USB Cable. Or, <a href="blackberry-sync-mac-features.html#prox">synchronize wirelessly via Bluetooth</a> and benefit from Proximity Sync technology to automatically sync your phone with your Mac.</p>
+				
+		</td>
+		
+		<td>&nbsp;</td>
+		
+		<td>
+		
+		<h2 class="overview">Word, Excel and PowerPoint Docs</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#foldersync"><img src="images/sync-word-excel-mac.jpg" width="100" height="76" class="feature-icon" alt="sync excel and word files " /></a>View Microsoft documents on your BlackBerry phone.&sup2; The Missing Sync makes it easy to <a href="blackberry-sync-mac-features.html#foldersync">transfer Microsoft Word and Excel documents</a> from your Mac to your phone to view on-the-go. </p>	
+		
+	</td></tr>
+				 						
+		<tr><td>
+
+		<h2 class="overview">Notes and Memos</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#notes"><img src="images/blackberry-sync-entourage.jpg" width="100" height="76" class="feature-icon" alt="uninstall pocket mac" /></a>Access all your notes on your Mac and on your BlackBerry. <a href="blackberry-sync-mac-features.html#notes">Synchronize notes and memos</a> between your phone and Microsoft Entourage, Bare Bones Yojimbo or Mark/Space Notebook.</p>
+	
+		</td>
+		
+		<td>&nbsp;</td>
+		
+		<td>
+		
+		<h2 class="overview">Text Messages and Call History</h2>
+		<p class="overview"><a href="blackberry-sync-mac-features.html#msgs"><img src="images/blackberry-sms-calllog.jpg" width="100" height="76" class="feature-icon" alt="archive SMS and call logs" /></a>Your <a href="blackberry-sync-mac-features.html#msgs">text messages and call history</a> can contain important information. Save them from your BlackBerry to your Mac for searching, sorting and safekeeping. </p>	
+		
+	</td>
+	
+	</tr></table>
+	
+	<!--product overview table-->
+
+	</div><!--end leftcolumn div-->
+	
+	<div id="rightcolumn">
+	
+		
+		<div class="right_col" style="background-position:0%20%;">
+		
+		<div class="right_col_header"><h5>Purchase for Mac</h5></div>
+		
+			<a class="button" href="blackberry-purchase-options-mac.html" title="Click here to view purchase options for The Missing Sync for BlackBerry">Buy Now for $39.95</a>
+			
+		</div>
+
+		<br />
+		
+		<a href="blackberry-sync-awards.html"><img class="quotes" src="/products/blackberry/images/quotes/rotate.php" alt="best mobile sync software" /></a>        
+
+           		
+		<div class="callout_gray">
+		<h5>Multiple-Language Support</h5>
+		
+		<p>The Missing Sync for BlackBerry is available in English, French, German, Italian and Spanish.</p>
+		
+		<div class="flags">
+		<a href="/fr/missingsync_blackberry.php"><img src="/common/images/flag_FR.gif" border="0" height="11" width="16" alt="blackberry sync france" /></a>
+		<a href="/de/missingsync_blackberry.php"><img src="/common/images/flag_DE.gif" border="0" height="11" width="16"  alt="blackberry sync germany" /></a>
+		<a href="/it/missingsync_blackberry.php"><img src="/common/images/flag_IT.gif" border="0" height="11" width="16"  alt="blackberry sync italy" /></a>
+		<a href="/es/missingsync_blackberry.php"><img src="/common/images/flag_ES.gif" border="0" height="11" width="16"  alt="blackberry sync spain" /></a>
+		<a href="blackberry-sync-mac-software.html"><img src="/common/images/flag_US.gif" border="0" height="11" width="16"  alt="blackberry sync us"  /></a></div>
+		</div>
+	
+		
+</div><!--end right column div-->
+	
+	<p class="fineprint">
+	
+		 &sup1;BlackBerry phones are able to play media and audio files you have imported from CDs or downloaded from sites and services offering non-protected music files. BlackBerry phones cannot play music files that are protected by DRM (Digital Rights Management).<br />
+		 &sup2;View Microsoft Word and Excel documents on your BlackBerry phone with DataViz Word-to-Go and Excel-To-Go.<br />
+	   
+   
+<br />	
+	
+    iPhoto, iTunes, iCal are trademarks of Apple, Inc. Excel, Word and Entourage are trademarks of Microsoft. All other trademarks and logos are the property of their respective owners.<br /><br />	
+    
+    </p>
+	</div><!--end product content div-->
+	
+	</div><!--end content div-->
+	
+	</div><!--end drop shadow div-->
+	
+	<div id="footer">&copy; 2011 Mark/Space, Inc. | <a href="http://www.markspace.com/sitemap.html">Site Map</a> | <a href="http://store.markspace.com/">Store</a> | <a href="http://www.markspace.com/careers/">Careers</a> | <a href="http://www.markspace.com/contact.html">Contact</a>
+	
+		<br /><br />Language: <b>English</b> | <a href="/de/">Deutsch</a> | <a href="/es/">Espa&ntilde;ol</a> | <a href="/fr/">Fran&ccedil;ais</a> | <a href="/it/">Italiano</a> | <a href="/jp/">Japanese</a>
+		
+		<br /><br /><a href="http://twitter.com/themissingsync">Follow us on Twitter</a> | <a href="http://announce.markspace.com/lists/?p=subscribe">Join our Mailing List</a></div>
+	
+	</div><!--end wrapper div-->
+
+<!-- START Activa Live Chat Deployment Code: MUST BE PLACED DIRECTLY ABOVE THE CLOSING </BODY> TAG and AFTER/OUTSIDE ALL HTML -->
+<script type="text/javascript">
+var __ALC_Deployment = 5643;
+document.write(unescape("%3Cscript src='"+document.location.protocol+"//www.activalive.com/app/js/lt.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END Activa Live Chat Deployment Code -->
+	
+</body>
+</html>
