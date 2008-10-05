@@ -16,3 +16,4 @@
 [   Michael Moore on Slacker Uprising&#8217;s Piracy &#8216;Problem&#8217; | TorrentFreak  ](http://torrentfreak.com/michael-moore-on-slacker-uprisings-piracy-problem-081006), 90f71874554b67222e672b420f0912d5  
 [radiocommons #1 | radiobubble](http://radiobubble.gr/el/radiocommons1), 55417a754f3a16f7e47990f25e79b5ee  
 [ Greece Go Creative Commons](http://2g2c.wordpress.com), 9bb419323a0acfcbe7b12a9199f331a8  
+[Blogger: Blog not found](http://dealsend-pod.blogspot.com), 4397cd38dee3fbe83d4da0d1d6900cf4  
