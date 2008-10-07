@@ -1,2 +1,1 @@
-[  AOL-Yahoo Merger Details Emerge; Deal Could Happen This Month ](http://www.techcrunch.com/2008/10/06/aol-yahoo-merger-details-emerge-deal-could-happen-this-month), 5eab2ca85f5139e66298646b91a3d30c  
 [   Michael Moore on Slacker Uprising&#8217;s Piracy &#8216;Problem&#8217; | TorrentFreak  ](http://torrentfreak.com/michael-moore-on-slacker-uprisings-piracy-problem-081006), 90f71874554b67222e672b420f0912d5  
