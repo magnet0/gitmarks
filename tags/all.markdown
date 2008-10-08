@@ -12,3 +12,4 @@
 [  ](http://www.e-tipos.com/services/maps), b46aa9ac73be22079207dc40a14efa3b  
 [502 Server Error](http://labs.google.com/gaudi), f8c33abe7c6edece93acdcb72d283cb8  
 [[No Title]](http://metablogging.gr/archives/1957), 02e1e54e71f6b1b5aeaa0a33497746d4  
+[  AOL-Yahoo Merger Details Emerge; Deal Could Happen This Month ](http://www.techcrunch.com/2008/10/06/aol-yahoo-merger-details-emerge-deal-could-happen-this-month), 5eab2ca85f5139e66298646b91a3d30c  
