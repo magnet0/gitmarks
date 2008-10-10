@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--tipjoy:leolaporte-->
+	<title>The TWiT Netcast Network with Leo Laporte</title>
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="this WEEK in TECH" href="node/4346/feed" />
+
+<link rel="shortcut icon" href="/sites/all/themes/twit/favicon.ico" type="image/x-icon" />
+                <script type="text/javascript" src="/files/js/js_cd2de7f517b2ac8734c531f8a5cab446.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "episode_picks", "view_display_id": "block_1", "view_args": "6144", "view_path": "node/6144", "view_base_path": null, "view_dom_id": 2, "pager_element": 1 } ] } });
+//--><!]]>
+</script>
+	<link rel="alternate" type="application/rss+xml" title="TWiT RSS News Feed" href="/blog/feed" />  <link type="text/css" rel="stylesheet" media="all" href="/files/css/css_50bbb9a49cb8875fb09937902342aa46.css" />
+<!--[if IE 7]>
+<style type="text/css" media="all">@import "/sites/all/themes/twit/style-ie7.css";</style>
+<![endif]-->
+  
+    <script type="text/javascript"><!--
+    function go(e) {
+      var destination = e.options[e.selectedIndex].value;
+      if (destination && destination != 0) location.href = destination;
+    }  
+  //--></script>
+
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/leo" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="main-sidebar">
+  <h1 id="logo"><a href="/"><img src="/sites/all/themes/twit/img/logo.gif" title="The TWiT Netcast Network &#8212; with Leo Laporte &amp; Friends" alt="The TWiT Netcast Network &#8212; with Leo Laporte &amp; Friends" /></a></h1>
+    <ul id="skip">
+      <li><a href="#content">Skip to content</a></li>
+      <li><a href="#primary-links">Skip to navigation</a></li>
+    </ul>
+    <div id="blocks">
+      <h2 class="structure-label">Podcast navigation</h2>
+      
+<div class="block block-block" id="block-block-1">
+  <h2>Help Build The New Brick TWiT House!</h2>
+  <div class="content"><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="submit" name="op" value="$10/mo (recurring)"  class="form-submit button" alt="Donate $10/mo (recommended) with PayPal" />
+<input type="hidden" name="cmd" value="_xclick-subscriptions" /> 
+<input type="hidden" name="business" value="leo@leoville.com" /> 
+<input type="hidden" name="item_name" value="TWit Monthly Donation" /> 
+<input type="hidden" name="item_number" value="1" /> 
+<input type="hidden" name="no_shipping" value="1" /> 
+<input type="hidden" name="no_note" value="1" /> 
+<input type="hidden" name="currency_code" value="USD" /> 
+<input type="hidden" name="lc" value="US" /> 
+<input type="hidden" name="a3" value="10.00" /> 
+<input type="hidden" name="p3" value="1" /> 
+<input type="hidden" name="t3" value="M" /> 
+<input type="hidden" name="src" value="1" /> 
+<input type="hidden" name="sra" value="1" />
+</form>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="submit" name="op" value="$5/mo (recurring)"  class="form-submit button" alt="Donate $5/mo (recommended) with PayPal" />
+<input type="hidden" name="cmd" value="_xclick-subscriptions" /> 
+<input type="hidden" name="business" value="leo@leoville.com" /> 
+<input type="hidden" name="item_name" value="TWit Monthly Donation" /> 
+<input type="hidden" name="item_number" value="1" /> 
+<input type="hidden" name="no_shipping" value="1" /> 
+<input type="hidden" name="no_note" value="1" /> 
+<input type="hidden" name="currency_code" value="USD" /> 
+<input type="hidden" name="lc" value="US" /> 
+<input type="hidden" name="a3" value="5.00" /> 
+<input type="hidden" name="p3" value="1" /> 
+<input type="hidden" name="t3" value="M" /> 
+<input type="hidden" name="src" value="1" /> 
+<input type="hidden" name="sra" value="1" />
+</form>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="submit" name="op" value="$2/mo (recurring)"  class="form-submit button" alt="Donate $2/mo (recommended) with PayPal" />
+<input type="hidden" name="cmd" value="_xclick-subscriptions" /> 
+<input type="hidden" name="business" value="leo@leoville.com" /> 
+<input type="hidden" name="item_name" value="TWit Monthly Donation" /> 
+<input type="hidden" name="item_number" value="1" /> 
+<input type="hidden" name="no_shipping" value="1" /> 
+<input type="hidden" name="no_note" value="1" /> 
+<input type="hidden" name="currency_code" value="USD" /> 
+<input type="hidden" name="lc" value="US" /> 
+<input type="hidden" name="a3" value="2.00" /> 
+<input type="hidden" name="p3" value="1" /> 
+<input type="hidden" name="t3" value="M" /> 
+<input type="hidden" name="src" value="1" /> 
+<input type="hidden" name="sra" value="1" />
+</form>
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="submit" name="op" value="one time contribution"  class="form-submit button" alt="Donate any amount with PayPal" />
+<input type="hidden" name="cmd" value="_xclick" /> 
+<input type="hidden" name="business" value="leo@leoville.com" /> 
+<input type="hidden" name="item_name" value="TWiT Donation" /> 
+<input type="hidden" name="item_number" value="3" /> 
+<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="currency_code" value="USD" /> 
+<input type="hidden" name="tax" value="0" />
+<input type="hidden" name="lc" value="US" />
+</form>
+</div>
+</div>
+
+
+<div class="block block-menu" id="block-menu-menu-our-shows">
+  <h2>Our Shows</h2>
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="/twit" title="Your first podcast of the week is the last word in tech news ">this WEEK in TECH</a></li>
+<li class="leaf"><a href="/tnt" title="Tom Merritt, former host of CNET&#039;s &quot;Buzz Out Loud,&quot; joins the TWiT network to bring you &quot;Tech News Today.&quot; Tom and co-hosts Becky Worley (TechTV, Good Morning America), Sarah Lane (TechTV, Revision3) and others give you the day&#039;s need-to-know tech news.">Tech News Today</a></li>
+<li class="leaf"><a href="/ipt" title="iPad Today">iPad Today</a></li>
+<li class="leaf"><a href="/gtt" title="Green Tech Today">Green Tech Today</a></li>
+<li class="leaf"><a href="/twig" title="The latest Google and cloud computing news.">this WEEK in GOOGLE</a></li>
+<li class="leaf"><a href="/ww" title="Paul thurrot of the Supersite for Windows discusses the latest news from Microsoft">Windows Weekly</a></li>
+<li class="leaf"><a href="/mbw" title="A roundtable discussion of the latest Apple news">MacBreak Weekly</a></li>
+<li class="leaf"><a href="/tri" title="Every week Tom and Leo talk to the smartest people in the world about the most important topics in technology.">Triangulation</a></li>
+<li class="leaf"><a href="/photo" title="Mostly Photo helps everyone take better pictures by teaching you how get the most out of your digital camera, with professional photographer Lisa Bettany and over enthusiastic amateur Leo Laporte.">Mostly Photo</a></li>
+<li class="leaf"><a href="/fourcast" title="FourCast">FourCast</a></li>
+<li class="leaf"><a href="/ttg">The Tech Guy</a></li>
+<li class="leaf"><a href="/sn">Security Now</a></li>
+<li class="leaf"><a href="/natn">net@night</a></li>
+<li class="leaf"><a href="/DGW">Daily Giz Wiz</a></li>
+<li class="leaf"><a href="/nsfw" title="Magician and scam artist Brian Brushwood teams with sidekick Justin Robert Young for a weekly irreverent fun fest featuring unusual guests, bizarre games, and strange and wonderful tales">NSFW</a></li>
+<li class="leaf"><a href="/fr" title="Frame Rate">Frame Rate</a></li>
+<li class="leaf"><a href="/htg" title="Scott Wilkinson and friends cover the latest trends in home theater">Home Theater Geeks</a></li>
+<li class="leaf"><a href="/twich" title="Ryan Shrout of PC Perspective talks about the latest computer hardware releases">this WEEK in COMPUTER HARDWARE</a></li>
+<li class="leaf"><a href="/kiki" title="Kirsten Sanford explores hot topics in science">Dr. Kiki&#039;s Science Hour</a></li>
+<li class="leaf"><a href="/FLOSS">FLOSS Weekly</a></li>
+<li class="leaf"><a href="/twil">this WEEK in LAW</a></li>
+<li class="leaf"><a href="/specials" title="Leo Laporte and the TWiTs go off the beaten path to bring you non-standard shows from the network, including live-on-location events, special interviews, shows in beta, and geek conference expeditions. Broadcast live at http://live.twit.tv.">TWiT Live Specials</a></li>
+<li class="leaf"><a href="/FIB">Futures in Biotech</a></li>
+<li class="leaf"><a href="/cgw" title="Current Geek Weekly">Current Geek Weekly</a></li>
+<li class="leaf"><a href="/abby" title="Join high school senior Abby Laporte and her guests as they offer fresh perspectives on the difficult subjects of teen sex, drugs, decision making, friends, parents, money, driving, new responsibilities, and, of course, college. Published on Fridays. ">Abby&#039;s Road</a></li>
+<li class="leaf"><a href="/mc" title="Food for geeks with Cammy Blackstone">Munchcast</a></li>
+<li class="leaf"><a href="/mh" title="Ray Maxwell and a potpourri of science, photography, and aviation news and opinion">Maxwell&#039;s House</a></li>
+<li class="leaf"><a href="/roz" title="Roz Rows The Pacific">Roz Rows</a></li>
+<li class="leaf"><a href="/radio_leo">Radio Leo</a></li>
+<li class="leaf last"><a href="/twif" title="Sarah Lane and Martin Sargent wreck the news...">this WEEK in FUN</a></li>
+</ul></div>
+</div>
+
+
+<div class="block block-block" id="block-block-3">
+  <h2>Buy TWiT Stuff</h2>
+  <div class="content"><A HREF="http://www.scottevest.com/Merchant2/merchant.mv?Screen=SFNT&Store_Code=se
+v&AFFIL=788ROB"><img src="http://twit.tv/files/sev_twit_170_anim.gif" alt="Click here to see the TWiT SeVs! and/or to see Leo with his SeV" BORDER="0"></A>
+</div>
+</div>
+
+
+<div class="block block-node" id="block-node-0">
+  <h2>Syndicate</h2>
+  <div class="content"><a href="/node/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16" /></a></div>
+</div>
+
+    </div>
+  </div>
+    <div id="main">
+  <div id="header">
+      <div id="header-top">
+		   <p id="site-slogan">Netcasts you love from people you trust</p>      
+<form action="/search/google"  accept-charset="UTF-8" method="get" id="google-cse-searchbox-form">
+<div><input type="hidden" name="cx" id="edit-cx" value="014812482459537178415:83o15gm_pzo"  />
+<input type="hidden" name="cof" id="edit-cof" value="FORID:11"  />
+<div class="form-item field-textfield-1-wrapper" id="edit-query-wrapper">
+ <input type="text" maxlength="128" name="query" id="edit-query" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-sa" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-893f7381344613ce3aca4ea594109de8" value="form-893f7381344613ce3aca4ea594109de8"  />
+<input type="hidden" name="form_id" id="edit-google-cse-searchbox-form" value="google_cse_searchbox_form"  />
+
+</div></form>
+
+</div>
+
+      <div id="header-bottom">
+        <div id="ad-top"><a href="http://www.nabshow.com/2011/index.asp" target="_blank"><img src="/files/images/NAB_Banner_001.jpg" width="728" height="90" border="0" /></a></div> 
+        
+        <h2 class="structure-label">Site navigation</h2>
+        <ul id="primary-links"><li class="first menu-1"><a href="/" title="Return to the front page" class="menu-1"><span class="left-tab"></span><span class="center-tab">Home</span><span class="right-tab"></span></a></li>
+<li class="menu-3"><a href="http://live.twit.tv" title="TWiT Live: Live streaming video of the TWiT shows" class="menu-3"><span class="left-tab"></span><span class="center-tab">Live</span><span class="right-tab"></span></a></li>
+<li class="menu-30"><a href="http://inside.twit.tv" title="Inside TWiT: our behind the scenes blog" class="menu-30"><span class="left-tab"></span><span class="center-tab">Inside</span><span class="right-tab"></span></a></li>
+<li class="menu-102"><a href="http://wiki.twit.tv" title="TWiT Wiki: the official wiki by TWiT staff and community" class="menu-102"><span class="left-tab"></span><span class="center-tab">Wiki</span><span class="right-tab"></span></a></li>
+<li class="menu-32"><a href="http://leoville.com" class="menu-32"><span class="left-tab"></span><span class="center-tab">Leoville</span><span class="right-tab"></span></a></li>
+<li class="menu-26"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=146041210" title="The TWiT artist page on iTunes, all the TWiT shows are listed here" class="menu-26"><span class="left-tab"></span><span class="center-tab">iTunes</span><span class="right-tab"></span></a></li>
+<li class="last menu-2"><a href="/about" title="" class="menu-2"><span class="left-tab"></span><span class="center-tab">About</span><span class="right-tab"></span></a></li>
+</ul>        <div id="login">
+          <a href="/user?destination=node%2F6144">Welcome!</a>        </div>
+      </div>
+      <a href="/huh" id="huh"><span>huh?</span></a>
+    </div>
+    <div id="subwrapper" class="clearfix">
+      <div id="content-sidebar">
+<div class="block block-views" id="block-views-episode_guide-block_1">
+  <h2>Episode Guide</h2>
+  <div class="content"><div class="view view-episode-guide view-id-episode_guide view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="episode-prevnext clearfix"><span class="link episode-next-null"><span>Next</span></span><a href="/163?page=0%2C0%2C1" class="episode-prev pager-next active"><span>Prev</span></a></div>  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number current" title="TWiT 294: AS KANYE SAYS: SABAM!" href="/294">294</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">March 27th, 2011</h3>
+    <h2><a href="/294" title="TWiT 294: AS KANYE SAYS: SABAM!" alt="TWiT 294: AS KANYE SAYS: SABAM!">TWiT 294: AS KANYE SAYS: SABAM!</a></h2>
+    <p>Updates on Japan, CTIA announcements, new entries to the Oxford English Dictionary, and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 293: Undressed For Your Comfort" href="/293">293</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">March 20th, 2011</h3>
+    <h2><a href="/293" title="TWiT 293: Undressed For Your Comfort" alt="TWiT 293: Undressed For Your Comfort">TWiT 293: Undressed For Your Comfort</a></h2>
+    <p>AT&amp;T acquires T-Mobile, the magnetic iPad 2, Google returns to its roots, and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 292: Live From SXSW 2011" href="/292">292</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">March 13th, 2011</h3>
+    <h2><a href="/292" title="TWiT 292: Live From SXSW 2011" alt="TWiT 292: Live From SXSW 2011">TWiT 292: Live From SXSW 2011</a></h2>
+    <p>Big changes at Engadget, Social media coverage of breaking news, Twitter wants control, and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 291: Eggs: The Silent Killer" href="/291">291</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">March 6th, 2011</h3>
+    <h2><a href="/291" title="TWiT 291: Eggs: The Silent Killer" alt="TWiT 291: Eggs: The Silent Killer">TWiT 291: Eggs: The Silent Killer</a></h2>
+    <p>Libya's internet goes down again, Apple iPad 2, WordPress attacked and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 290: The Whipped Cream Situation" href="/290">290</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">February 27th, 2011</h3>
+    <h2><a href="/290" title="TWiT 290: The Whipped Cream Situation" alt="TWiT 290: The Whipped Cream Situation">TWiT 290: The Whipped Cream Situation</a></h2>
+    <p>The coming of iPad 2, Google takes on content farms, Academy Award winners picked from web trends, and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 289: Ducks Must Wear Pants" href="/289">289</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">February 20th, 2011</h3>
+    <h2><a href="/289" title="TWiT 289: Ducks Must Wear Pants" alt="TWiT 289: Ducks Must Wear Pants">TWiT 289: Ducks Must Wear Pants</a></h2>
+    <p>Apple's new iOS subscription plan, Google's One Pass payment system, another Dot-com bubble is underway, and more.</p>
+  </div>
+</div>
+
+  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+    
+<div class="episode-navigation clearfix">
+<a class="podcast-number" title="TWiT 288: It Came From The Nigerians" href="/288">288</a>
+  <div class="podcast-meta">
+    <h3 class="podcast-date">February 13th, 2011</h3>
+    <h2><a href="/288" title="TWiT 288: It Came From The Nigerians" alt="TWiT 288: It Came From The Nigerians">TWiT 288: It Came From The Nigerians</a></h2>
+    <p>Product announcements from Mobile World Congress 2011, Nokia and Microsoft's partnership, AOL's acquisition of Huffington Post, HP's last WebOS push, and more.</p>
+  </div>
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+</div> 
+</div>
+</div>
+
+</div><div id="content" class="clearfix"><div class="breadcrumb"><a href="/">Home</a> » <a href="/twit">this WEEK in TECH</a></div><h2 class="page-title">this WEEK in TECH</h2><div class="node clearfix">
+  
+     
+    <div class="podcast-view">
+      <div class="podcast">
+        <img src="http://twit.tv/files/imagecache/coverart/coverart/twit300.jpg" alt="" title=""  class="imagecache imagecache-coverart" width="200" height="200" />        <div class="running-time"><strong>Running time:</strong> 1:27:29</div>
+				  <h3 class="separator audio" style="border-bottom:1px solid #CCC; width:100%; margin-bottom:4px; padding-bottom:2px;">Audio</h3>        
+                  <div id="flash-player" class="flash-player">
+            Please install <a href="http://www.adobe.com/go/gntray_dl_getflashplayer">Flash</a> to use the web based podcast player.
+          </div>
+          <script type="text/javascript"><!--
+            var FP = { movie:"/sites/all/themes/twit/scripts/twitmp3player.swf", width:"197", height:"30", majorversion:"6", build:"40", flashvars:"file=http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/twit/TWiT0163H.mp3&autostart=false" };    
+            UFO.create(FP, "flash-player");
+          //--></script>
+        
+        <div class="download"><a href="http://www.podtrac.com/pts/redirect.mp3/aolradio.podcast.aol.com/twit/TWiT0163H.mp3">Download Audio</a></div>
+            <select onchange="go(this);">
+        
+      <option value="0">Subscribe to Audio...</option>
+      <option value="0">-----------------------------------</option>
+      <option value="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73329404">iTunes</option>
+      <option value="http://fusion.google.com/add?feedurl=http%3A//leoville.tv/podcasts/twit.xml">Google</option>
+      <option value="winamp://Podcast/Subscribe?url=pcast://leo.am/podcasts/twit">Winamp</option>
+      <option value="zune://subscribe/?TWiT=http://leoville.tv/podcasts/twit.xml">Zune</option>
+      <option value="pcast://leo.am/podcasts/twit">Other podcast clients (pcast:// compatible)</option>
+      <option value="http://leo.am/podcasts/twit">RSS</option>
+           </select>
+              
+            
+									<h3 class="separator video" style="border-bottom:1px solid #CCC; width:100%; margin-bottom:4px; padding-bottom:2px;">Video </h3>
+          	      
+            <select onchange="go(this);">
+        
+      <option value="0">Subscribe to Video...</option>
+      <option value="0">------------ ( Large ) ------------</option>
+      <option value="http://itunes.apple.com/us/podcast/this-week-in-tech-video-large/id358612594?uo=4">iTunes</option>
+      <option value="http://fusion.google.com/add?feedurl=http%3A//feeds.twit.tv/twit_video_large">Google</option>
+      <option value="zune://subscribe/?TWiT=http://feeds.twit.tv/twit_video_large">Zune</option>
+      <option value="pcast://feeds.twit.tv/twit_video_large">Other podcast clients (pcast:// compatible)</option>
+      <option value="http://feeds.twit.tv/twit_video_large">RSS</option>
+
+      <option value="0">------------ ( Small ) ------------</option>
+      <option value="http://itunes.apple.com/us/podcast/this-week-in-tech-video-small/id358612589?uo=4">iTunes</option>
+      <option value="http://fusion.google.com/add?feedurl=http%3A//feeds.twit.tv/twit_video_small">Google</option>
+      <option value="zune://subscribe/?TWiT=http://feeds.twit.tv/twit_video_small">Zune</option>
+      <option value="pcast://feeds.twit.tv/twit_video_small">Other podcast clients (pcast:// compatible)</option>
+      <option value="http://feeds.twit.tv/twit_video_small">RSS</option>
+           </select>
+        
+
+
+       <div class="separator" style="border-bottom:1px solid #CCC; width:100%; margin-bottom:0.5em;"></div>
+
+       
+ 
+        <br /><br />
+<!-- AddThis Bookmark Button BEGIN -->
+<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'U25V19GZ49C1W7O3';</script><script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>  
+<!-- AddThis Bookmark Button END -->    
+      </div>
+      
+      <div class="podcast-meta">
+        <h3 class="podcast-date">October 5th, 2008</h3>
+        <h2 class="title podcast">TWiT 163: MitNicked</h2>
+      </div>
+
+      <p>Hosts: <a href="http://leoville.com" rel="nofollow">Leo Laporte</a>, <a href="http://dvorak.org/blog" rel="nofollow">John C. Dvorak</a>, <a href="http://tekzilla.com" rel="nofollow">Patrick Norton</a>, and <a href="http://tekzilla.com" rel="nofollow">Veronica Belmont</a></p>
+<p>Special Guests: <a href="http://mitnicksecurity.com" rel="nofollow">Kevin Mitnick</a> and <a href="http://gdgt.com" rel="nofollow">Ryan Block</a></p>
+      <p>Kevin Mitnick's airport detainment, Craigslist bank robber, Steve Jobs is alive, and more.</p>
+<p>Links to all our stories are at <a href="http://del.icio.us/twit/163" rel="nofollow">http://del.icio.us/twit/163</a>.</p>
+<p>Audible pick of the week: <a href="http://www.audible.com/adbl/site/products/ProductDetail.jsp?BV_SessionID=@@@@1881358437.1223268517@@@@&amp;BV_EngineID=ccccadefgfegigmcefecekjdffidflg.0&amp;productID=BK_AREN_000841" rel="nofollow">Anathem</a>, Unabridged, By Neal Stephenson, Narrated by Oliver Wyman, Tavia Gilbert, William Dufris, Neal Stephenson. Get two free audiobooks when you sign up for Audible's Platinum offer at <a href="http://audible.com/twit2" rel="nofollow">Audible.com/twit2</a>.</p>
+<p>Thanks to <a href="http://aol.com/podcasting" rel="nofollow">AOL Radio</a> for the bandwidth for this show.</p>
+  
+
+    </div>
+  
+  
+</div>
+
+<div class="block block-views" id="block-views-episode_picks-block_1">
+  <h2></h2>
+  <div class="content"><div class="view view-episode-picks view-id-episode_picks view-display-id-block_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-table sticky-enabled">
+    <thead>
+    <tr>
+              <th class="views-field views-field-field-pick-images-fid">
+                  </th>
+              <th class="views-field views-field-title">
+          Picks        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr class="odd">
+                  <td class="views-field views-field-field-pick-images-fid">
+            <a href="/picks/anathem" class="imagecache imagecache-product-small imagecache-linked imagecache-product-small_linked"><img src="http://twit.tv/files/imagecache/product-small/pick_images/41iZTZnvDJL_1.jpg" alt="" title=""  class="imagecache imagecache-product-small" width="67" height="100" /></a>          </td>
+                  <td class="views-field views-field-title">
+            <a href="/picks/anathem" title="Anathem" alt="Anathem">Anathem</a><br /><p>The Neal Stephenson book that Leo couldn't stop recommending, reading, or picking, Anathem.</p>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div>
+
+  
+      </div>
+    </div>
+    <div id="footer">
+      <h2 class="structure-label">Secondary site navigation</h2>
+      <ul id="secondary-links"><li class="menu-4 first"><a href="/">Home</a></li>
+<li class="menu-23"><a href="http://leoville.com">Leoville</a></li>
+<li class="menu-5"><a href="/about">About</a></li>
+<li class="menu-10"><a href="/privacy_policy">Privacy Policy</a></li>
+<li class="menu-25 last"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=146041210">iTunes</a></li>
+</ul>      <div id="footer-message"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><img alt="Creative Commons License" border="0" hspace="10" src="http://creativecommons.org/images/public/somerights20.png" align="left" /></a>TWiT&reg; and the TWiT Logo are registered trademarks of TWiT LLC.
+These netcasts are released under a <br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons License</a>. </div>    </div>
+ 	<font size=-2><p align=center>Design by <a href="http://arktyp.ca">Arktyp</a> - Powered by <a href="http://drupal.org">Drupal</a></p></font>
+ </div>
+</div>
+<script type="text/javascript" src="/files/js/js_0fd7857da0127de88b57f81a04b24340.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "en" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-242725-1");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+</body>
+</html>
