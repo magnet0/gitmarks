@@ -39,3 +39,4 @@
 [Against Intellectual Monopoly](http://levine.sscnet.ucla.edu/general/intellectual/againstfinal.htm), 95baae7f98a0a327e7d1c738eed974f4  
 [Parthenon immortalized](http://www.pestaola.gr/parthenon-immortalized), b300efa2301037be23b092acb4fd45c6  
 [[No Title]](http://blog.karagos.com/post/54063843/startups-economic-crisis), 28d8bad89b5817a3b0cd01e7b9b7f9eb  
+[The TWiT Netcast Network with Leo Laporte](http://twit.tv/163), ee821dffb2343ccc9123e7b254841d8b  
