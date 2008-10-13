@@ -5,3 +5,4 @@
 [Σκέφτομαι, ... άρα υπάρχω.: road-cast](http://www.ophilos.eu/search/label/road-cast), 131c6671595865d3a171c0a0a4f2172b  
 [SotoMi](http://sotomi.blogspot.com), 862c81413510a28128cdab798dd7cfa7  
 [Against Intellectual Monopoly](http://levine.sscnet.ucla.edu/general/intellectual/againstfinal.htm), 95baae7f98a0a327e7d1c738eed974f4  
+[Parthenon immortalized](http://www.pestaola.gr/parthenon-immortalized), b300efa2301037be23b092acb4fd45c6  
