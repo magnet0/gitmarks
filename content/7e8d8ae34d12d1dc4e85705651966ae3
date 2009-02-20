@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AJAX Chat - Open Source Web Chat</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="AJAX Chat - A free and open source web chat software implemented in JavaScript, PHP and MySQL. Integrates nicely with phpBB, MyBB, PunBB, SMF, vBulletin and other PHP community software." />
+<meta name="author" content="Sebastian Tschan" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="AJAX Chat News" href="http://sourceforge.net/export/rss2_projnews.php?group_id=214758&amp;rss_fulltext=1"/>
+<link rel="alternate" type="application/rss+xml" title="AJAX Chat file releases" href="http://sourceforge.net/export/rss2_projfiles.php?group_id=214758"/>
+<link rel="stylesheet" href="../css/slimbox2.css" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="box">
+<div id="header">
+<h1>AJAX Chat</h1>
+</div>
+<div id="main">
+<div id="headline" class="box">
+<div id="home"><p><a href="http://sourceforge.net/projects/ajax-chat/">SourceForge.net project site</a> | <a href="../">Home</a></p></div>
+<h2>Open Source Web Chat</h2>
+</div>
+<div id="description" class="box">
+<h3>Description</h3>
+<p><abbr title="Asynchronous JavaScript And XML">AJAX</abbr> Chat is a free and fully customizable open source web chat software implemented in JavaScript, PHP and MySQL. Sound support is implemented using Flash, Socket support using Flash on client-side and Ruby on server-side.</p>
+<p><abbr title="Asynchronous JavaScript And XML">AJAX</abbr> Chat integrates nicely with <a href="http://www.phpbb.com/"><abbr title="PHP Bulletin Board">phpBB</abbr></a>, <a href="http://www.mybboard.net/"><abbr title="My Bulletin Board">MyBB</abbr></a>, <a href="http://punbb.org/"><abbr title="Pun Bulletin Board">PunBB</abbr></a>, <a href="http://www.simplemachines.org/"><abbr title="Simple Machines Forum">SMF</abbr></a>, <a href="http://www.vbulletin.com/">vBulletin</a> and other PHP community software.</p>
+<ul>
+<li><a href="#demo">Demo</a></li>
+<li><a href="#screenshots">Screenshots</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#support">Support</a></li>
+<li><a href="#team">Team</a></li>
+<li><a href="#localizations">Localizations</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#download">Download</a></li>
+<li><a href="#source_code">Source Code</a></li>
+</ul>
+</div>
+<div id="demo" class="box">
+<h3>Demo</h3>
+<p><a href="http://chat.ecobytes.net/" onclick="openWindow(this.href);this.blur();return false;">Chat Demo</a></p>
+<p>Thanks to <a href="http://ecobytes.net/">Ecobytes</a> for the green demo server.</p>
+</div>
+<div id="features" class="box">
+<h3>Features</h3>
+<ul>
+<li>Easy installation</li>
+<li>Usable as <strong>shoutbox</strong></li>
+<li>Multiple channels</li>
+<li>Private messaging</li>
+<li>Private channels</li>
+<li>Invitation system</li>
+<li>Kick offending Users</li>
+<li>Ban offending Users</li>
+<li>Ignoring offending Users</li>
+<li>Online users list with user menu</li>
+<li>Emoticons / Smilies</li>
+<li>Easy way to add custom emoticons</li>
+<li><abbr title="Bulletin Board Code">BBCode</abbr> support</li>
+<li><strong>Optional Flash based sound support</strong></li>
+<li>Optional visual update information (changing window title)</li>
+<li>Clickable Hyperlinks</li>
+<li>Splitting of long words to preserve chat layout</li>
+<li>Flood control</li>
+<li>Possibility to delete messages inside the chat</li>
+<li><abbr title="Internet Relay Chat">IRC</abbr> style commands</li>
+<li>Easy interface to add custom commands</li>
+<li>Possibility to define opening hours for the chat</li>
+<li>Possibility to enable/disable guest users</li>
+<li>Persistent client-side settings</li>
+<li>Multiple languages (auto-detection of ACCEPT_LANGUAGE browser setting)</li>
+<li>Multiple styles</li>
+<li>Chat window adjusts to browser window with included styles</li>
+<li>Easy layout customization through stylesheets (<abbr title="Cascading Style Sheets">CSS</abbr>) and template system</li>
+<li>Automatic adjustment of displayed time to local client timezone</li>
+<li>Standards compliance (<abbr title="Extensible HyperText Markup Language">XHTML</abbr> 1.0 strict)</li>
+<li>Accepts any text input, including code and special characters</li>
+<li>Multiline input field with the possibility to enter line breaks</li>
+<li>Message lenght counter</li>
+<li>Realtime monitoring and logs viewer</li>
+<li>Support for unicode (<abbr title="8-bit Unicode Transformation Format">UTF-8</abbr>) and non-unicode content types</li>
+<li>Bandwidth saving update calls (only updated data is sent)</li>
+<li><strong>Optional support to push updates over a Flash based socket connection (increased performance and responsiveness)</strong></li>
+<li>Survives connection timeouts</li>
+<li>Easy integration into existing authentication systems</li>
+<li>Sample <strong><abbr title="PHP Bulletin Board Version 2">phpBB2</abbr></strong> integration provided</li>
+<li>Sample <strong><abbr title="PHP Bulletin Board Version 3">phpBB3</abbr></strong> integration provided</li>
+<li>Sample <strong><abbr title="My Bulletin Board">MyBB</abbr></strong> integration provided</li>
+<li>Sample <strong><abbr title="Pun Bulletin Board">PunBB</abbr></strong> integration provided</li>
+<li>Sample <strong><abbr title="Simple Machines Forum">SMF</abbr></strong> integration provided</li>
+<li>Sample <strong>vBulletin</strong> integration provided</li>
+<li>Separation of layout and code</li>
+<li>Well commented Source Code</li>
+<li>Developed with Security as integral part - built to prevent Code injections, SQL injections, Cross-site scripting (XSS), Session stealing and other attacks</li>
+<li>Tested successfully with Microsoft Internet Explorer, Mozilla Firefox, Opera, Safari and Konqueror - built to work with all modern browsers :)</li>
+</ul>
+</div>
+<div id="requirements" class="box">
+<h3>Requirements</h3>
+<ul>
+<li>Server-Side:
+<ul>
+<li>PHP >= 4</li>
+<li>MySQL >= 4</li>
+<li>Ruby >= 1.8 (optional)</li>
+</ul>
+</li>
+<li>Client-Side:
+<ul>
+<li>Enabled JavaScript</li>
+<li>Enabled Cookies</li>
+<li>Flash Plugin >= 9 (optional)</li>
+</ul>
+</li>
+</ul>
+<p>The client-side logic is written in JavaScript. The server-side logic is written in PHP. The chat messages are stored in a MySQL database.</p>
+<p>The Flash plugin is used for (optional) sound support and to establish the (optional) socket connection on client side. The (optional) socket server is implemented in Ruby.</p>
+</div>
+<div id="documentation" class="box">
+<h3>Documentation</h3>
+<ul>
+<li><a href="http://ajax-chat.wiki.sourceforge.net/">AJAX Chat Wiki - Main documentation</a></li>
+</ul>
+<form action="http://www.google.com/search" method="get">
+<p>
+<input type="hidden" name="sitesearch" value="ajax-chat.wiki.sourceforge.net"/>
+<input type="text" name="q" value=""/>
+<input type="submit" name="s" value="AJAX Chat Wiki - Google Search"/>
+</p>
+</form>
+<p>The download packages also include a readme file with setup instructions.</p>
+</div>
+<div id="support" class="box">
+<h3>Support</h3>
+<p>First you should read the existing <a href="#documentation">documentation</a> before asking any questions.</p>
+<p>Support or feature requests, bugs and patches can be submitted using the <a href="http://sourceforge.net/tracker/?group_id=214758">AJAX Chat Tracking System</a>.</p>
+<p>Other topics related to AJAX Chat can be discussed using the <a href="http://sourceforge.net/forum/?group_id=214758">AJAX Chat project forums</a>.</p>
+<p><strong>Please do not send e-mails or private messages to the developers for support requests.</strong></p>
+</div>
+<div id="team" class="box">
+<h3>Team</h3>
+<p>The <a href="http://sourceforge.net/project/memberlist.php?group_id=214758">team</a> developing and supporting the AJAX Chat project:</p>
+<ul>
+<li><a href="http://www.cyclical.ca/">Phil</a> (<a href="http://sourceforge.net/users/frug/">frug</a>) - Team leader</li>
+<li><a href="https://blueimp.net">Sebastian Tschan</a> (<a href="http://sourceforge.net/users/madblueimp/">madblueimp</a>) - Founder (inactive)</li>
+</ul>
+<p><strong>Please note:</strong><br />AJAX Chat has been founded and developed as a one-man project up to version 0.8.1.2 by <a href="https://blueimp.net">Sebastian Tschan</a>.<br />
+He is not actively involved in the development process any more, so please do not send him any e-mails or private messages regarding AJAX Chat.</p>
+<p>Many thanks to Phil for continuing this project!</p>
+</div>
+<div id="localizations" class="box">
+<h3>Localizations</h3>
+<p>Inlcudes Arabic, Brazilian Portuguese, Bulgarian, Catalan, Chinese (Simplified and Traditional), Croatian, Czech, Dutch, English, Finnish, French, German, Greek, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish and Ukrainian translations.</p>
+<p>Thanks to the <a href="http://ajax-chat.wiki.sourceforge.net/Localization#tocLocalization3">translators.</a></p>
+<p>If you want to contribute please read the instructions on the <a href="http://ajax-chat.wiki.sourceforge.net/Localization">AJAX Chat Localization Wikipage</a>.</p>
+</div>
+<div id="credits" class="box">
+<h3>Credits</h3>
+<ul>
+<li>The icons used for this project have been made by the <a href="http://tango.freedesktop.org/">Tango Desktop Project</a> and by <a href="http://www.kde-look.org/content/show.php?content=65591">zerwas2ky (KDE-Look.org user)</a>.</li>
+<li>The sounds used for this project have been made by <a href="http://soundsnap.com/user/21">discostu (Soundsnap.com user)</a>.</li>
+<li>The sound support and client-side socket support has been developed using the <a href="http://labs.adobe.com/wiki/index.php/Flex-Ajax_Bridge">Flex™ AJAX Bridge (FABridge)</a> from Adobe® Labs.</li>
+</ul>
+<p>To credit the work done for AJAX Chat please keep the copyright links on the chat frontend.</p>
+<p>If you want to put an AJAX Chat button on your homepage you can create your own or use the following image designed by Phil:<br />
+<img src="img/ajax-chat.png" alt="AJAX Chat" /></p>
+</div>
+<div id="license" class="box">
+<h3>License</h3>
+<p><strong>AJAX Chat</strong> is released free of charge under the <a href="http://www.gnu.org/licenses/agpl.html">GNU Affero General Public License</a>.</p>
+</div>
+<div id="download" class="box">
+<h3>Download</h3>
+<p>AJAX Chat can be downloaded from <a href="http://sourceforge.net/project/showfiles.php?group_id=214758">SourceForge.net</a>.</p>
+</div>
+<div id="source_code" class="box">
+<h3>Source Code</h3>
+<p>All source files are included in the download archives. You can also browse the source code online via <a href="http://ajax-chat.svn.sourceforge.net/viewvc/ajax-chat/">SourceForge.net</a>.</p>
+</div>
+<div id="screenshots" class="box">
+<h3>Screenshots</h3>
+<p><a href="./img/screenshots/ajax-chat-01-beige-online-users.png" rel="lightbox-screenshots"><img src="./img/screenshots/thumbnails/ajax-chat-01-thumb-beige-online-users.png" alt=""/></a>
+<a href="./img/screenshots/ajax-chat-02-black-online-users.png" rel="lightbox-screenshots"><img src="./img/screenshots/thumbnails/ajax-chat-02-thumb-black-online-users.png" alt=""/></a>
+<a href="./img/screenshots/ajax-chat-03-grey-settings.png" rel="lightbox-screenshots"><img src="./img/screenshots/thumbnails/ajax-chat-03-thumb-grey-settings.png" alt=""/></a></p>
+</div>
+<div id="footer" class="box">
+<p>Provided by <a href="../">blueimp.net</a>.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/slimbox2.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+function openWindow(url,width,height,options,name) {
+	width = width ? width : 800;
+	height = height ? height : 600;
+	options = options ? options : 'resizable=yes';
+	name = name ? name : 'openWindow';
+	window.open(
+		url,
+		name,
+		'screenX='+(screen.width-width)/2+',screenY='+(screen.height-height)/2+',width='+width+',height='+height+','+options
+	)
+}
+// ]]>
+</script>
+</body>
+
+</html>
