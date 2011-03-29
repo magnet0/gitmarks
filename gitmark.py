@@ -83,13 +83,14 @@ class gitMark(object):
         
     def saveTagData(self, tag, url, title, content_filename):
         try:
-            tag_writer = csv.writer(open('%s%s' % (TAG_PATH, tag), 'a'))
+            f = open('%s%s.markdown' % (TAG_PATH, tag), 'a')
         except IOError:
             os.mkdir(TAG_PATH,0755)
-            tag_writer = csv.writer(open('%s%s' % (TAG_PATH, tag), 'a'))
-            
-        tag_writer.writerow([url, title, content_filename])
-        return '%s%s' % (TAG_PATH, tag)
+            f = open('%s%s.markdown' % (TAG_PATH, tag), 'a')
+
+        line = '[%s](%s), %s  \n' % (title, url, content_filename)
+        f.write(line)
+        return '%s%s.markdown' % (TAG_PATH, tag)
 
     def parseTitle(self, content):
         re_htmltitle = re.compile(".*<title>(.*)</title>.*")
