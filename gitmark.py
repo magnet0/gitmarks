@@ -70,7 +70,7 @@ class gitMark(object):
         # pipe = subprocess.Popen("git push origin master", shell=True)
         # I'm using a separate branch of gitmarks to store my data.
         # The active "data" branch is defined in settings.py (defaults to "master")
-		command = "git push origin %" % GIT_BRANCH
+        command = "git push origin %s" % GIT_BRANCH
         pipe = subprocess.Popen(command, shell=True)
         pipe.wait()
         
