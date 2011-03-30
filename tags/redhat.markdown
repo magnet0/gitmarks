@@ -1,0 +1,1 @@
+[Red Hat Proves That Open Source Is Good for Business - PCWorld Business Center](http://www.pcworld.com/businesscenter/article/223346/red_hat_proves_that_open_source_is_good_for_business.html), f992563701d443c197e51b5a4098c3cb  
