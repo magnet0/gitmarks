@@ -1,2 +1,1 @@
-[40 Beautiful Free Icon Sets](http://sixrevisions.com/resources/40-beautiful-free-icon-sets), fc6238c0cdaecbd3a8b2efdecdbc8c27  
-[Tango Icon Library - Tango Desktop Project](http://tango.freedesktop.org/Tango_Icon_Library), 461d0f70242a40159002ad822c87b64c  
+[State of Web Design in Greece - Noupe Design Blog](http://www.noupe.com/showcases/state-of-web-design-in-greece.html), e8d6ddce2bb76bfdb1d25f252866a887  

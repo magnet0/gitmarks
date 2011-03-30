@@ -1,0 +1,2057 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en" />
+<title>State of Web Design in Greece - Noupe Design Blog</title>
+
+<link rel="shortcut icon" href="http://media.smashingmagazine.com/cdn_noupe/favicon.ico" />
+
+<!-- <link rel="pingback" href="http://www.noupe.com/xmlrpc.php" /> -->
+
+
+<link rel="stylesheet" href="http://media.smashingmagazine.com/cdn_noupe/wp-content/themes/default-autosvn-stable/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://media.smashingmagazine.com/cdn_noupe/wp-content/themes/default-autosvn-stable/style_smashingwidget_v2.css" type="text/css" media="screen" />
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	<meta name="description" content="Most people know Greece because of its glorious past during the ancient years. Nevertheless, present times are quite stressful for the vast majority of its population..." />
+	<meta name="keywords" content="inspiration, showcases, photography, wordpress, jquery, photoshop" />
+	<meta name="robots" content="index,follow" />
+
+<link rel="alternate" type="application/rss+xml" title="Noupe Design Blog &raquo; Feed" href="http://www.noupe.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Noupe Design Blog &raquo; Comments Feed" href="http://www.noupe.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Noupe Design Blog &raquo; State of Web Design in Greece Comments Feed" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/feed" />
+<script type='text/javascript' src='http://media.smashingmagazine.com/cdn_noupe/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.noupe.com/wp-content/plugins/smash/js/smashcommonfunc.js?ver=3.0.5'></script>
+<script type='text/javascript' src='http://www.noupe.com/wp-content/plugins/smash/js/smashform.js?ver=3.0.5'></script>
+<script type='text/javascript' src='http://media.smashingmagazine.com/cdn_noupe/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.noupe.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://media.smashingmagazine.com/cdn_noupe/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Noupe Design Blog' href='http://www.noupe.com' />
+<link rel='start' title='The 7 CSS Hacks that we should use' href='http://www.noupe.com/css/7-css-hacks-you-cannt-live-without.html' />
+<link rel='prev' title='A Crash Course in Typography: The Basics of Type' href='http://www.noupe.com/design/a-crash-course-in-typography-the-basics-of-type.html' />
+<link rel='next' title='Album Covers with Eye-Catching Typography' href='http://www.noupe.com/inspiration/album-covers-with-eye-catching-typography.html' />
+
+<link rel='canonical' href='http://www.noupe.com/showcases/state-of-web-design-in-greece.html' />
+<link rel='shortlink' href='http://www.noupe.com/?p=47426' />
+	<link href="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Styles/SyntaxHighlighter.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/themes/default-autosvn-stable/scripts/jquery-ui-1.8.4.custom.min.js"></script>
+</head>
+
+<body class="single single-post postid-47426">
+
+<div class="top-bar">
+
+</div>
+
+
+
+<div id="container">
+
+<div id="container2">
+
+
+
+<div id="main">
+
+  <div id="header">
+
+      <div class="nav">
+
+      <ul style="float:left">
+
+<li class="cat-item cat-item-13"><a href="/category/ajax" title="View all posts filed under AJAX">AJAX</a> 
+
+</li> 
+
+	<li class="cat-item cat-item-5"><a href="/category/css" title="View all posts filed under CSS">CSS</a> 
+
+</li> 
+
+	<li class="cat-item cat-item-9"><a href="/category/design" title="View all posts filed under DESIGN">DESIGN</a> 
+
+</li> 
+
+	<li class="cat-item cat-item-42"><a href="/category/photoshop" title="View all posts filed under PHOTOSHOP">PHOTOSHOP</a> 
+
+</li> 
+
+	<li class="cat-item cat-item-17"><a href="/category/tutorial" title="View all posts filed under TUTORIAL">TUTORIAL</a> 
+
+</li> 
+
+	<li class="cat-item cat-item-26"><a href="/category/wordpress" title="View all posts filed under WORDPRESS">WORDPRESS</a> 
+
+</li> 
+
+      </ul>
+
+      <ul style="float:left">
+
+           <li><a title="View all posts filed under Articles" href="/archives">more &raquo;</a></li></ul>
+
+    </div><!--End nav-->
+
+
+
+    <h1>
+
+      <a href="http://www.noupe.com/">Noupe Design Blog</a>
+
+    </h1>
+
+    <h2>Web Designer&#039;s Online Resource</h2>
+
+    <div id="logobadgecontainer">
+      <script type='text/javascript'><!--// <![CDATA[
+      if(window.OA_zones === undefined) { var OA_zones = []; }
+      OA_zones['Logo Badge'] = 15;
+      // ]]> --></script>
+    </div>
+
+  </div>  
+
+
+
+
+
+<!--End header-->  
+
+  <div class="sponsor">
+
+<!-- Top Ad -->
+
+<div id="topadcontainer">
+
+  <script type='text/javascript'><!--// <![CDATA[
+
+  if(window.OA_zones === undefined) { var OA_zones = []; }
+
+  OA_zones['Top Ad'] = 12;
+
+  // ]]> --></script>
+
+</div>
+
+  </div>
+
+  
+
+  <div class="ruler">
+
+</div>
+
+
+  <div>
+	<div class="post-47426 post type-post hentry category-inspiration category-showcases tag-greece" id="post-47426">
+  <div class="post-content-inner">
+  <div class="date"><span>Mar 29</span></div>
+    <h2><a href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html" rel="bookmark" title="Permanent Link to State of Web Design in Greece">State of Web Design in Greece</a></h2>
+    <div class="post-info">
+       <ul>
+          <li>Posted in <span class="cat-title"><a href="http://www.noupe.com/inspiration" title="View all posts in Inspiration" rel="category tag">Inspiration</a>, <a href="http://www.noupe.com/showcases" title="View all posts in Showcases" rel="category tag">Showcases</a></span></li>
+          <li><a href="#"><!-- by Yiannis Konstantakopoulos --></a> </li>
+          <li class="comment-count"><a href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html#comments" title="Comment on State of Web Design in Greece">24 Comments &#187;</a></li>
+       </ul>
+				<span style="font-size: 12px;">by <a href="http://www.noupe.com/author/yiannis-konstantakopoulos/" title="Posts by Yiannis Konstantakopoulos">Yiannis Konstantakopoulos</a></span>
+<!-- Google Ad -->
+                    </div>
+             <div>
+<!-- Content Ad -->
+    <!-- Content Ad -->
+    <div id="contentadcontainer">
+      <script type='text/javascript'>/* <![CDATA[ */  if(window.OA_zones === undefined) { var OA_zones = []; }  OA_zones['Content Ad'] = 11;  /*  // ]]> */</script>
+    </div>
+     </div>          
+				<p>Most people know Greece because of its glorious past during the ancient years. Nevertheless, present times are quite stressful for the vast majority of its population due to global recession. But let&#8217;s remain optimistic and take a look at the <strong>past times of Greek tradition in art and design</strong> and then see <strong>the state of Web design</strong> — an area where things keep evolving.<br />
+<iframe class="facebooklike" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.noupe.com%2Fshowcases%2Fstate-of-web-design-in-greece.html&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0"></iframe><br />
+<span id="more-47426"></span></p>
+<h3>The Golden Ratio &amp; Architecture</h3>
+<p>Greece is often stated as the country which introduced philosophy and influenced western civilisation more than any other. Indeed, ancient Greeks&#8217; thought was innovative. Among other ideas they embraced art and architecture in a way that  impacts modern design.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/parthenon1.png" alt="Parthenon1 in State of Web Design in Greece" width="550" /></p>
+<p><a href="http://en.wikipedia.org/wiki/Pythagoras">Pythagoras</a> and his fellow companions changed the way we perceive mathematics. Their contribution to modern science is remarkable. <strong>Pythagoras </strong>studied concepts such as harmony and balance. He&#8217;s known for the Pythagorean theorem but a few people know that he was also behind the <a href="http://en.wikipedia.org/wiki/Golden_ratio">Golden Ratio</a>, a concept which still inspires and guides our designs. A bit later, another Greek mathematician, <a href="http://en.wikipedia.org/wiki/Euclid">Euclid</a>, first expressed the idea of the Golden Ratio with words: <em>&#8220;A straight line is said to have been cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less.&#8221;</em></p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/golden_ratio.png" alt="Golden Ratio in State of Web Design in Greece" width="550" /></p>
+<p><strong>The Golden Ratio</strong> is omnipresent in nature, art, design, architecture, music and of course mathematics. It epitomises harmony and employs aesthetics and beauty. The great Parthenon was designed and built based on the idea of the Golden Ratio or the Greek letter, &phi; (phi). This is the first letter of the name of the ancient Greek sculptor, <strong>Phidias</strong>, whose contribution to the monument was immense.  The Parthenon&#8217;s architects, <strong>Iktinos </strong>and <strong>Callicrates</strong>, adopted not only the concept of the Golden Ratio, but also the epitome of the Greek thought and philosophy in general.</p>
+<h3>Talking About Aesthetics</h3>
+<p><a href="http://en.wikipedia.org/wiki/Aesthetics">Aesthetics</a> is also a Greek word. It derives from the word &#8220;&alpha;&iota;&sigma;&theta;&eta;&tau;&iota;&kappa;&omicron;&sigmaf;&#8221; which means perception, feeling, sense. It is a branch of philosophy and it is strongly connected to art, culture and nature. Since the ancient years, aesthetics has many different meanings, because perception varies from people to people or among civilisations. However, the power of aesthetics is global and it is the vehicle which marks the different essences of human&#8217;s creativity. </p>
+<p>Greece, especially in ancient years, influenced architecture, art and design. Aesthetically, Greek constructions and crafts were complex and included many materials and colours. The remains of those crafts may now look minimalistic and simple, but this is not true. However, the applied rules of good design remain untouched by time. We can still admire the high aesthetic level of those works.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/statue.jpg" alt="Statue in State of Web Design in Greece" width="550" /></p>
+<p>To put it differently, <strong>aesthetics is something we feel, not what we articulate</strong>. Art and design are the main expressions of aesthetics. When it comes to Web design, aesthetics play a crucial part to the way a website is perceived. Our minds need only 1/20 of a second to decide whether they like or not a particular design and this is an <a href="http://www.alistapart.com/articles/visual-decision-making/">aesthetic decision</a>.</p>
+<p>The more we explore design the more we dive into different aspects of human nature. If the roots of aesthetics are hidden in philosophy, the way we perceive things is a matter of psychology and even neurology. It takes a holistic approach before we can arrive to good design results. Part of this approach is already revealed by the study of the crafts in ancient Greece.</p>
+<h3>Art in the Byzantine Period</h3>
+<p>The Byzantine period is surely worth mentioning because it succeeded the ancient era and it lasted for more than 1000 years (306 AD to 1453 AD). During this huge time span there was a mix of the form coming from ancient years with the Orthodox culture which evolved and turned to be prevalent.</p>
+<p>During this period Greece used to be an empire. There were ample resources to move things on when it came to art. Architecture, sculpture, painting, music and other arts were transformed little by little to something completely different. It is still a question whether this transformation was something that happened smoothly or the influence of the church imposed such structural deviations. At the same time art in the empire, as in any empire, was engulfed by the style of artists coming from different countries.</p>
+</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/helios.jpg" alt="Helios in State of Web Design in Greece" width="550" /></p>
+<p>Despite the vast amount and the value of art during the Byzantine period, there aren&#8217;t many design principles derived from it. Modern art and design concepts doesn&#8217;t seem to represent that period.</p>
+<h3>Modern Aproaches</h3>
+<p>Greece is definitely a country with almost no recent tradition when it comes to design and digital communication.  The country lost the Renaissance because it was under the Ottoman rule for almost 4 centuries. During the 20nth century Greece also suffered from two World Wars and a painful Civil War which left deep scars and put mental progress to a halt. This bitter situation affected design too.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/98_4Lg.jpg" alt="98 4Lg in State of Web Design in Greece" width="550" /></p>
+<p>With this in mind, we can barely find traces of Greek exemplars in design. One of them was <a href="http://en.wikipedia.org/wiki/Alec_Issigonis">Alec Issigonis</a> who was a car designer. <strong>Issigonis </strong>used to be a very intelligent man who hated the strict discipline of Mathematics, so he called them &#8220;the enemy of every creative genius&#8221;. Issigonis&#8217; most prominent product was the famous Mini Cooper. Mini was introduced in 1959 and it still remains an epitome of design.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/en_GFSOlga.jpg" alt="En GFSOlga in State of Web Design in Greece" width="550" /></p>
+<p>The art and science of typography is also an area where Greece has some tradition. Moreover, the word &#8220;typography&#8221; derives from the Greek words &#8220;&tau;&upsilon;&pi;&omicron;&sigmaf;&#8221; (= typos, meaning form) and &#8220;&gamma;&rho;&alpha;&phi;&eta;&#8221; (= graphy, meaning writing). However, printing comes to Greece relatively late. Only in the late &#8217;80s we produce the first digital font families, like the one you see above, <a href="http://www.greekfontsociety.gr/pages/en_typefaces20th.html">GFS Olga</a>. I<strong>f you&#8217;re interested in embedding Greek fonts in your website</strong>, you can do that via <a href="http://fontdeck.com/search?q=greek+font+family">Fontdeck</a> which provides some excellent families.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/kyknos.png" alt="Kyknos in State of Web Design in Greece" width="550" /></p>
+<p>When it comes to modern design and digital communication, Greek designers started by imitating and adopting trends. By time we developed our own language and style without fearing to embrace elements of our tradition. The image above is an example of lovely packaging design of the tomato sauce <strong>Kyknos</strong>. The new approach is based on the traditional packaging of the sauce. It is handcrafted by <a href="http://www.reddesignconsultants.com/">Red Design Consultants</a>.</p>
+<p class="showcase"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2011/03/eurobasket.png" alt="Eurobasket in State of Web Design in Greece" width="550" /></p>
+<p>Greek designers, with a voracious appetite and new ideas, now start gaining the respect of the community worldwide. <a href="http://www.designersunited.gr/">Designers United</a>, a Greek design agency, created the emblem of Euroleague&#8217;s Final Four 2009 and 2010. Above, you can see the official ball of the latest Final Four held in Paris.</p>
+<h3>Web Design: The State of Things</h3>
+<p>Being a Web designer right now in Greece is like being a teenager. Things are quite unstable. You are neither a child nor an adult, which means that professionalism is welcomed but not always required. A few times being a professional could hurt you, too.</p>
+<p>The average Greek designer is much better than he used to be three years ago. However, when comparing with an American, English or Russian colleague he <em>still </em>has a lot of work to do. The average client is now aware of the power of a well designed website, but most of the times he&#8217;s not eager to pay for it.</p>
+<p>So why do we bother to mention the state of Web design in Greece? Because, as mentioned above, <strong>things are rapidly changing</strong>. When we design we know that our work is compared with the work of the experts of the world and this makes us better. Not to mention that a bunch of Greek designers globalised their services with success.</p>
+<p>In other words: We walk the road of maturity. </p>
+<h3>Let the Designers Talk</h3>
+<p>We asked <strong>8 successful Web designers 8 different questions</strong> about the state of things in Greece and they way they work. Their answers are quite interesting:</p>
+<p><em><a href="http://tribalddb.com/contact/?officeId=20">Constantinos Demetriadis</a>, Creative Director, Tribal DDB Athens</em>:</p>
+<p><strong>Q: As a Creative Director in big design agencies what do you think of the current state of Web design in Greece?</strong></p>
+<blockquote><p>Greece&#8217;s late introduction to the Internet, accompanied by the mediums unique features, have strongly shaped the state of Greek Web design. Like most countries, Greece has had a lot of catching up to do, but in that sense, we&#8217;ve been doing a great job at adapting and integrating our ideas. We can safely assume that Greek Web design is only beginning to mature, but shows signs of fast evolution. New standards, universal access, multiple touch points&#8230; are all the way we&#8217;re headed, and it&#8217;s my belief that Greece is ramping up it&#8217;s game. And it&#8217;s happening now&#8230;</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://tribalddb.com/contact/?officeId=20"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/cdimitriadis.jpg" alt="Cdimitriadis in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://www.acidsmile.co.uk/">Maria Theodoropoulou</a>, Web designer/developer at Bluestorm New Media</em>:</p>
+<p><strong>Q: You live and work as Web designer &#038; developer in UK for more than 10 years. Would you ever come back to Greece to work here? Why?</strong></p>
+<blockquote><p>Moving back to Greece is always at the back of my mind but I cannot quite formulate a decision yet. Working in the UK has greater benefits and offers more opportunities in my field while the Greek marketplace is an unknown quantity for me. With the nature of the job being what it is I would love to work from Greece but with my existing clients in the UK. I love the Greek lifestyle which is much more laid back, but I prefer the English work style which is more goal driven and rewarding if you commit yourself.</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://www.acidsmile.co.uk/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/theodoropoulou.jpg" alt="Theodoropoulou in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://remainmodernist.com/">Michael Sfictos</a>, Graphic &amp; Web designer</em>:</p>
+<p><strong>Q: As a very talented and successful Web designer could you share the sources of inspiration that work for you?</strong></p>
+<blockquote><p>To be honest, it&#8217;s hard to pin inspiration down to a few subjects. My inspiration comes from everything that surrounds me, and in most cases comes in the most unexpected moments. I&#8217;m sure all the other designers have the same answer. Music is what helps me concentrate and keeps me focused. Furthermore I watch a lot of imagery on various websites, I love looking at other artists and designers work. Photography and typography are objects that I really value and they have been proved, so far, as great helpers.</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://remainmodernist.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/sfictos.jpg" alt="Sfictos in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://www.petrosdimitriadis.com/">Petros Dimitriadis</a>, Freelancer Greek Web designer</em>:</p>
+<p><strong>Q: You&#8217;ve been a successful freelancer in Greece for many years. What do you think of freelancing in Greece? Do freelancers get paid enough?</strong></p>
+<blockquote><p>I have been a freelancer Web designer for the last 4 years. Some people told me that if you survive two years then you are out of the danger zone. So far so good then. Beeing a freelancer in Greece has its ups and downs. It&#8217;s relatively a new kind of occupation and a lot of people and companies look at you with suspicion.  It&#8217;s kind of difficult to get big jobs because of the small market but if you are good at it it&#8217;s difficult not to succeed. There are plenty of &#8220;freelancers&#8221; out there but if you want something done right than do it with a pro!</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://www.petrosdimitriadis.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/dimitriadis.jpg" alt="Dimitriadis in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://nassoskappa.com/">Nassos K.</a>, Art &amp; Creative Director</em>:</p>
+<p><strong>Q: You are a well known graphic and Web designer. What&#8217;s to leave a big agency to pursue your dreams as freelancer in Greece? </strong></p>
+<blockquote><p>Design in Greece is a really tricky issue to discuss and a major topic is to choose whether to work in an agency,  a small group or as a freelancer. With 10 years of experience, spending the last 5 in two big agencies in Athens as an Art and Creative Director, I choose a different perspective. As a freelancer (and a member of a creative collectible) I believe I have more freedom on scheduling,  designing and producing projects that interest me,  contrary to the pressure of &#8220;must-have clients&#8221; that you have to deal as an employee. It&#8217;s freedom and hard work against restrictions and money.</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://nassoskappa.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/nassosk.jpg" alt="Nassosk in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://leaverou.me/">Lea Verou</a>, Front-end engineer</em>:</p>
+<p><strong>Q: Please, share your experience on Web and education in Greece. Where are we? What do you think of the way markup and design principles are being taught?</strong></p>
+<blockquote><p>The situation in Greece in regards to Web design &#038; development education is pretty bad, even today. Most colleges &#038; relevant seminars teach obsolete material that is useless to anyone who wants to create something modern and standards-compliant. Tables &amp; frames for &#8230;layout, presentational markup and obtrusive JavaScript is at the core of most Web design-related courses. In Athens University of Economics and Business we tried to design a model course from scratch, in which only the standards and modern principles are being taught. We even managed to put in some cutting edge technologies, such as HTML5, CSS3 and ECMAScript 5. I extensively described my experience on teaching such a course in my <a href="http://leaverou.me/2010/07/organizing-a-university-course-on-modern-web-development/">blog</a>. As far as I know, it&#8217;s the only attempt for something similar in Greece. Even in universities abroad I rarely see courses that are as up-to-date as ours, which is quite sad.</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://leaverou.me/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/verou.jpg" alt="Verou in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://sugarenia.com/">Zaharenia Atzitzikaki</a>, Web Designer &amp; Developer</em>:</p>
+<p><strong>Q: You are a web standards evangelist and a recent freelancer. Do you think clients in Greece care about Web standards? Would they pay more for a well structured website?</strong></p>
+<blockquote><p>Clients in Greece are no different than clients worldwide &mdash; lots of them don&#8217;t know about standards and won&#8217;t really care until you explain them simply why they should. If you focus on how their website may be a bit pricier now but will be easier and cheaper to maintain in the future, they&#8217;ll understand and appreciate it and will dismiss cheaper solutions. Most of them know that you get what you pay for, even in Web design, and if they don&#8217;t, well, at least you tried, right?</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://sugarenia.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/atzitzikaki.jpg" alt="Atzitzikaki in State of Web Design in Greece"  /></a></p>
+<p><em><a href="http://cssigniter.com/">Gerasimos Tsiamalos</a>, Web designer &amp; developer</em>:</p>
+<p><strong>Q: You&#8217;re about to launch a new service: Premium themes for WordPress and not only. What made you make that move? Do you think Greek designers/developers have the potential to succeed in such demanding markets?</strong></p>
+<blockquote><p>Greeks, living in Greece, are natural problem solvers. They have to be like that in order to survive in this little corner of the earth. Simple. Greek designers/developers have the potential to succeed in any market. Examples? <a href="http://www.odesk.com/">Odesk.com</a> About the premium WordPress themes arena, it&#8217;s true that i&#8217;m about to enter a saturated market. In the way we know this market anyway. As with any market/product though, differentiation is the key to make heads turn your way and a realistic scenario to solve their problems. Time will tell, but I&#8217;m pretty sure I have found how to be different from the competition and I can definitely provide the second one (a realistic scenario to solve their problems).</p></blockquote>
+<p></p>
+<p class="showcase"><a href="http://cssigniter.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/tsiamalos.jpg" alt="Tsiamalos in State of Web Design in Greece"  /></a></p>
+<h3>Greek Web Agencies &amp; Freelancers</h3>
+<p>The following list is an indicative guide to some of the most successful and active agencies and creative professionals in Greece:</p>
+<p><a href="http://www.atcom.gr/">Atcom</a> is a big, well known agency in Greece. Its huge portfolio includes some of the most important Greek portals among others.</p>
+<p class="showcase"><a href="http://www.atcom.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/atcom.jpg" alt="Atcom in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.ogilvyone.gr/">OgilvyOne</a>, the Greek branch of the brand, specialises in creative work with great results and several awards.</p>
+<p class="showcase"><a href="http://www.ogilvyone.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/ogilvy.jpg" alt="Ogilvy in State of Web Design in Greece"  /></a></p>
+<p><a href="http://aeraki.gr/">aeraki</a> specialises in Flash. It has a beautiful website with very interesting projects.</p>
+<p class="showcase"><a href="http://aeraki.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/aeraki.jpg" alt="Aeraki in State of Web Design in Greece"  /></a></p>
+<p><a href="http://beetroot.gr/">Beetroot</a> is a very creative agency. Many famous Flash projects and TV commercials have been made by these guys.</p>
+<p class="showcase"><a href="http://beetroot.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/beetroot.jpg" alt="Beetroot in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.zefxis.gr/">Zefxis</a> is a small but well known company that cares both about creativity and Web standards. </p>
+<p class="showcase"><a href="http://www.zefxis.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/zefxis.jpg" alt="Zefxis in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.upset.gr/">Upset!</a> is a creative agency full of fresh ideas.</p>
+<p class="showcase"><a href="http://www.upset.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/upset.jpg" alt="Upset in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.nomint.gr/">Nomint</a>. Another creative agency specialising in Flash projects.</p>
+<p class="showcase"><a href="http://www.nomint.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/nomint.jpg" alt="Nomint in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.wedia.gr/">Wedia</a>. A new but dynamic agency with some beautiful projects.</p>
+<p class="showcase"><a href="http://www.wedia.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/wedia.jpg" alt="Wedia in State of Web Design in Greece"  /></a></p>
+<p><a href="http://generation-y.net/">Generation Y</a>. Modern solutions from a very active agency.</p>
+<p class="showcase"><a href="http://generation-y.net/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/generationy.jpg" alt="Generationy in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.fabulous.gr/mainEN.htm">Fabulous!</a>. A well known company specialising in beautiful Flash websites.</p>
+<p class="showcase"><a href="http://www.fabulous.gr/mainEN.htm"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/fabulous.jpg" alt="Fabulous in State of Web Design in Greece"  /></a></p>
+<p><a href="http://paretria.gr/">Tria</a>. Bold and sometimes experimantal design.</p>
+<p class="showcase"><a href="http://paretria.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/paretria.jpg" alt="Paretria in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.komra.de/">Komrade</a>. A very interesting website for an active and solid agency.</p>
+<p class="showcase"><a href="http://www.comra.de/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/komrade.jpg" alt="Komrade in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.digitalbox.gr/">Digitalbox</a> is consisted by a small but very agile team and it has an interesting portfolio.</p>
+<p class="showcase"><a href="http://www.digitalbox.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/digitalbox.jpg" alt="Digitalbox in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.onyro.com/">Antonis Kyriazis</a>. A great Flash designer with a rich portfolio.</p>
+<p class="showcase"><a href="http://www.onyro.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/kyriazis.jpg" alt="Kyriazis in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.niceandneat.gr/">Konstantinos Penlidis</a>. Very talented and experienced Web designer.</p>
+<p class="showcase"><a href="http://www.niceandneat.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/penlidis.jpg" alt="Penlidis in State of Web Design in Greece"  /></a></p>
+<p><a href="http://wireframeplus.com/">Thanos Papavasiliou</a>. Wireframe Plus is a Web service which turns your ideas into wireframes.</p>
+<p class="showcase"><a href="http://wireframeplus.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/papavasiliou.jpg" alt="Papavasiliou in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.vectorstories.com/">Helen Gizi</a>. Vector stories designs fabulous illustrations for your next best website.</p>
+<p class="showcase"><a href="http://www.vectorstories.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/gizi.jpg" alt="Gizi in State of Web Design in Greece"  /></a></p>
+<h3>Showcase of Greek Web Designs</h3>
+<p>Here comes a list of beautiful designs in different areas. We focused on design no matter the technology behind. Many websites included are based on Flash but there also many which use great HTML &amp; CSS.</p>
+<p>Our list could not include <em>all</em> beautiful Greek websites of course. However this is a good sample of what Greek Web designers can do. Go ahead and visit them. The vast majority of these websites include a version in English.</p>
+<p><a href="http://www.athenskiku.com/">Kiku Japanese Restaurant</a><br />A Japanese restaurant in Athens. Amazing art direction and atmosphere.</p>
+<p class="showcase"><a href="http://www.athenskiku.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/kiku.jpg" alt="Kiku in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.yokaboo.com/">Yokaboo</a><br />Yokaboo lets you create your own online store with ease. It focused on creative people but practically anyone can start using it.</p>
+<p class="showcase"><a href="http://www.yokaboo.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/yokaboo.jpg" alt="Yokaboo in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.deneinaiparamithi.gr/">Den einai paramythi</a><br />&#8220;Den einai paramythi&#8221; means &#8220;It&#8217;s no fairytale&#8221;. A sweet interactive game for kids about recycling. Beautiful concept and execution.</p>
+<p class="showcase"><a href="http://www.deneinaiparamithi.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/deneinaiparamithi.jpg" alt="Deneinaiparamithi in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.6klidia.gr/">6 keys</a><br />Great imagery and creative direction for the website of 6 keys hotel in Volos, Greece.</p>
+<p class="showcase"><a href="http://www.6klidia.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/6keys.jpg" alt="6keys in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.lakisgavalas.gr/">Lakis Gavalas</a><br />The official website of Lakis Gavales, a famous Greek fasion designer. Classy and elegant.</p>
+<p class="showcase"><a href="http://www.lakisgavalas.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/gavalas.jpg" alt="Gavalas in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.theclockworkman.com/">The Clockwork Man</a><br />The Clockwork Man website is about the relevant hidden object game which is designed &amp; developed in Greece. The illustration is just amazing.</p>
+<p class="showcase"><a href="http://www.theclockworkman.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/cm.jpg" alt="Cm in State of Web Design in Greece"  /></a></p>
+<p><a href="http://squad.gr/">Squad</a><br />A strange yet very creative approach for Squad, an advertising agency in Greece.</p>
+<p class="showcase"><a href="http://squad.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/squad.jpg" alt="Squad in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.pittapappou.gr/">I pitta tou pappou</a></p>
+<p>&#8220;I pitta tou pappou&#8221; could be translated as &#8220;Grandfather&#8217;s pie&#8221;. The beautiful website is about the well known restaurant with traditional Greek food such as gyros and souvlaki.</p>
+<p class="showcase"><a href="http://www.pittapappou.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/pitta.jpg" alt="Pitta in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.deviceone.eu/">DeviceOne</a><br />A very well designed online shop for people who like sports.</p>
+<p class="showcase"><a href="http://www.deviceone.eu/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/deviceone.jpg" alt="Deviceone in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.ipomnima.com/">Ipomnima</a><br />A lovely website in black and white about an art gallery in a beautiful greek island, Lesvos.</p>
+<p class="showcase"><a href="http://www.ipomnima.com/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/ipomnima.jpg" alt="Ipomnima in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.justdot.gr/">just dot</a><br />Very impressive and original approach for a company specialising in mobile apps and not only.</p>
+<p class="showcase"><a href="http://www.justdot.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/justdot.jpg" alt="Justdot in State of Web Design in Greece"  /></a></p>
+<p><a href="http://thisisathens.org/">This is Athens</a><br />This website is actually a nice photostream to show to everyone around the globe that Athens is a beautiful city. The photos included there can prove it.</p>
+<p class="showcase"><a href="http://thisisathens.org/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/thisisathens.jpg" alt="Thisisathens in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.kfc.gr/">KFC</a><br />The Greek approach of the famous Kentucky Fried Chicken food chain.</p>
+<p class="showcase"><a href="http://www.kfc.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/kfc.jpg" alt="Kfc in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.neoset.gr/index.php">Neoset</a><br />Furniture for adults and kids. The relevant website is clean, crisp and greatly designed. Overall, this is a great presentation.</p>
+<p class="showcase"><a href="http://www.neoset.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/neoset.jpg" alt="Neoset in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.liptonbeachvolley.gr/">Lipton Ice Tea</a><br />A micro website for an online contest for Lipton Ice Tea. A smart and joyful approach.</p>
+<p class="showcase"><a href="http://www.liptonbeachvolley.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/lipton.jpg" alt="Lipton in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.deloudis.gr/">Deloudis</a><br />Style and luxury in modern living. The website reflects these two characteristics of the brand.</p>
+<p class="showcase"><a href="http://www.deloudis.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/deloudis.jpg" alt="Deloudis in State of Web Design in Greece"  /></a></p>
+<p><a href="http://WWW.SALT-PEPPER.GR/">Salt&amp;Pepper</a><br />Salt&amp;Pepper specialises in packaging and graphic design. The website is warm and elegant. You can spend much time in there.</p>
+<p class="showcase"><a href="http://WWW.SALT-PEPPER.GR/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/salt_pepper.jpg" alt="Salt Pepper in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.fenastock.gr/">Fena Stock</a><br />This website is all about a huge online shop. It is designed with taste and style despite its size.</p>
+<p class="showcase"><a href="http://www.fenastock.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/fenastock.jpg" alt="Fenastock in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.loveatfirstsite.gr/">Lacta &#8211; Love at first site</a><br />An interactive love story/game which changes according to your decisions. Excellent idea and execution.</p>
+<p class="showcase"><a href="http://www.loveatfirstsite.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/lacta.jpg" alt="Lacta in State of Web Design in Greece"  /></a></p>
+<p><a href="http://virtualgallery.bankofgreece.gr/main/en/index.html">Bank of Greece &#8211; Virtual gallery</a><br />The Bank of Greece presents its art collection in a beautiful way. A virtual tour through the recent history of Greece.</p>
+<p class="showcase"><a href="http://virtualgallery.bankofgreece.gr/main/en/index.html"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/bank.jpg" alt="Bank in State of Web Design in Greece"  /></a></p>
+<p><a href="http://sebdesign.eu/">SÃ©bastien Nikolaou</a><br />The personal website and portfolio of the graphic designer, SÃ©bastien Nikolaou. A modern and creative one page website with some beautiful samples of work.</p>
+<p class="showcase"><a href="http://sebdesign.eu/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/nikolaou.jpg" alt="Nikolaou in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.piramatikiskini.gr/">Piramatiki Skini</a><br />This website is about an art stage in Thessaloniki, Greece. What&#8217;s special about it is the perfect equilibrium between function and form.</p>
+<p class="showcase"><a href="http://www.piramatikiskini.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/piramatikiskini.jpg" alt="Piramatikiskini in State of Web Design in Greece"  /></a></p>
+<p><a href="http://www.thessaloniki360.com/map/">Thessaloniki360</a><br />An online interactive way to find all interesting places to visit in Thessaloniki Greece.</p>
+<p class="showcase"><a href="http://www.thessaloniki360.com/map/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/thessaloniki360.jpg" alt="Thessaloniki360 in State of Web Design in Greece"  /></a></p>
+<p><a href="http://lexx.gr/">lexx</a><br />A very creative and fresh weblog design.</p>
+<p class="showcase"><a href="http://lexx.gr/"><img width="550" height="350" src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2011/01/lexx.jpg" alt="Lexx in State of Web Design in Greece"  /></a></p>
+<h3>Your Thoughts on Greece</h3>
+<p>Please feel free to share with us your thoughts on Greece with us in the comment section below.</p>
+<p><em>(ik)</em><br />
+<iframe class="facebooklike" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.noupe.com%2Fshowcases%2Fstate-of-web-design-in-greece.html&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0"></iframe></p>
+								<p>Tags: <a href="http://www.noupe.com/tag/greece" rel="tag">greece</a></p>			<div class="post-footer">
+								<div class="bio clearfix">
+				    <div class="gravatar">
+				        <img alt='' src='http://0.gravatar.com/avatar/e01750b85a3f385b1a1b28bed70a4e88?s=78&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D78&amp;r=G' class='avatar avatar-78 photo' height='78' width='78' />				    </div>
+				    <div class="about">
+				        <p><em>About the Author</em>: Yiannis Konstantakopoulos is a web designer &amp; developer and he strives to be a good writer, too. His studio, <a href="http://www.porcupine.gr/">Porcupine Colors</a>, belongs to the Professional Network of Expression Engine. Oh, he also <a href="http://twitter.com/#!/yiannis_k">tweets</a> a lot.</p>
+				        <ul class="the-author clearfix">
+				        				        				        </ul>
+				    </div>
+				</div>
+				<br/>
+				  <div class="bsa-bottom-ad">
+<!-- google -->
+  </div>
+  <div id="related_posts">
+	  </div>
+</div>
+  </div>
+  </div>
+  	
+
+
+<!-- You can start editing here. -->
+
+    <div id="comment_wrapper">
+
+
+
+<!-- Comment Ad -->
+
+<div id="commentadcontainer">
+
+	<script type='text/javascript'><!--//<![CDATA[
+	   var m3_u = (location.protocol=='https:'?'https://meister.commindo-media-ressourcen.de/www/delivery/ajs.php':'http://auslieferung.commindo-media-ressourcen.de/www/delivery/ajs.php');
+	   var m3_r = Math.floor(Math.random()*99999999999);
+	   if (!document.MAX_used) document.MAX_used = ',';
+	   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	   document.write ("?zoneid=14");
+	   document.write ('&amp;cb=' + m3_r);
+	   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	   document.write ("&amp;loc=" + escape(window.location));
+	   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	   if (document.context) document.write ("&context=" + escape(document.context));
+	   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	   document.write ("'><\/scr"+"ipt>");
+	//]]>--></script><noscript><a href='http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?n=a1ee62f4&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://auslieferung.commindo-media-ressourcen.de/www/delivery/avw.php?zoneid=14&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a1ee62f4' border='0' alt='' /></a></noscript>
+
+</div>
+
+
+
+
+
+
+	<h3 id="commentsnumber">24 Responses, <a href="#respond">Add Comment +</a></h3>
+
+	<div class="navigation">
+
+		<div class="alignleft"></div>
+
+		<div class="alignright"></div>
+
+	</div>
+
+	<ol class="commentlist">
+
+	                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-632770">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-632770" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/26f41ba870d21a0de8dd906f6e7f4359?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://marios.tziortzis.com/' rel='external nofollow' class='url url'>Marios Tziortzis</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-632770">
+           
+          	<p>Great post Yianni! It would be great to get some Cyprus love as well :)</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=632770#respond' onclick='return addComment.moveForm("comment-632770", "632770", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-632775">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-632775" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/91dafc59bea32d976f1136ff4a6c2de7?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Omer Yaqub</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-632775">
+           
+          	<p>informative post!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=632775#respond' onclick='return addComment.moveForm("comment-632775", "632775", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-632823">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-632823" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/d4df4e0b4bca5c827dd166b1928ade05?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.nethall.gr' rel='external nofollow' class='url url'>Giannis</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-632823">
+           
+          	<p>Greeks do it better :D</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=632823#respond' onclick='return addComment.moveForm("comment-632823", "632823", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+<ul class='children'>
+                 
+
+   <li class="comment odd alt depth-2" id="li-comment-632885">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-632885" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/8da4088da49a484d8851c31fff39ed84?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://6pna.com' rel='external nofollow' class='url url'>PanosJee</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-632885">
+           
+          	<p>Hold your horses man!<br />
+Let &#8216;s do it first and then try to do better&#8230;</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=632885#respond' onclick='return addComment.moveForm("comment-632885", "632885", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+</ul>
+</li>
+                 
+
+   <li class="comment even thread-odd thread-alt depth-1" id="li-comment-632945">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-632945" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/0eb88bc24cd96acead26b1aee22f1164?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://Komra.de' rel='external nofollow' class='url url'>Komrade</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-632945">
+           
+          	<p>Great post Yannis &#8211; btw, URL is wrong for Komrade, points to comra.de when it should point to Komra.de ;)</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=632945#respond' onclick='return addComment.moveForm("comment-632945", "632945", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-even depth-1" id="li-comment-633106">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633106" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/348fe31647085e4ea46ec9f27fcb99de?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://sugarenia.com' rel='external nofollow' class='url url'>Sugarenia</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633106">
+           
+          	<p>Very eloquent post, not just a bunch of screenshots. Feeling honoured to be up there.</p>
+<p>Bravo Yannis!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633106#respond' onclick='return addComment.moveForm("comment-633106", "633106", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-odd thread-alt depth-1" id="li-comment-633133">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633133" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/a6b4fda92a6f2d0d2c2ec074d15db248?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.bbooks.gr' rel='external nofollow' class='url url'>Alexandros</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633133">
+           
+          	<p>Very informative post indeed. We are proud that both our graphic and our web designers are featured here! :)</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633133#respond' onclick='return addComment.moveForm("comment-633133", "633133", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-even depth-1" id="li-comment-633350">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633350" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/b93c2b8e4e131fa5ba2dbaa34179515f?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://venturegeeks.com/' rel='external nofollow' class='url url'>Nick Papanotas</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633350">
+           
+          	<p>Great post Yiannis. Looks like a small country like Greece can do nice stuff too :) (and I am sure that we can do much more in the future&#8230;)</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633350#respond' onclick='return addComment.moveForm("comment-633350", "633350", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-odd thread-alt depth-1" id="li-comment-633404">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633404" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/7ca2e2d367bce5727e82c4187804dd93?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://stranger.de' rel='external nofollow' class='url url'>Stranger</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633404">
+           
+          	<p>Nice to see an interview of your friends Yannis. Really though shouldn&#8217;t there be an interview of designers from the &#8220;big&#8221; Greek companies? Like Atcom, OgilvyOne, Realize and so on? Really odd to see you interview and promote your friends and network ! So eventhough it is a very limited view of the state of web design in greece, is a good article for that.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633404#respond' onclick='return addComment.moveForm("comment-633404", "633404", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+<ul class='children'>
+                 
+
+   <li class="comment odd alt depth-2" id="li-comment-633496">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633496" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/e01750b85a3f385b1a1b28bed70a4e88?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.porcupine.gr/' rel='external nofollow' class='url url'>Yiannis Konstantakopoulos</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633496">
+           
+          	<p>If you can read Greek, and I bet you can, I encourage you to read the relevant article in my blog: <a href="http://el.porcupine.gr/journal/post/greek-best-designs-design">http://el.porcupine.gr/journal/post/greek-best-designs-design</a>. </p>
+<p>Please, let&#8217;s not spoil this space.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633496#respond' onclick='return addComment.moveForm("comment-633496", "633496", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+</ul>
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-633442">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633442" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/2fba0881396c95771fd22ff200c16294?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://amiridis.net' rel='external nofollow' class='url url'>Petros Amiridis</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633442">
+           
+          	<p>Yiannis, I really loved reading your post. It is very encouraging see many of the Greek web designers I admire. All this makes me feel there is a glimpse of hope, in the darkness of the Greek web design/development scene.</p>
+<p>I hope!!!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633442#respond' onclick='return addComment.moveForm("comment-633442", "633442", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-633583">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633583" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/dac9aed2406b1673027d7fb6291a5482?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.petrosdimitriadis.com' rel='external nofollow' class='url url'>Petros Dimitriadis</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633583">
+           
+          	<p>A big round of applause to Yiannis for his effort and the time spent for writing such an informative article about Greek design.</p>
+<p>Honored to be mentioned! Thank you.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633583#respond' onclick='return addComment.moveForm("comment-633583", "633583", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-633667">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633667" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/6e4f1a26245cbc46dd2a7fbf1bfedf65?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.nohsys.net' rel='external nofollow' class='url url'>Vaggelis</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633667">
+           
+          	<p>So proud to collaborate with Petros Dimitriadis and to know most of these exciting people. You all rock!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633667#respond' onclick='return addComment.moveForm("comment-633667", "633667", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-633761">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633761" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/2c526714f3137471bb7b396c1f2b1642?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Konstantinos</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633761">
+           
+          	<p>Great post!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633761#respond' onclick='return addComment.moveForm("comment-633761", "633761", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-633831">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633831" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/54bea2855f8587fb067c25ac40780474?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://72lions.com' rel='external nofollow' class='url url'>Thodoris</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633831">
+           
+          	<p>It&#8217;s nice to see some of my work posted here! Kiku Japanese Restaurant was a fun project to build. Some good agencies are listed here.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633831#respond' onclick='return addComment.moveForm("comment-633831", "633831", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-633949">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633949" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/10471a70887cc49c895e3089f9cb4063?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.istavrak.com' rel='external nofollow' class='url url'>istavrak</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633949">
+           
+          	<p>Great post Yianni! :)</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633949#respond' onclick='return addComment.moveForm("comment-633949", "633949", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-633960">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-633960" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/ef5780584ea6f952fb39405b2e0cd38e?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://kloudesign.gr' rel='external nofollow' class='url url'>klou</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-633960">
+           
+          	<p>Great Post Yiannis!</p>
+<p>This is really informative about the current situation in Greece. </p>
+<p>Thumbs up :) </p>
+<p>P.S. Don&#8217;t worry about the &#8220;strange&#8221; trolls :P</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=633960#respond' onclick='return addComment.moveForm("comment-633960", "633960", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-634344">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-634344" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/c10e724ab3ef476c862484a2615fa473?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">nikos</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-634344">
+           
+          	<p>I really wanted to like and tweet this article, but there were so many grammatical and typographical errors that I had to stop half way through and didn&#8217;t finish.</p>
+<p>When you have English as a second language, consider having a native speaker proofread or edit the article before publication. Missing details is one reason I would not hire someone for a job, Greek or not.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=634344#respond' onclick='return addComment.moveForm("comment-634344", "634344", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-634432">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-634432" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/a3c276be998798ba7595b53d2ea6b94d?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Constantine</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-634432">
+           
+          	<p>Great post Yiannis!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=634432#respond' onclick='return addComment.moveForm("comment-634432", "634432", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-634499">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-634499" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/e01750b85a3f385b1a1b28bed70a4e88?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name"><a href='http://www.porcupine.gr/' rel='external nofollow' class='url url'>Yiannis Konstantakopoulos</a></span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-634499">
+           
+          	<p>Thanks for the nice comments. I do appreciate them.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=634499#respond' onclick='return addComment.moveForm("comment-634499", "634499", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-634622">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-634622" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/a2da12bc37249f95ce050af89c181193?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Yiorgos L</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-634622">
+           
+          	<p>Amazing post!! Superb!!<br />
+Yianni congratulations on the content of the post and the connection between Ancient Greece and modern Greece, that still resists!!</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=634622#respond' onclick='return addComment.moveForm("comment-634622", "634622", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-634624">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-634624" title="Direct link to this comment"><img alt='' src='http://0.gravatar.com/avatar/481d4df4c4af10a75cec84c3946443bc?s=70&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Ilias Grigoriadis</span>
+            	
+            	            		<span class="date-comment">29 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-634624">
+           
+          	<p>Very nice post. It is true that in Greece there is no room for progression in this field. Myself moving back to Uk to further my career as I had no luck in Greece</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=634624#respond' onclick='return addComment.moveForm("comment-634624", "634624", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment even thread-even depth-1" id="li-comment-636314">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-636314" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/b830c57e20653639202fa7ddba05b634?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Dimitris</span>
+            	
+            	            		<span class="date-comment">30 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-636314">
+           
+          	<p>Very poor selection. Some are great, but you missed quite a few great designers/developers.</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=636314#respond' onclick='return addComment.moveForm("comment-636314", "636314", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+                 
+
+   <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-636321">
+
+      <div class="comment-head">
+      
+     	          
+         	 <div class="avatar"><a class="comment-permalink" href="http://www.noupe.com/showcases/state-of-web-design-in-greece.html/comment-page-1#comment-636321" title="Direct link to this comment"><img alt='' src='http://1.gravatar.com/avatar/b830c57e20653639202fa7ddba05b634?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G' class='photo avatar avatar-70 photo' height='70' width='70' /></a></div>
+         
+                  	
+         	<div class="user-detail">
+            	
+            	<span class="name">Dimitris</span>
+            	
+            	            		<span class="date-comment">30 March 2011 </span>
+            		<span class="edit"></span>
+
+            	          	
+          	</div>
+          	
+          	<div class="clear"></div>
+          	
+      </div>
+      
+      <div class="comment-entry"  id="comment-636321">
+           
+          	<p>Nomint<br />
+Another creative agency specialising in Flash projects.?</p>
+<p>Did you even try to visit their site first? They are doing motion graphics and 3d animation mate&#8230;</p>
+            
+                        
+            <div class="reply">
+          		<a rel='nofollow' class='comment-reply-link' href='/showcases/state-of-web-design-in-greece.html?replytocom=636321#respond' onclick='return addComment.moveForm("comment-636321", "636321", "respond", "47426")'>Reply</a>            </div>
+
+      </div>
+      
+</li>
+
+	</ol>
+
+	<h3 id="comments">Trackbacks</h3>
+
+
+
+	<ol class="commentlist pings">
+
+    	
+
+    </ol>
+
+    
+
+	<div class="navigation">
+
+		<div class="alignleft"></div>
+
+		<div class="alignright"></div>
+
+	</div>
+
+ 
+</div>
+
+
+
+
+
+
+<div id="respond">
+
+
+
+<h3>Leave a Reply</h3>
+<strong>Comments are moderated – and rel="nofollow" is in use. Please no link dropping, no keywords or domains as names; do not spam, and do not advertise!</strong>
+
+
+<div class="cancel-comment-reply">
+
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/showcases/state-of-web-design-in-greece.html#respond" style="display:none;">Click here to cancel reply.</a></small>
+
+</div>
+
+
+
+
+
+
+<form action="http://www.noupe.com/wp-comments-post.php" method="post" id="commentform">
+
+
+
+
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+
+<label for="author"><small>Name (required)</small></label></p>
+
+
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+
+<label for="url"><small>Website</small></label></p>
+
+
+
+
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" class="btn" />
+
+<input type='hidden' name='comment_post_ID' value='47426' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+</p>
+
+<p style="display:inline;"></p>
+
+
+
+</form>
+
+
+
+
+</div>
+
+
+
+
+	  </div>
+</div>
+<!--End main-->
+<div id="sidebar">
+
+
+
+   <span class="subscribe"><a href="http://feeds.feedburner.com/Noupe"><img src="http://feeds.feedburner.com/~fc/Noupe?bg=FF507D&amp;fg=473B38&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+
+</span>  
+
+     <ul id="subscribe">
+
+<li><a class="rss" href="http://feeds.feedburner.com/Noupe">Subscribe by RSS</a></li>
+
+<li><a href="http://feedburner.google.com/fb/a/mailverify?uri=Noupe&amp;loc=en_US" class="email">Subscribe to Noupe by Email</a></li>
+
+<li><a class="twitter" href="http://www.twitter.com/smashingmag">Twitter</a></li>
+
+</ul>
+
+
+
+<div class="ruler-sidebar">
+
+</div>
+
+  
+
+  <form action="/" class="form" method="get">
+
+	   <p style="display:inline;"><input type="text" onblur="if (this.value == '') {this.value = 'Type Keywords And Hit Enter...';}" onfocus="if (this.value == 'Type Keywords And Hit Enter...') {this.value = '';}" id="searchform" class="search-box" name="s"  value="Type Keywords And Hit Enter..."/></p>
+
+     </form>
+
+ 
+
+ <div id="sponsors">
+
+<p class="panel-title-sidebar">Sponsors</p>
+<p class="advertise-with-us"><a href="mailto:&#97;&#100;&#118;&#101;&#114;&#116;&#105;&#115;&#105;&#110;&#103;&#64;&#115;&#109;&#97;&#115;&#104;&#105;&#110;&#103;&#109;&#97;&#103;&#97;&#122;&#105;&#110;&#101;&#46;&#99;&#111;&#109;" title="Advertise with us!">Advertise with us!</a></p>
+
+
+<!-- Premium Sponsor -->
+<div id="premiumsponsorscontainer">
+  <script type='text/javascript'><!--// <![CDATA[
+  if(window.OA_zones === undefined) { var OA_zones = []; }
+  OA_zones['Premium Sponsor 1'] = 13;
+  // ]]> --></script>
+</div>
+
+
+
+<!-- Sidebar Banners -->
+
+<div id="sidebarbannerscontainer">
+
+  <script type='text/javascript'><!--// <![CDATA[
+
+  if(window.OA_zones === undefined) { var OA_zones = []; }
+
+  OA_zones['Sidebar 1'] = 5;
+
+  OA_zones['Sidebar 2'] = 5;
+
+  OA_zones['Sidebar 3'] = 5;
+
+  OA_zones['Sidebar 4'] = 5;
+
+  OA_zones['Sidebar 5'] = 5;
+
+  OA_zones['Sidebar 6'] = 5;
+
+  OA_zones['Sidebar 7'] = 5;
+
+  OA_zones['Sidebar 8'] = 5;
+  
+  OA_zones['Sidebar 9'] = 5;
+  
+  OA_zones['Sidebar 10'] = 5;
+
+  OA_zones['Sidebar 11'] = 5;
+
+  OA_zones['Sidebar 12'] = 5;
+
+  // ]]> --></script>
+
+</div>
+
+<!-- Premium Sponsor -->
+<div id="premiumsponsorbottomcontainer">
+  <script type='text/javascript'><!--// <![CDATA[
+  if(window.OA_zones === undefined) { var OA_zones = []; }
+  OA_zones['Premium Sponsor Bottom'] = 23;
+  // ]]> --></script>
+</div>
+
+
+</div>
+
+
+
+
+		          <div class="popular-posts">
+
+    <p class="panel-title">Popular Articles</p>
+
+			
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/tutorial/drop-down-menu-jquery-css.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/d7ecba67fc4194d6f4d7974726247491.png?src=http://noupe.com//img/drop-menu/image1.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="Sexy Drop Down Menu w/ jQuery &#038; CSS" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/tutorial/drop-down-menu-jquery-css.html">Sexy Drop Down Menu w/ jQuery &#038; CSS</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/tutorial" title="TUTORIAL">TUTORIAL</a> / <span class="comment-count">447</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/showcases/the-ultimate-ugly-showcase-of-current-government-websites.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/915c665303a2664e2d14a5759c1bf447.png?src=http://www.noupe.com/img/government-designs-showcase/Afghanistan.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="The Ultimate Ugly Showcase of Current Government Websites" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/showcases/the-ultimate-ugly-showcase-of-current-government-websites.html">The Ultimate Ugly Showcase of Current Government Websites</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/showcases" title="Showcases">Showcases</a> / <span class="comment-count">427</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/photoshop/1000-free-high-resolution-photoshop-brush-sets.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/8ca41826c81d819f77e52db93c68f363.png?src=http://noupe.com/img/brush1.png&amp;w=70&amp;h=70&amp;zc=1" alt="1000+ Free High Resolution Photoshop Brush Sets" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/photoshop/1000-free-high-resolution-photoshop-brush-sets.html">1000+ Free High Resolution Photoshop Brush Sets</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/photoshop" title="PHOTOSHOP">PHOTOSHOP</a> / <span class="comment-count">321</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/photography/40-most-beautiful-mosques-in-the-world.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/d6b8416dbf75338a0f487968abbb9309.png?src=http://www.noupe.com/wp-content/uploads/2010/05/mosques32.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="40 Most Beautiful Mosques In The World" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/photography/40-most-beautiful-mosques-in-the-world.html">40 Most Beautiful Mosques In The World</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/inspiration" title="Inspiration">Inspiration</a> / <span class="comment-count">312</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/php/choosing-cms-tips.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/d83f19d9ea982c6c22d520a0c6a8df2c.png?src=http://noupe.com/img/cms/wordpress-backend.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="Ten Simple Rules for Choosing the Perfect CMS + Excellent Options" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/php/choosing-cms-tips.html">Ten Simple Rules for Choosing the Perfect CMS + Excellent Options</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/php" title="PHP">PHP</a> / <span class="comment-count">288</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/photography/35-truly-dramatic-examples-of-animal-photography.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/cfb40a3da212ce20cffc1c50384fb833.png?src=http://www.noupe.com/wp-content/uploads/2010/01/animal-photography-white-tiger1.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="35 Truly Dramatic Examples of Animal Photography" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/photography/35-truly-dramatic-examples-of-animal-photography.html">35 Truly Dramatic Examples of Animal Photography</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/photography" title="Photography">Photography</a> / <span class="comment-count">261</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/photoshop/45-brilliant-examples-of-photo-manipulation-art.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/b186c93952c2e2909331b37014eaec66.png?src=http://noupe.com/img/photomanip-14.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="45 Brilliant Examples of Photo Manipulation Art" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/photoshop/45-brilliant-examples-of-photo-manipulation-art.html">45 Brilliant Examples of Photo Manipulation Art</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/photoshop" title="PHOTOSHOP">PHOTOSHOP</a> / <span class="comment-count">249</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/php/discussing-php-frameworks.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/a7884314612d3c272324e29dc0eb545c.png?src=http://noupe.com/img/php-frameworks/php-1.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="Discussing PHP Frameworks: What, When, Why and  Which?" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/php/discussing-php-frameworks.html">Discussing PHP Frameworks: What, When, Why and  Which?</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/php" title="PHP">PHP</a> / <span class="comment-count">209</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/freebie/50-most-beautiful-icon-sets-created-in-2008.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/6698e328cd2935d84868ca635b1809e6.png?src=http://noupe.com/img/icons1.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="50 Most Beautiful Icon Sets Created in 2008" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/freebie/50-most-beautiful-icon-sets-created-in-2008.html">50 Most Beautiful Icon Sets Created in 2008</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/freebie" title="Freebie">Freebie</a> / <span class="comment-count">193</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/wordpress/15-high-quality-premium-like-free-wordpress-themes.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/07af845848fd03a6951c5ff9fb919b6c.png?src=http://noupe.com/img/wp-theme12.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="15 High Quality Premium-Like Free WordPress Themes" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/wordpress/15-high-quality-premium-like-free-wordpress-themes.html">15 High Quality Premium-Like Free WordPress Themes</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/wordpress" title="WORDPRESS">WORDPRESS</a> / <span class="comment-count">166</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/wallpaper/40-creative-wallpapers.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/079590ecae9bf9cebc5e7442e13012bf.png?src=http://noupe.com/img/wallpaper-1.jpg&amp;w=70&amp;h=70&amp;zc=1" alt="40+ Absolutely Stylish &#038; Creative Hand-picked Wallpapers" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/wallpaper/40-creative-wallpapers.html">40+ Absolutely Stylish &#038; Creative Hand-picked Wallpapers</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/wallpaper" title="Wallpapers">Wallpapers</a> / <span class="comment-count">162</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/design/101-css-techniques-of-all-time-part-1.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/c597d590b45c9ddfcdd1849c19474c0f.png?src=http://noupe.com/img/css8.gif&amp;w=70&amp;h=70&amp;zc=1" alt="101 CSS Techniques Of All Time- Part 1" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/design/101-css-techniques-of-all-time-part-1.html">101 CSS Techniques Of All Time- Part 1</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/design" title="DESIGN">DESIGN</a> / <span class="comment-count">145</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+  	<div class="popular">
+
+
+
+	     <div class="post-block">
+            <div>&nbsp;
+
+              <a href="http://www.noupe.com/wordpress/outstanding-free-and-premium-wordpress-themes.html"><img src="http://media.smashingmagazine.com/cdn_noupe/wp-content/cache-thumbs/b15f1763b0a4697fddf89f5d69f5aae8.png?src=http://noupe.com/img/wpt-42.gif&amp;w=70&amp;h=70&amp;zc=1" alt="45+ Must See WordPress themes" /></a>
+
+            </div>
+
+            <div class="post-details">
+
+               <h3 class="post-title"><a href="http://www.noupe.com/wordpress/outstanding-free-and-premium-wordpress-themes.html">45+ Must See WordPress themes</a></h3>
+
+			    <p class="cat-title">in <a class="cat" href="http://www.noupe.com/wordpress" title="WORDPRESS">WORDPRESS</a> / <span class="comment-count">142</span></p>
+
+            </div>
+
+	     </div>
+
+	 </div> 
+
+      
+
+
+     <!--End popular-->
+
+
+
+  </div>
+
+<!--End popular-posts-->
+ 
+<!-- 
+<div style="margin-top: 1em; margin-left: 1.5em; float: left; background-color: transparent; width: 410px; height: 570px;">
+<script id="smashingwidget" type="text/javascript"
+src="http://media.smashingmagazine.com/cdn_smash/files/smashing-widget/v005/hook_network_v5.js?items=10&amp;cssfile=http://media.smashingmagazine.com/cdn_smash/files/smashing-widget/v005/css/widget_network_noupe_v2.css"></script>
+</div> 
+ -->
+<div style="margin-bottom: 1em; margin-top: 1em; margin-left: 1.5em; float: left; background-color: transparent; width: 410px; border: 1px solid #4A586C;">
+	<script type="text/javascript">
+		/* <![CDATA[ */ 
+		var SmashingWidgetConfig = { items: 10, cssclass: 'noupesmashingwidget' };
+		/* ]]> */
+	</script>
+	<script 
+		type="text/javascript" 
+		src="http://media.smashingmagazine.com/cdn_smash/files/smashing-widget/v006/hook_network_v3.phtml"
+	></script>
+</div>
+
+
+<div style="text-align : center">
+<a href="http://www.smashingmagazine.com/"><img title="Proud Member of the Smashing Network" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/uploads/2009/11/sn-badge-250px-colour-2.png" alt="SM Network Badge" width="255" height="98" /></a>
+</div>
+
+    </div><!--End Sidebar-->
+	</div><!--End Container-->
+	</div><!--End Container-->
+	<div class="footer_wrapper">
+		<div id="footer_wrapper2">
+			<div class="footer">
+				<div id="links">
+					<h4>Noupe Links</h4>
+					<ul>
+						<li><a href="/about">About</a></li>
+						<li><a href="mailto:&#101;&#100;&#105;&#116;&#111;&#114;&#064;&#110;&#111;&#117;&#112;&#101;&#046;&#099;&#111;&#109;">Contact Us</a></li>
+						<li><a href="/archive">Archive</a></li>
+						<li><a href="/publishing-policy">Publishing Policy</a></li>
+				</ul>
+			</div>
+			<p class="slash">/ &nbsp; /</p>
+			<div id="sub-footer">
+				<h4>Subscribe</h4>
+				<ul>
+					<li><a href="http://feeds.feedburner.com/Noupe">RSS Feed</a></li>
+					<li><a href="http://feedburner.google.com/fb/a/mailverify?uri=Noupe&amp;loc=en_US">Email Subscription</a></li>
+					<li><a href="http://feeds.feedburner.com/NoupeNews">News RSS</a></li>
+				</ul>
+			</div>
+			<div id="friends">
+				<h4>Family</h4>
+				<ul>
+					<li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
+			    	<li><a href="http://shop.smashingmagazine.com/">Smashing Magazine Shop</a></li>
+				    <li><a href="http://jobs.smashingmagazine.com/">Smashing Magazine Jobs</a></li>
+					<li><a href="http://www.drweb.de">Dr. Web (.de)</a></li>
+					<li><a href="http://www.designinformer.com/">Designinformer</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer" style="height:80px">
+			<p>&copy; 2009-2010 <a href="http://www.smashingmagazine.com/about/">Smashing Media GmbH</a></p>
+		</div>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/shCore.js"></script>
+<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCss.js"></script>
+	<script type="text/javascript">
+		dp.SyntaxHighlighter.ClipboardSwf = 'http://media.smashingmagazine.com/cdn_noupe/wp-content/plugins/google-syntax-highlighter/Scripts/clipboard.swf';
+		dp.SyntaxHighlighter.HighlightAll('code');
+	</script>
+	<!-- Banner  -->
+	 <!-- Anfang Bannersammelstelle -->
+
+<!-- Banner abrufen -->
+<script type='text/javascript' src='http://auslieferung.commindo-media-ressourcen.de/www/delivery/spcjs.php?id=2&amp;block=1&amp;blockcampaign=1&amp;withtext=1'></script>
+
+<div id="adpool" style="visibility:hidden">
+  <div id="premiumsponsors">
+		<div class="premiumsponsor">
+      <script type='text/javascript'><!--// <![CDATA[
+		    OA_show('Premium Sponsor 1');
+		  // ]]> --></script>
+    </div>
+  </div>
+  <div id="sidebarbanners">
+
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 1');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 2');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 3');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 4');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 5');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 6');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 7');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 8');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 9');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 10');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 11');
+		// ]]> --></script></div>
+		<div class="sidebarbanner"><script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Sidebar 12');
+		// ]]> --></script></div>
+
+
+  </div>
+  <div id="premiumsponsorbottom">
+	  <script type='text/javascript'><!--// <![CDATA[
+		OA_show('Premium Sponsor Bottom');
+	 // ]]> --></script>
+  </div>
+  <div id="topad">
+		<script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Top Ad');
+		// ]]> --></script>
+  </div>
+  <div id="contentad">
+		<script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Content Ad');
+		// ]]> --></script>
+  </div>
+  <div id="commentad">
+		<script type='text/javascript'><!--// <![CDATA[
+		  OA_show('Comment Ad');
+		// ]]> --></script>
+  </div>
+  <div id="logobadge">
+    <script type='text/javascript'><!--// <![CDATA[
+      OA_show('Logo Badge');
+    // ]]> --></script>
+  </div>
+  <div id="homepagepremiumad"> 
+    <script type='text/javascript'><!--// <![CDATA[
+      OA_show('Homepage Premium Ad');
+    // ]]> --></script> 
+  </div>
+
+</div>
+
+
+<script type='text/javascript'><!--// <![CDATA[
+function adMover(item, target) {
+var target = document.getElementById(target);
+var item = document.getElementById(item);
+if (target && item)
+  target.appendChild(item);
+}
+
+adMover("sidebarbanners", "sidebarbannerscontainer");
+adMover("premiumsponsors", "premiumsponsorscontainer");
+adMover("contentad", "contentadcontainer");
+adMover("topad", "topadcontainer");
+adMover("commentad", "commentadcontainer");
+adMover("logobadge", "logobadgecontainer");
+adMover("premiumsponsorbottom", "premiumsponsorbottomcontainer");
+adMover("homepagepremiumad", "homepagepremiumadcontainer");
+
+function hidetrackinglinks(){var urls=document.getElementsByTagName("a");var urlcount=(urls.length);for(var i=0;i<urlcount;i++){var url=document.getElementsByTagName("a")[i].href;if(url.substring(0,68)=="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php"){var urlsplit=url.split("oadest=");var newurl=unescape(urlsplit[1]);urls[i].href=newurl;urls[i].setAttribute("onmousedown","this.href='"+url+"'")}}}
+hidetrackinglinks();
+
+// ]]> --></script>
+
+
+<!-- Ende Bannersammelstelle -->
+	<script type="text/javascript">
+	jQuery(function() {
+		jQuery("#tabs").tabs({event: 'mouseover'}).addClass('ui-tabs-vertical ui-helper-clearfix');
+		var columnHeight = jQuery("div#sidebar").height();
+		jQuery("div#post-wrap").css({'height':columnHeight});
+	});
+	</script>
+	<!-- Piwik -->
+	<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://static.designinformer.com/" : "http://static.designinformer.com/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+		    piwikTracker.trackPageView();
+		    piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+	</script>
+	<!-- End Piwik Tracking Code -->
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching 21/35 queries in 0.010 seconds using memcached
+Object Caching 1046/1727 objects using memcached
+Content Delivery Network via media.smashingmagazine.com/cdn_noupe
+
+Served from: www.noupe.com @ 2011-03-30 12:12:30 -->

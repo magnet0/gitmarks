@@ -1,1 +1,0 @@
-[Wal*Mart shutting down DRM server, nuking your music collection -- only people who pay for music risk losing it to DRM shenanigans - Boing Boing](http://www.boingboing.net/2008/09/26/walmart-shutting-dow.html), 669043ed614220c84edff0d142bae890  

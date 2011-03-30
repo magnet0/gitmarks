@@ -1,2 +1,0 @@
-[Parthenon immortalized](http://www.pestaola.gr/parthenon-immortalized), b300efa2301037be23b092acb4fd45c6  
-[[No Title]](http://blog.karagos.com/post/54063843/startups-economic-crisis), 28d8bad89b5817a3b0cd01e7b9b7f9eb  

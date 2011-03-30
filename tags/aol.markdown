@@ -1,1 +1,0 @@
-[  AOL-Yahoo Merger Details Emerge; Deal Could Happen This Month ](http://www.techcrunch.com/2008/10/06/aol-yahoo-merger-details-emerge-deal-could-happen-this-month), 5eab2ca85f5139e66298646b91a3d30c  

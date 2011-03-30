@@ -1,1 +1,0 @@
-[   Michael Moore on Slacker Uprising&#8217;s Piracy &#8216;Problem&#8217; | TorrentFreak  ](http://torrentfreak.com/michael-moore-on-slacker-uprisings-piracy-problem-081006), 90f71874554b67222e672b420f0912d5  
