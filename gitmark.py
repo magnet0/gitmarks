@@ -67,7 +67,11 @@ class gitMark(object):
         subprocess.call(['git', 'commit', '-m', msg], shell=USE_SHELL)
         
     def gitPush(self):
-        pipe = subprocess.Popen("git push origin master", shell=True)
+        # pipe = subprocess.Popen("git push origin master", shell=True)
+        # I'm using a separate branch of gitmarks to store my data.
+        # The active "data" branch is defined in settings.py (defaults to "master")
+		command = "git push origin %" % GIT_BRANCH
+        pipe = subprocess.Popen(command, shell=True)
         pipe.wait()
         
     def saveContent(self, filename, content):
@@ -88,8 +92,8 @@ class gitMark(object):
             os.mkdir(TAG_PATH,0755)
             f = open('%s%s.markdown' % (TAG_PATH, tag), 'a')
 
-        line = '[%s](%s), %s  \n' % (title, url, content_filename)
-        f.write(line)
+        line = '[%s](%s), %s  \n' % (title.decode('utf-8'), url, content_filename)
+        f.write(line.encode('utf-8'))
         return '%s%s.markdown' % (TAG_PATH, tag)
 
     def parseTitle(self, content):
