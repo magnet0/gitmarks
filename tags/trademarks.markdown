@@ -1,0 +1,1 @@
+[WIPO proposes punishing, extortionist-friendly trademark treaty aimed at eBay, Google, and Twitter - Boing Boing](http://www.boingboing.net/2011/03/23/wipo-proposes-punish.html), c1afe7a53643f924e750ba91dc6a1dae  
